@@ -2,6 +2,7 @@
 using Azure.Storage.Blobs;
 using HealthChecks.UI.Client;
 using Implem.DefinitionAccessor;
+using Implem.Libraries.Plugins;
 using Implem.Libraries.Utilities;
 using Implem.Pleasanter.Libraries.BackgroundServices;
 using Implem.Pleasanter.Libraries.DataSources;
@@ -142,19 +143,16 @@ namespace Implem.Pleasanter.NetCore
                     options.Secure = CookieSecurePolicy.Always;
                 });
             }
-            foreach (var path in GetExtendedLibraryPaths())
-            {
-                if (Directory.Exists(path))
+            ExtendedLibraryLoadContext
+                .LoadExtensions(Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "ExtendedLibraries"))
+                .SelectMany(context => context.Assemblies)
+                .ForEach(assembly =>
                 {
-                    foreach (var assembly in Directory.GetFiles(path, "*.dll").Select(dll => Assembly.LoadFrom(dll)).ToArray())
-                    {
-                        mvcBuilder.AddApplicationPart(assembly);
-                        assembly.GetType("Implem.Pleasanter.NetCore.ExtendedLibrary.ExtendedLibrary")?
-                            .GetMethod("Initialize")?
-                            .Invoke(null, null);
-                    }
-                }
-            }
+                    mvcBuilder.AddApplicationPart(assembly);
+                    assembly.GetType("Implem.Pleasanter.NetCore.ExtendedLibrary.ExtendedLibrary")?
+                        .GetMethod("Initialize")?
+                        .Invoke(null, null);
+                });
             services.Configure<FormOptions>(options =>
             {
                 options.MultipartBodyLengthLimit = int.MaxValue;

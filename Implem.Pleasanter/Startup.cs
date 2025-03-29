@@ -2,7 +2,6 @@
 using Azure.Storage.Blobs;
 using HealthChecks.UI.Client;
 using Implem.DefinitionAccessor;
-using Implem.Libraries.Plugins;
 using Implem.Libraries.Utilities;
 using Implem.Pleasanter.Libraries.BackgroundServices;
 using Implem.Pleasanter.Libraries.DataSources;
@@ -33,6 +32,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Primitives;
 using NLog;
 using NLog.Web;
+using RkSoftware.RKPlugin;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -143,16 +143,55 @@ namespace Implem.Pleasanter.NetCore
                     options.Secure = CookieSecurePolicy.Always;
                 });
             }
+
+            /*
             ExtendedLibraryLoadContext
                 .LoadExtensions(Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "ExtendedLibraries"))
                 .SelectMany(context => context.Assemblies)
                 .ForEach(assembly =>
                 {
                     mvcBuilder.AddApplicationPart(assembly);
+                    /*
                     assembly.GetType("Implem.Pleasanter.NetCore.ExtendedLibrary.ExtendedLibrary")?
                         .GetMethod("Initialize")?
                         .Invoke(null, null);
+                    */
+            /*
+                    var extendedLib = assembly.GetType("Implem.Pleasanter.NetCore.ExtendedLibrary.ExtendedLibrary");
+                    if (extendedLib != null)
+                    {
+                        extendedLib.GetMethod("Initialize")?.Invoke(null, null);
+                        var t =
+                        //extendedLib.GetMethod("ConfigureServices", [typeof(IServiceCollection)]);
+                        extendedLib.GetMethod("ConfigureServices");
+                        if (t != null)
+                        {
+                            var p = t.GetParameters();
+                            var pt = p.FirstOrDefault()?.ParameterType;
+                            var ptt = typeof(IServiceCollection);
+                            var b = pt == ptt;
+                            var bb = pt.FullName == ptt.FullName;
+
+                            t?.Invoke(null, [services]);
+                        }
+                    }
                 });
+        */
+            RkSoftware.RKPlugin.PluginLoadContext.LoadExtensions(Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), "ExtendedLibraries"))
+                .SelectMany(context => context.Assemblies)
+                .ForEach(assembly =>
+                {
+                    mvcBuilder.AddApplicationPart(assembly);
+                    var extendedLib = assembly.GetType("Implem.Pleasanter.NetCore.ExtendedLibrary.ExtendedLibrary");
+                    if (extendedLib != null)
+                    {
+                        extendedLib.GetMethod("Initialize")?.Invoke(null, null);
+                        var m = extendedLib.GetMethod("ConfigureServices");
+                        if (m != null)
+                            m.Invoke(null, [services]);
+                    }
+                });
+
             services.Configure<FormOptions>(options =>
             {
                 options.MultipartBodyLengthLimit = int.MaxValue;

@@ -1,0 +1,63 @@
+﻿private List<SqlStatement> UpdateAttachmentsStatements(Context context, SiteSettings ss, bool verUp = false)
+{
+    var statements = new List<SqlStatement>();
+    ColumnNames()
+        .Where(columnName => columnName.StartsWith("Attachments"))
+        .Where(columnName => Attachments_Updated(columnName: columnName))
+        .ForEach(columnName =>
+            GetAttachments(columnName: columnName).Statements(
+                context: context,
+                ss: ss,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: columnName),
+                statements: statements,
+                referenceId: #ModelName#Id,
+                verUp: verUp));
+    return statements;
+}
+
+public void WriteAttachments(Context context, SiteSettings ss, bool verUp = false)
+{
+    ColumnNames()
+        .Where(columnName => columnName.StartsWith("Attachments"))
+        .Where(columnName => Attachments_Updated(columnName: columnName))
+        .ForEach(columnName =>
+            GetAttachments(columnName: columnName).Write(
+                context: context,
+                ss: ss,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: columnName),
+                referenceId: #ModelName#Id,
+                verUp: verUp));
+}
+
+public void WriteAttachmentsToLocal(Context context, SiteSettings ss)
+{
+    ColumnNames()
+        .Where(columnName => columnName.StartsWith("Attachments"))
+        .Where(columnName => Attachments_Updated(columnName: columnName))
+        .ForEach(columnName =>
+            GetAttachments(columnName: columnName).WriteToLocal(
+                context: context,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: columnName)));
+}
+
+public void DeleteTempOrLocalAttachments(Context context, SiteSettings ss, bool verUp = false)
+{
+    ColumnNames()
+        .Where(columnName => columnName.StartsWith("Attachments"))
+        .Where(columnName => Attachments_Updated(columnName: columnName))
+        .ForEach(columnName =>
+            GetAttachments(columnName: columnName).DeleteTempOrLocalAttachment(
+                context: context,
+                ss: ss,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: columnName),
+                referenceId: #ModelName#Id,
+                verUp: verUp));
+}

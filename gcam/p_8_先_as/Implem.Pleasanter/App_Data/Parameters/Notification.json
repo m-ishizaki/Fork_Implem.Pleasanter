@@ -1,0 +1,14 @@
+﻿{
+    "SecurityProtocolType": "Tls12",
+    "Mail": true,
+    "Slack": true,
+    "ChatWork": true,
+    "Line": true,
+    "Teams": true,
+    "RocketChat": true,
+    "InCircle": true,
+    "HttpClient": false,
+    "CopyWithNotifications": "On",
+    "ListOrder": null,
+    "HttpClientEncodings": [ "utf-8", "shift_jis", "euc-jp" ]
+}

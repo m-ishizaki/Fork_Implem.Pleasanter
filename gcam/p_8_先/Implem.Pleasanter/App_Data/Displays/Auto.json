@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Auto",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Auto"
+        },
+        {
+            "Language": "zh",
+            "Body": "自动"
+        },
+        {
+            "Language": "ja",
+            "Body": "自動"
+        },
+        {
+            "Language": "de",
+            "Body": "Automatisch"
+        },
+        {
+            "Language": "ko",
+            "Body": "자동"
+        },
+        {
+            "Language": "es",
+            "Body": "Automático"
+        },
+        {
+            "Language": "vn",
+            "Body": "Tự động"
+        }
+    ]
+}

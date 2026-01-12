@@ -1,0 +1,33 @@
+﻿{
+    "Id": "YmdFormat",
+    "Type": 130,
+    "Languages": [
+        {
+            "Body": "MM/dd/yyyy"
+        },
+        {
+            "Language": "zh",
+            "Body": "yyyy/MM/dd"
+        },
+        {
+            "Language": "ja",
+            "Body": "yyyy/MM/dd"
+        },
+        {
+            "Language": "de",
+            "Body": "yyyy.MM.dd"
+        },
+        {
+            "Language": "ko",
+            "Body": "yyyy.MM.dd."
+        },
+        {
+            "Language": "es",
+            "Body": "yyyy/MM/dd"
+        },
+        {
+            "Language": "vn",
+            "Body": "yyyy/MM/dd"
+        }
+    ]
+}

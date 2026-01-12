@@ -1,0 +1,21 @@
+﻿{
+    "Id": "SysLogs_VirtualMemorySize64",
+    "ModelName": "SysLog",
+    "TableName": "SysLogs",
+    "Label": "システムログ",
+    "ColumnName": "VirtualMemorySize64",
+    "LabelText": "VirtualMemorySize64",
+    "No": "127",
+    "History": "127",
+    "TypeName": "bigint",
+    "Nullable": "1",
+    "ReadAccessControl": "ManageService",
+    "CreateAccessControl": "ManageService",
+    "UpdateAccessControl": "ManageService",
+    "LabelText_en": "VirtualMemorySize64",
+    "LabelText_zh": "VirtualMemorySize64",
+    "LabelText_de": "VirtualMemorySize64",
+    "LabelText_ko": "VirtualMemorySize64",
+    "LabelText_es": "VirtualMemorySize64",
+    "LabelText_vn": "VirtualMemorySize64"
+}

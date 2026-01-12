@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Others",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Others"
+        },
+        {
+            "Language": "zh",
+            "Body": "其他"
+        },
+        {
+            "Language": "ja",
+            "Body": "その他"
+        },
+        {
+            "Language": "de",
+            "Body": "Andere"
+        },
+        {
+            "Language": "ko",
+            "Body": "기타"
+        },
+        {
+            "Language": "es",
+            "Body": "Otros"
+        },
+        {
+            "Language": "vn",
+            "Body": "Khác"
+        }
+    ]
+}

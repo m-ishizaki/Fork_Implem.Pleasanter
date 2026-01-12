@@ -1,0 +1,41 @@
+﻿var formsSiteId = context.RequestData("FromSiteId").ToLong();
+var notReturnParentRecord = context.RequestData("NotReturnParentRecord").ToBool();
+if (formsSiteId > 0 && !notReturnParentRecord)
+{
+    var column = ss.GetColumn(
+        context: context,
+        columnName: ss.Links
+            ?.Where(o => o.SiteId > 0)
+            .FirstOrDefault(o => o.SiteId == formsSiteId).ColumnName);
+    if (column != null)
+    {
+        var value = PropertyValue(
+            context: context,
+            column: column);
+        column.Linking = column.MultipleSelections == true
+            ? value.Deserialize<List<string>>()?.Contains(context.RequestData("LinkId")) == true
+            : value == context.RequestData("LinkId");
+    }
+}
+var queryStringsSiteId = context.RequestData("FromSiteId").ToLong();
+if (queryStringsSiteId > 0)
+{
+    var id = context.RequestData("LinkId");
+    ss.Links
+        ?.Where(link => link.SiteId == queryStringsSiteId)
+        .Where(link => ss.Links?.Any(o => o.SelectNewLink == true) != true
+            || link.SelectNewLink == true)
+        .Select(link => ss.GetColumn(
+            context: context,
+            columnName: link.ColumnName))
+        .Where(column => column != null)
+        .Where(column => !formData.Any(o => o.Key == $"#TableName#_{column.ColumnName}"))
+        .ForEach(column =>
+        {
+            id = column.MultipleSelections == true
+                ? id.ToSingleList().ToJson()
+                : id;
+            SetClass(column.ColumnName, id);
+            column.ControlCss += " always-send";
+        });
+}

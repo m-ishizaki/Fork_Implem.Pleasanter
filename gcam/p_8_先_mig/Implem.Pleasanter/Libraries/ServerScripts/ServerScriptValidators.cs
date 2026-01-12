@@ -1,0 +1,20 @@
+﻿using Implem.Pleasanter.Libraries.General;
+using Implem.Pleasanter.Libraries.Requests;
+using Implem.Pleasanter.Libraries.Settings;
+namespace Implem.Pleasanter.Libraries.ServerScripts
+{
+    public class ServerScriptValidators
+    {
+        public static ErrorData OnCreating(Context context, ServerScript serverScript)
+        {
+            return new ErrorData(type: Error.Types.None);
+        }
+
+        public static ErrorData OnUpdating(Context context, ServerScript serverScript)
+        {
+            return OnCreating(
+                context: context,
+                serverScript: serverScript);
+        }
+    }
+}

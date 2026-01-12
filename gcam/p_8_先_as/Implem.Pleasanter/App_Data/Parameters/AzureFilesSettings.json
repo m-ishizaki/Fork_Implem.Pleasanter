@@ -1,0 +1,7 @@
+﻿{
+    "ConnectionString": "",
+    "FileShareName": "pleasanter-files",
+    "EnableAzureFiles": false,
+    "MaxRetries": 3,
+    "RetryDelayMilliseconds": 1000
+}

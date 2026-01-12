@@ -1,0 +1,6 @@
+﻿List<Process> processes = null,
+long copyFrom = 0,
+bool extendedSqls = true,
+bool synchronizeSummary = true,
+bool forceSynchronizeSourceSummary = false,
+bool notice = false,

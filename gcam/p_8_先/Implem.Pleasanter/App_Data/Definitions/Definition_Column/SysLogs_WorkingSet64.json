@@ -1,0 +1,21 @@
+﻿{
+    "Id": "SysLogs_WorkingSet64",
+    "ModelName": "SysLog",
+    "TableName": "SysLogs",
+    "Label": "システムログ",
+    "ColumnName": "WorkingSet64",
+    "LabelText": "WorkingSet64",
+    "No": "126",
+    "History": "126",
+    "TypeName": "bigint",
+    "Nullable": "1",
+    "ReadAccessControl": "ManageService",
+    "CreateAccessControl": "ManageService",
+    "UpdateAccessControl": "ManageService",
+    "LabelText_en": "WorkingSet64",
+    "LabelText_zh": "WorkingSet64",
+    "LabelText_de": "WorkingSet64",
+    "LabelText_ko": "WorkingSet64",
+    "LabelText_es": "WorkingSet64",
+    "LabelText_vn": "WorkingSet64"
+}

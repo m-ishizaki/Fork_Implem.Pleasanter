@@ -1,0 +1,5 @@
+﻿ss.Columns
+    .Where(column => column.ColumnName.StartsWith("Attachments"))
+    .ForEach(column => GetAttachments(column.ColumnName).SetData(
+        context: context,
+        column: column));

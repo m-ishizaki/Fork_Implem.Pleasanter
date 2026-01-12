@@ -1,0 +1,6 @@
+﻿case "#ColumnName#":
+    line = line.Replace(
+        "[#ColumnName#]", #modelName#Model.#ColumnName#.ToExport(
+            context: context,
+            column: column));
+    break;

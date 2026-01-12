@@ -1,0 +1,10 @@
+﻿if (previousTitle != null
+    && previousTitle != Title.DisplayValue
+    && ss.Sources?.Any() == true)
+{
+    ItemUtilities.UpdateSourceTitles(
+        context: context,
+        ss: ss,
+        siteIdList: new List<long>() { ss.SiteId },
+        idList: #ModelName#Id.ToSingleList());
+}

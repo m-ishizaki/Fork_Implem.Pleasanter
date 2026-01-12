@@ -1,0 +1,8 @@
+﻿{
+    "Id": "Model_Matched_ColumnCases",
+    "RepeatType": "Column",
+    "Indent": "6",
+    "Separator": "\\r\\n",
+    "FilterColumn": "1",
+    "Exclude": "Owner,Manager"
+}

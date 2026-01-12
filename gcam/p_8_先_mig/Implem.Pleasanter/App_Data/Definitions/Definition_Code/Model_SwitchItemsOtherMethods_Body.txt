@@ -1,0 +1,160 @@
+﻿public string SynchronizeTitles(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true);
+    return SiteUtilities.SynchronizeTitles(
+        context: context,
+        siteModel: Site);
+}
+
+public string SynchronizeSummaries(Context context)
+{
+    SetSite(context: context);
+    var selected = context.Forms.IntList("EditSummary");
+    using var exclusiveObj = new Sessions.TableExclusive(context: context);
+    if (!exclusiveObj.TryLock())
+    {
+        return Messages.ImportLock(context: context).ToJson();
+    }
+    var result = SiteUtilities.SynchronizeSummaries(
+        context: context,
+        siteModel: Site,
+        selected: selected,
+        watchdog: () => exclusiveObj.Refresh());
+    if (result.Type == Error.Types.None)
+    {
+        return Messages.ResponseSynchronizationCompleted(context: context).ToJson();
+    }
+    else if (result.Type == Error.Types.SelectTargets)
+    {
+        return Messages.ResponseSelectTargets(context: context).ToJson();
+    }
+    else
+    {
+        return result.MessageJson(context: context);
+    }
+}
+
+public ContentResultInheritance SynchronizeSummariesByApi(Context context)
+{
+    SetSite(context: context);
+    var selected = context.RequestDataString.Deserialize<SiteApiModel>()?.SummaryId;
+    if (selected == null)
+    {
+        return ApiResults.Error(
+            context: context,
+            errorData: new ErrorData(
+                context: context,
+                type: Error.Types.BadRequest,
+                sysLogsStatus: 400,
+                sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+    using var exclusiveObj = new Sessions.TableExclusive(context: context);
+    if (!exclusiveObj.TryLock())
+    {
+        return ApiResults.Get(new ApiResponse(
+            id: context.Id,
+            statusCode: 429,
+            message: Messages.ImportLock(context: context).Text));
+    }
+    var result = SiteUtilities.SynchronizeSummaries(
+        context: context,
+        siteModel: Site,
+        selected: selected,
+        watchdog: () => exclusiveObj.Refresh());
+    if (result.Type == Error.Types.SelectTargets)
+    {
+        return ApiResults.Success(
+            id: Site.SiteId,
+            message: Displays.SelectTargets(context: context));
+    }
+    else if (result.Type != Error.Types.None)
+    {
+        return ApiResults.Error(
+            context: context,
+            errorData: result);
+    }
+    else
+    {
+        return ApiResults.Success(
+            id: Site.SiteId,
+            message: Displays.SynchronizationCompleted(context: context));
+    }
+}
+
+public string SynchronizeFormulas(Context context)
+{
+    SetSite(context: context);
+    return SiteUtilities.SynchronizeFormulas(
+        context: context,
+        siteModel: Site);
+}
+
+public void SetSite(
+    Context context,
+    bool siteOnly = false,
+    bool initSiteSettings = false,
+    bool setSiteIntegration = false,
+    bool setAllChoices = false,
+    Sqls.TableTypes tableType = Sqls.TableTypes.Normal)
+{
+    Site = GetSite(
+        context: context,
+        siteOnly: siteOnly,
+        initSiteSettings: initSiteSettings,
+        setSiteIntegration: setSiteIntegration,
+        setAllChoices: setAllChoices,
+        tableType: tableType);
+    SetByWhenloadingSiteSettingsServerScript(
+        context: context,
+        ss: Site.SiteSettings);
+}
+
+public SiteModel GetSite(
+    Context context,
+    bool siteOnly = false,
+    bool initSiteSettings = false,
+    bool setSiteIntegration = false,
+    bool setAllChoices = false,
+    Sqls.TableTypes tableType = Sqls.TableTypes.Normal)
+{
+    SiteModel siteModel;
+    if (ReferenceType == "Sites" && context.Forms.Exists("Ver"))
+    {
+        siteModel = new SiteModel();
+        siteModel.Get(
+            context: context,
+            where: Rds.SitesWhere()
+                .TenantId(context.TenantId)
+                .SiteId(ReferenceId)
+                .Ver(context.Forms.Int("Ver")),
+            tableType: Sqls.TableTypes.NormalAndHistory);
+        siteModel.VerType =  context.Forms.Bool("Latest")
+            ? Versions.VerTypes.Latest
+            : Versions.VerTypes.History;
+    }
+    else
+    {
+        siteModel = siteOnly
+            ? new SiteModel(
+                context: context,
+                siteId: ReferenceId)
+            : new SiteModel(
+                context: context,
+                siteId: ReferenceType == "Sites"
+                    ? ReferenceId
+                    : SiteId);
+    }
+    if (initSiteSettings)
+    {
+        siteModel.SiteSettings = SiteSettingsUtilities.Get(
+            context: context,
+            siteModel: siteModel,
+            referenceId: ReferenceId,
+            setSiteIntegration: setSiteIntegration,
+            setAllChoices: setAllChoices,
+            tableType: tableType);
+    }
+    return siteModel;
+}

@@ -1,0 +1,33 @@
+﻿{
+    "Id": "CodeDefinerMigrationCompleted",
+    "Type": 210,
+    "Languages": [
+        {
+            "Body": "The migration is complete."
+        },
+        {
+            "Language": "zh",
+            "Body": "迁移已完成。"
+        },
+        {
+            "Language": "ja",
+            "Body": "移行が完了しました。"
+        },
+        {
+            "Language": "de",
+            "Body": "Die Migration ist abgeschlossen."
+        },
+        {
+            "Language": "ko",
+            "Body": "마이그레이션이 완료되었습니다."
+        },
+        {
+            "Language": "es",
+            "Body": "La migración está completa."
+        },
+        {
+            "Language": "vn",
+            "Body": "Quá trình dịch chuyển đã hoàn thành."
+        }
+    ]
+}

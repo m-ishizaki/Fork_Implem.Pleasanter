@@ -1,0 +1,13 @@
+﻿{
+    "ServerScript": true,
+    "BackgroundServerScript": false,
+    "DisableServerScriptHttpClient": false,
+    "ServerScriptTimeOut": 10000,
+    "ServerScriptTimeOutChangeable": false,
+    "ServerScriptTimeOutMin": 0,
+    "ServerScriptTimeOutMax": 86400000,
+    "ServerScriptIncludeDepthLimit": 10,
+    "DisableServerScriptFile": true,
+    "ServerScriptFileSizeMax": 1,
+    "ServerScriptFilePath": null
+}

@@ -1,0 +1,22 @@
+﻿{
+    "Id": "SysLogs_ProcessName",
+    "ModelName": "SysLog",
+    "TableName": "SysLogs",
+    "Label": "システムログ",
+    "ColumnName": "ProcessName",
+    "LabelText": "プロセス名",
+    "No": "129",
+    "History": "129",
+    "TypeName": "nvarchar",
+    "MaxLength": "256",
+    "Nullable": "1",
+    "ReadAccessControl": "ManageService",
+    "CreateAccessControl": "ManageService",
+    "UpdateAccessControl": "ManageService",
+    "LabelText_en": "Process name",
+    "LabelText_zh": "进程名称",
+    "LabelText_de": "Prozessname",
+    "LabelText_ko": "프로세스 이름",
+    "LabelText_es": "Nombre del proceso",
+    "LabelText_vn": "Tên xử lí"
+}

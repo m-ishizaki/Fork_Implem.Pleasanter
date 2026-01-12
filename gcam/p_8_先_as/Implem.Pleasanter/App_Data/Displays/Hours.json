@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Hours",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Hours"
+        },
+        {
+            "Language": "zh",
+            "Body": "小时"
+        },
+        {
+            "Language": "ja",
+            "Body": "時"
+        },
+        {
+            "Language": "de",
+            "Body": "Std"
+        },
+        {
+            "Language": "ko",
+            "Body": "시간"
+        },
+        {
+            "Language": "es",
+            "Body": "Horas"
+        },
+        {
+            "Language": "vn",
+            "Body": "Giờ"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Dbms": "SQLServer",
+    "Provider": "Local",
+    "ServiceName": "Implem.Pleasanter",
+    "SourceConnectionString": null,
+    "ExcludeTables": [
+        "SysLogs"
+    ],
+    "AbortWhenException": false
+}

@@ -1,0 +1,7 @@
+﻿if (formData != null || #modelName#ApiModel != null)
+{
+    SetByLookups(
+        context: context,
+        ss: ss,
+        formData: formData);
+}

@@ -1,0 +1,143 @@
+﻿public void SetByFormula(Context context, SiteSettings ss)
+{
+    SetByBeforeFormulaServerScript(
+        context: context,
+        ss: ss);
+    ss.Formulas?.ForEach(formulaSet =>
+    {
+        var columnName = formulaSet.Target;
+        var view = ss.Views?.Get(formulaSet.Condition);
+        var isOutOfCondition = view != null && !Matched(context: context, ss: ss, view: view);
+        if (string.IsNullOrEmpty(formulaSet.CalculationMethod)
+            || formulaSet.CalculationMethod == FormulaSet.CalculationMethods.Default.ToString())
+        {
+            var formula = formulaSet.Formula;
+            if (isOutOfCondition)
+            {
+                if (formulaSet.OutOfCondition != null)
+                {
+                    formula = formulaSet.OutOfCondition;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            var data = new Dictionary<string, decimal>
+            {
+
+    <!--Model_SetByFormula_Data-->
+
+            };
+            data.AddRange(NumHash.ToDictionary(
+                o => o.Key,
+                o => o.Value?.Value?.ToDecimal() ?? 0));
+            var value = formula?.GetResult(
+                data: data,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: columnName)) ?? 0;
+            switch (columnName)
+            {
+
+    <!--Model_SetByFormula_ColumnCases-->
+
+                default:
+                    SetNum(
+                        columnName: columnName,
+                        value: new Num(value));
+                    break;
+            }
+            if (ss.OutputFormulaLogs == true)
+            {
+                context.LogBuilder?.AppendLine($"formulaSet: {formulaSet.GetRecordingData().ToJson()}");
+                context.LogBuilder?.AppendLine($"formulaSource: {data.ToJson()}");
+                context.LogBuilder?.AppendLine($"formulaResult: {{\"{columnName}\":{value}}}");
+            }
+        }
+        else if (formulaSet.CalculationMethod == FormulaSet.CalculationMethods.Extended.ToString())
+        {
+            var formula = formulaSet.Formula;
+            if (isOutOfCondition && formulaSet.FormulaScriptOutOfCondition == null)
+            {
+                return;
+            }
+            var value = ExecFormulaExtended(
+                context: context,
+                ss: ss,
+                columnName: columnName,
+                formulaSet: formulaSet,
+                isOutOfCondition: isOutOfCondition,
+                outputFormulaLogs: ss.OutputFormulaLogs);
+            var formData =  new Dictionary<string, string>
+            {
+                { $"#TableName#_{columnName}", value }
+            };
+            SetByFormData(
+                context: context,
+                ss: ss,
+                formData: formData);
+        }
+    });
+    SetByAfterFormulaServerScript(
+        context: context,
+        ss: ss);
+}
+
+private string ExecFormulaExtended(
+    Context context,
+    SiteSettings ss,
+    string columnName,
+    FormulaSet formulaSet,
+    bool isOutOfCondition,
+    bool? outputFormulaLogs)
+{
+    var script = isOutOfCondition == false
+        ? formulaSet.FormulaScript
+        : formulaSet.FormulaScriptOutOfCondition;
+    if (script == null) script = string.Empty;
+    SetExtendedColumnDefaultValue(
+        ss: ss,
+        formulaScript: script,
+        calculationMethod: formulaSet.CalculationMethod);
+    formulaSet = FormulaBuilder.UpdateColumnDisplayText(
+        ss: ss,
+        formulaSet: formulaSet);
+    script = FormulaBuilder.ParseFormulaScript(
+        ss: ss,
+        formulaScript: script,
+        calculationMethod: formulaSet.CalculationMethod);
+    var value = FormulaServerScriptUtilities.Execute(
+        context: context,
+        ss: ss,
+        itemModel: this,
+        formulaScript: script);
+    switch (value)
+    {
+        case "#N/A":
+        case "#VALUE!":
+        case "#REF!":
+        case "#DIV/0!":
+        case "#NUM!":
+        case "#NAME?":
+        case "#NULL!":
+        case "Invalid Parameter":
+            if (formulaSet.IsDisplayError == true)
+            {
+                throw new Exception($"Formula error {value}");
+            }
+            new SysLogModel(
+                context: context,
+                method: nameof(SetByFormula),
+                message: $"Formula error {value}",
+                sysLogType: SysLogModel.SysLogTypes.Exception);
+            break;
+    }
+    if (outputFormulaLogs == true)
+    {
+        context.LogBuilder?.AppendLine($"formulaSet: {formulaSet.GetRecordingData().ToJson()}");
+        context.LogBuilder?.AppendLine($"formulaSource: {this.ToJson()}");
+        context.LogBuilder?.AppendLine($"formulaResult: {{\"{columnName}\":{value}}}");
+    }
+    return value.ToString();
+}

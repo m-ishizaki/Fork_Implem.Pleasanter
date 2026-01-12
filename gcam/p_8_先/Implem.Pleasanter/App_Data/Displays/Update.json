@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Update",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Update"
+        },
+        {
+            "Language": "zh",
+            "Body": "更新"
+        },
+        {
+            "Language": "ja",
+            "Body": "更新"
+        },
+        {
+            "Language": "de",
+            "Body": "Aktualisieren"
+        },
+        {
+            "Language": "ko",
+            "Body": "업데이트"
+        },
+        {
+            "Language": "es",
+            "Body": "Actualizar"
+        },
+        {
+            "Language": "vn",
+            "Body": "Cập nhật"
+        }
+    ]
+}

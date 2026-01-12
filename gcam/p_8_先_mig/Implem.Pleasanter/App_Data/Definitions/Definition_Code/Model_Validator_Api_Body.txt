@@ -1,0 +1,10 @@
+﻿if (api)
+{
+    var apiErrorData = Validators.ValidateApi(
+        context: context,
+        serverScript: serverScript);
+    if (apiErrorData.Type != Error.Types.None)
+    {
+        return apiErrorData;
+    }
+}

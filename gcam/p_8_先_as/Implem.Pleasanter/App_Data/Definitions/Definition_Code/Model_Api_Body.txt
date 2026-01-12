@@ -1,0 +1,32 @@
+﻿using Implem.Pleasanter.Models.Shared;
+using System;
+using System.Collections.Generic;
+namespace Implem.Pleasanter.Models
+{
+    [Serializable]
+    public class #ModelName#ApiModel : _BaseApiModel
+    {
+
+<!--Model_ApiPropertyCases-->
+<!--Model_ApiItemTitle-->
+<!--Model_ApiProcessId-->
+<!--Model_ApiGroupMembers-->
+<!--Model_ApiGroupChildren-->
+<!--Model_ApiMailAddresses-->
+
+        public #ModelName#ApiModel()
+        {
+        }
+
+        public override object ObjectValue(string columnName)
+        {
+            switch (columnName)
+            {
+
+<!--Model_ApiValueCases-->
+
+                default: return base.ObjectValue(columnName: columnName);
+            }
+        }
+    }
+}

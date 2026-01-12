@@ -1,0 +1,11 @@
+﻿{
+    "Id": "Model_SetDefault_ColumnCases",
+    "RepeatType": "Column",
+    "Indent": "4",
+    "NotPk": "1",
+    "Form": "1",
+    "NotUserColumn": "1",
+    "Exclude": "Timestamp",
+    "ExcludeTypeName": "datetime",
+    "ExcludeTypeCs": "Attachments"
+}

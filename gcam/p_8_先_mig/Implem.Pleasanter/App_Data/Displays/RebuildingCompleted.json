@@ -1,0 +1,33 @@
+﻿{
+    "Id": "RebuildingCompleted",
+    "Type": 210,
+    "Languages": [
+        {
+            "Body": "Search index rebuild completed."
+        },
+        {
+            "Language": "zh",
+            "Body": "搜索索引重建完成。"
+        },
+        {
+            "Language": "ja",
+            "Body": "検索インデックスの再構築が完了しました。"
+        },
+        {
+            "Language": "de",
+            "Body": "Neuerstellung des Suchindex abgeschlossen."
+        },
+        {
+            "Language": "ko",
+            "Body": "검색 색인 재구축이 완료되었습니다."
+        },
+        {
+            "Language": "es",
+            "Body": "Se completó la reconstrucción del índice de búsqueda."
+        },
+        {
+            "Language": "vn",
+            "Body": "Hoàn thành xây dựng lại chỉ mục tìm kiếm."
+        }
+    ]
+}

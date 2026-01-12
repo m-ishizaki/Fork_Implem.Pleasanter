@@ -1,0 +1,15 @@
+﻿statements.AddRange(PermissionUtilities.InsertStatements(
+    context: context,
+    ss: ss,
+    columns: ss.Columns
+        .Where(o => o.Type != Column.Types.Normal)
+        .ToDictionary(
+            o => $"{o.ColumnName},{o.Type}",
+            o => (o.MultipleSelections == true
+                ? PropertyValue(
+                    context: context,
+                    column: o)?.Deserialize<List<int>>()
+                : PropertyValue(
+                    context: context,
+                    column: o)?.ToInt().ToSingleList()) ?? new List<int>()),
+    permissions: ss.PermissionForCreating));

@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Max",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Max"
+        },
+        {
+            "Language": "zh",
+            "Body": "最大"
+        },
+        {
+            "Language": "ja",
+            "Body": "最大"
+        },
+        {
+            "Language": "de",
+            "Body": "Maximal"
+        },
+        {
+            "Language": "ko",
+            "Body": "최대"
+        },
+        {
+            "Language": "es",
+            "Body": "Máx."
+        },
+        {
+            "Language": "vn",
+            "Body": "Tối đa"
+        }
+    ]
+}

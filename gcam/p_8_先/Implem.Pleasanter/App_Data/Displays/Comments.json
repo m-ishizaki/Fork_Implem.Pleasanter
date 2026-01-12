@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Comments",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Comments"
+        },
+        {
+            "Language": "zh",
+            "Body": "评论"
+        },
+        {
+            "Language": "ja",
+            "Body": "コメント"
+        },
+        {
+            "Language": "de",
+            "Body": "Kommentare"
+        },
+        {
+            "Language": "ko",
+            "Body": "주석"
+        },
+        {
+            "Language": "es",
+            "Body": "Comentarios"
+        },
+        {
+            "Language": "vn",
+            "Body": "Bình luận"
+        }
+    ]
+}

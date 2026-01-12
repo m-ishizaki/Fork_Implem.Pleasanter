@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Disabled",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Disabled"
+        },
+        {
+            "Language": "zh",
+            "Body": "已禁用"
+        },
+        {
+            "Language": "ja",
+            "Body": "無効"
+        },
+        {
+            "Language": "de",
+            "Body": "Deaktiviert"
+        },
+        {
+            "Language": "ko",
+            "Body": "비활성화됨"
+        },
+        {
+            "Language": "es",
+            "Body": "Desactivado"
+        },
+        {
+            "Language": "vn",
+            "Body": "Vô hiệu hóa"
+        }
+    ]
+}

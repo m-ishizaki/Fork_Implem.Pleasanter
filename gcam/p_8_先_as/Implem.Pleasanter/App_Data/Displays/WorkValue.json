@@ -1,0 +1,34 @@
+﻿{
+    "Id": "WorkValue",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Work volume"
+        },
+        {
+            "Language": "zh",
+            "Body": "工作量"
+        },
+        {
+            "Language": "ja",
+            "Body": "作業量"
+        },
+        {
+            "Language": "de",
+            "Body": "Arbeitsaufwand"
+        },
+        {
+            "Language": "ko",
+            "Body": "작업 볼륨"
+        },
+        {
+            "Language": "es",
+            "Body": "Volumen de trabajo"
+        },
+        {
+            "Language": "vn",
+            "Body": "Khối lượng công việc"
+        }
+    ]
+}

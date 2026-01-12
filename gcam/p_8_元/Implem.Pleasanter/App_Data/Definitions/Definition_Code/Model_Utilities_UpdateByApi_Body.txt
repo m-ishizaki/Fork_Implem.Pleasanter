@@ -1,0 +1,165 @@
+﻿public static ContentResultInheritance UpdateByApi(
+    Context context,
+    SiteSettings ss,
+    long #modelName#Id,
+    string previousTitle)
+{
+    if (!Mime.ValidateOnApi(contentType: context.ContentType))
+    {
+        return ApiResults.BadRequest(context: context);
+    }
+    var #modelName#ApiModel = context.RequestDataString.Deserialize<#ModelName#ApiModel>();
+    if (#modelName#ApiModel == null)
+    {
+        context.InvalidJsonData = !context.RequestDataString.IsNullOrEmpty();
+    }
+    if(HasInvalidValueAsApiDataAtUpdate(#modelName#ApiModel))
+    {
+        context.InvalidJsonData = !context.RequestDataString.IsNullOrEmpty();
+    }
+    var #modelName#Model = new #ModelName#Model(
+        context: context,
+        ss: ss,
+        #modelName#Id: #modelName#Id,
+        #modelName#ApiModel: #modelName#ApiModel);
+    if (#modelName#Model.AccessStatus != Databases.AccessStatuses.Selected)
+    {
+        return ApiResults.Get(ApiResponses.NotFound(context: context));
+    }
+    var invalid = #ModelName#Validators.OnUpdating(
+        context: context,
+        ss: ss,
+        #modelName#Model: #modelName#Model,
+        api: true);
+    switch (invalid.Type)
+    {
+        case Error.Types.None: break;
+        default: return ApiResults.Error(
+            context: context,
+            errorData: invalid);
+    }
+    #modelName#Model.SiteId = ss.SiteId;
+    #modelName#Model.SetTitle(
+        context: context,
+        ss: ss);
+    #modelName#Model.VerUp = Versions.MustVerUp(
+        context: context,
+        ss: ss,
+        baseModel: #modelName#Model);
+
+<!--Model_Utilities_SetProcessApi_Tables-->
+
+    var errorData = #modelName#Model.Update(
+        context: context,
+        ss: ss,
+
+<!--Model_Utilities_SetProcessParamApi-->
+
+        notice: true,
+        previousTitle: previousTitle);
+    BinaryUtilities.UploadImage(
+        context: context,
+        ss: ss,
+        id: #modelName#Model.#ModelName#Id,
+        postedFileHash: #modelName#Model.PostedImageHash);
+    switch (errorData.Type)
+    {
+
+<!--Model_Utilities_ApiUpdatedMessage-->
+<!--Model_Utilities_ApiUpdatedMessage_Table-->
+<!--Model_Utilities_ApiDuplicatedMessage-->
+
+        default:
+            return ApiResults.Error(
+                context: context,
+                errorData: errorData);
+    }
+}
+
+public static bool UpdateByServerScript(
+    Context context,
+    SiteSettings ss,
+    long #modelName#Id,
+    string previousTitle,
+    object model)
+{
+    var #modelName#ApiModel = context.RequestDataString.Deserialize<#ModelName#ApiModel>();
+    if (#modelName#ApiModel == null)
+    {
+        context.InvalidJsonData = !context.RequestDataString.IsNullOrEmpty();
+    }
+    if(HasInvalidValueAsApiDataAtUpdate(#modelName#ApiModel))
+    {
+        context.InvalidJsonData = !context.RequestDataString.IsNullOrEmpty();
+    }
+    var #modelName#Model = new #ModelName#Model(
+        context: context,
+        ss: ss,
+        #modelName#Id: #modelName#Id,
+        #modelName#ApiModel: #modelName#ApiModel);
+    if (#modelName#Model.AccessStatus != Databases.AccessStatuses.Selected)
+    {
+        return false;
+    }
+    var invalid = #ModelName#Validators.OnUpdating(
+        context: context,
+        ss: ss,
+        #modelName#Model: #modelName#Model,
+        api: true,
+        serverScript: true);
+    switch (invalid.Type)
+    {
+        case Error.Types.None: break;
+        default:
+            return false;
+    }
+    #modelName#Model.SiteId = ss.SiteId;
+    #modelName#Model.SetTitle(
+        context: context,
+        ss: ss);
+    #modelName#Model.VerUp = Versions.MustVerUp(
+        context: context,
+        ss: ss,
+        baseModel: #modelName#Model);
+    var errorData = #modelName#Model.Update(
+        context: context,
+        ss: ss,
+        notice: true,
+        previousTitle: previousTitle);
+    switch (errorData.Type)
+    {
+        case Error.Types.None:
+            if (model is Libraries.ServerScripts.ServerScriptModelApiModel serverScriptModelApiModel)
+            {
+                if (serverScriptModelApiModel.Model is #ModelName#Model data)
+                {
+                    data.SetByModel(#modelName#Model: #modelName#Model);
+                }
+            }
+            return true;
+        case Error.Types.Duplicated:
+            return false;
+        default:
+            return false;
+    }
+}
+
+private static bool HasInvalidValueAsApiDataAtUpdate(#ModelName#ApiModel model)
+{
+    if (model is null)
+        return false;
+    foreach (var o in model.AttachmentsHash)
+    {
+        var isUploading = o.Key.EndsWith("#Uploading");
+        foreach (var attachment in o.Value)
+        {
+            if (attachment.Deleted ?? false)
+                continue;
+            if (attachment.Name.IsNullOrEmpty())
+                return true;
+            if (!isUploading && attachment.Base64 is null && attachment.Base64Binary is null)
+                return true;
+        }
+    }
+    return false;
+}

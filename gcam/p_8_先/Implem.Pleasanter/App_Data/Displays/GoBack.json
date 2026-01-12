@@ -1,0 +1,34 @@
+﻿{
+    "Id": "GoBack",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Back"
+        },
+        {
+            "Language": "zh",
+            "Body": "返回"
+        },
+        {
+            "Language": "ja",
+            "Body": "戻る"
+        },
+        {
+            "Language": "de",
+            "Body": "Zurück"
+        },
+        {
+            "Language": "ko",
+            "Body": "뒤로"
+        },
+        {
+            "Language": "es",
+            "Body": "Atrás"
+        },
+        {
+            "Language": "vn",
+            "Body": "Quay lại"
+        }
+    ]
+}

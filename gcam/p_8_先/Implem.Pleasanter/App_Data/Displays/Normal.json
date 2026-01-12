@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Normal",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Normal"
+        },
+        {
+            "Language": "zh",
+            "Body": "正常"
+        },
+        {
+            "Language": "ja",
+            "Body": "ノーマル"
+        },
+        {
+            "Language": "de",
+            "Body": "Normal"
+        },
+        {
+            "Language": "ko",
+            "Body": "보통"
+        },
+        {
+            "Language": "es",
+            "Body": "Normal"
+        },
+        {
+            "Language": "vn",
+            "Body": "Bình thường"
+        }
+    ]
+}

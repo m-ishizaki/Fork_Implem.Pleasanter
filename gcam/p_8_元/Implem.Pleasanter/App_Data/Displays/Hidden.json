@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Hidden",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Hidden"
+        },
+        {
+            "Language": "zh",
+            "Body": "已隐藏"
+        },
+        {
+            "Language": "ja",
+            "Body": "非表示"
+        },
+        {
+            "Language": "de",
+            "Body": "Ausgeblendet"
+        },
+        {
+            "Language": "ko",
+            "Body": "숨긴 항목"
+        },
+        {
+            "Language": "es",
+            "Body": "Oculto"
+        },
+        {
+            "Language": "vn",
+            "Body": "Không hiển thị"
+        }
+    ]
+}

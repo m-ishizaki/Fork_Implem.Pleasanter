@@ -1,0 +1,21 @@
+﻿public static string #TableName#_#ColumnName#_WhereLike(
+    ISqlObjectFactory factory,
+    string tableName = "#TableName#",
+    string name = "SearchText",
+    bool forward = false,
+    bool escape = false,
+    bool negative = false)
+{
+    return "(\"" + tableName + "\".\"#ColumnName#\""
+        + (negative
+            ? factory.Sqls.NotLike
+            : factory.Sqls.Like)
+        + (forward
+            ? string.Empty
+            : factory.Sqls.WhereLikeTemplateForward)
+        + $"@{name}{factory.Sqls.WhereLikeTemplate}"
+        + (escape
+            ? factory.Sqls.Escape
+            : string.Empty)
+        + ")";
+}

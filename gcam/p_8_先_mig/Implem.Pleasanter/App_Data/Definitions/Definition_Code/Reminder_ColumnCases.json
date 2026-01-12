@@ -1,0 +1,9 @@
+﻿{
+    "Id": "Reminder_ColumnCases",
+    "RepeatType": "Column",
+    "Indent": "5",
+    "Separator": "\\r\\n",
+    "Update": "1",
+    "Exclude": "Title",
+    "ExcludeTypeCs": "Attachments"
+}

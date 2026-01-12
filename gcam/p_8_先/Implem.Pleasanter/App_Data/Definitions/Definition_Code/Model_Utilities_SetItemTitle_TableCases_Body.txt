@@ -1,0 +1,7 @@
+﻿case "#TableName#":
+    Update#ModelName#Titles(
+        context: context,
+        ss: ss,
+        siteIdList: siteIdList,
+        idList: idList);
+    break;

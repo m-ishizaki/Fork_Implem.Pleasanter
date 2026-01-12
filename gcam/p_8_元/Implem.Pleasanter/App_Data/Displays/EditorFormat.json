@@ -1,0 +1,34 @@
+﻿{
+    "Id": "EditorFormat",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Editor format"
+        },
+        {
+            "Language": "zh",
+            "Body": "编辑器格式"
+        },
+        {
+            "Language": "ja",
+            "Body": "エディタの書式"
+        },
+        {
+            "Language": "de",
+            "Body": "Editor-Format"
+        },
+        {
+            "Language": "ko",
+            "Body": "편집기 형식"
+        },
+        {
+            "Language": "es",
+            "Body": "Formato de editor"
+        },
+        {
+            "Language": "vn",
+            "Body": "Định dạng trình biên tập"
+        }
+    ]
+}

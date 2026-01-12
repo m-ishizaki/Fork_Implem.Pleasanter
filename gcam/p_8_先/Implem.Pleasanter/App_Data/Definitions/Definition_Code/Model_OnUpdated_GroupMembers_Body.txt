@@ -1,0 +1,11 @@
+﻿if (updateGroupMembers)
+{
+    if (groupApiModel != null)
+    {
+        RenewGroupMembers(context, GroupMembers);
+    }
+    else
+    {
+        UpdateGroupMembers(context);
+    }
+}

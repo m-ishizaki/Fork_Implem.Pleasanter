@@ -1,0 +1,1 @@
+﻿; select '{{"DataTableName":"{0}","Id":' + convert(nvarchar,@@identity) + '}}';

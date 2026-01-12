@@ -1,0 +1,33 @@
+{
+    "Id": "BulkDeleted",
+    "Type": 210,
+    "Languages": [
+        {
+            "Body": "{0}: {1} items have been deleted at once."
+        },
+        {
+            "Language": "zh",
+            "Body": "{0}: 一次删除了 {1} 个项目。"
+        },
+        {
+            "Language": "ja",
+            "Body": "{0}: {1} 件 一括削除しました。"
+        },
+        {
+            "Language": "de",
+            "Body": "{0}: {1} Artikel wurden auf einmal gelöscht."
+        },
+        {
+            "Language": "ko",
+            "Body": "{0}: 한 번에 {1} 개의 항목이 삭제되었습니다."
+        },
+        {
+            "Language": "es",
+            "Body": "{0}: Se han eliminado {1} elementos a la vez."
+        },
+        {
+            "Language": "vn",
+            "Body": "{0}: {1} mục đã bị xóa cùng một lúc."
+        }
+    ]
+}

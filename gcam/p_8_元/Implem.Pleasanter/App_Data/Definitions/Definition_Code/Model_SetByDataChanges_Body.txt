@@ -1,0 +1,109 @@
+﻿public void SetByProcess(
+    Context context,
+    SiteSettings ss,
+    Process process)
+{
+    if (process.ChangedStatus != -1)
+    {
+        Status.Value = process.ChangedStatus;
+    }
+    process.DataChanges?.ForEach(dataChange =>
+    {
+        var key = $"#TableName#_{dataChange.ColumnName}";
+        var formData = new Dictionary<string, string>();
+        switch (dataChange.Type)
+        {
+            case DataChange.Types.CopyValue:
+                formData[key] = ToValue(
+                    context: context,
+                    ss: ss,
+                    column: ss.GetColumn(
+                        context: context,
+                        columnName: dataChange.Value),
+                    mine: Mine(context: context));
+                break;
+            case DataChange.Types.CopyDisplayValue:
+                formData[key] = ToDisplay(
+                    context: context,
+                    ss: ss,
+                    column: ss.GetColumn(
+                        context: context,
+                        columnName: dataChange.Value),
+                    mine: Mine(context: context));
+                break;
+            case DataChange.Types.InputValue:
+                formData[key] = dataChange.ValueData(ss
+                    .IncludedColumns(value: dataChange.Value)
+                    .ToDictionary(
+                        column => column.ColumnName,
+                        column => ToDisplay(
+                            context: context,
+                            ss: ss,
+                            column: column,
+                            mine: Mine(context: context))));
+                break;
+            case DataChange.Types.InputValueFormula:
+                var formulaSet = new FormulaSet()
+                {
+                    Id = dataChange.Id
+                };
+                var err = FormulaBuilder.SetFormula(
+                    formulaSet: formulaSet,
+                    ss: ss,
+                    calculationMethod: "Extended",
+                    target: dataChange.ColumnName,
+                    condition: null,
+                    formula: dataChange.Value,
+                    notUseDisplayName: false,
+                    isDisplayError: dataChange.ValueFormulaIsDisplayError,
+                    outOfCondition: null);
+                if (err == Error.Types.None)
+                {
+                    formData[key] = ExecFormulaExtended(
+                        context: context,
+                        ss: ss,
+                        columnName: dataChange.ColumnName,
+                        formulaSet: formulaSet,
+                        isOutOfCondition: false,
+                        outputFormulaLogs: ss.ProcessOutputFormulaLogs);
+                }
+                else
+                {
+                    throw new Exception($"Formula error {formulaSet.Id}:{err.Message(context: context)}");
+                }
+                break;
+            case DataChange.Types.InputDate:
+            case DataChange.Types.InputDateTime:
+                var baseDateTimeColumn = ss.GetColumn(
+                    context: context,
+                    columnName: dataChange.BaseDateTime);
+                var baseDateTime = baseDateTimeColumn != null
+                    ? ToValue(
+                        context: context,
+                        ss: ss,
+                        column: baseDateTimeColumn,
+                        mine: Mine(context: context)).ToDateTime()
+                    : DateTime.MinValue;
+                formData[key] = dataChange.DateTimeValue(
+                    context: context,
+                    baseDateTime: baseDateTime);
+                break;
+            case DataChange.Types.InputUser:
+                formData[key] = context.UserId.ToString();
+                break;
+            case DataChange.Types.InputDept:
+                formData[key] = context.DeptId.ToString();
+                break;
+            default:
+                break;
+        }
+        SetByForm(
+            context: context,
+            ss: ss,
+            formData: formData);
+        SetByLookups(
+            context: context,
+            ss: ss,
+            formData: formData);
+    });
+}

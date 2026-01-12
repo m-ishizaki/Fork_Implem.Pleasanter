@@ -1,0 +1,11 @@
+﻿{
+    "RetentionPeriod": 90,
+    "NotLoggingIp": null,
+    "LoginSuccess": false,
+    "LoginFailure": false,
+    "SignOut": false,
+    "ClientId": false,
+    "ExportLimit": 10000,
+    "EnableLoggingToDatabase": true,
+    "EnableLoggingToFile": false
+}

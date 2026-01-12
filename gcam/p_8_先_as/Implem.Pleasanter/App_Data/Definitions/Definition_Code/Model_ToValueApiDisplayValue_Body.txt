@@ -1,0 +1,25 @@
+﻿public string ToValue(Context context, SiteSettings ss, Column column, List<string> mine)
+{
+    if (!ss.ReadColumnAccessControls.Allowed(
+        context: context,
+        ss: ss,
+        column: column,
+        mine: mine))
+    {
+        return string.Empty;
+    }
+    switch (column.TypeName)
+    {
+        case "datetime":
+            return ToApiDisplayValue(
+                context: context,
+                ss: ss,
+                column: column,
+                mine: mine)
+                    ?.ToString() ?? string.Empty;
+        default:
+            return PropertyValue(
+                context: context,
+                column: column);
+    }
+}

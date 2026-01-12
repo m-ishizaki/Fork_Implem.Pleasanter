@@ -1,0 +1,182 @@
+﻿public static string BulkDelete(Context context, SiteSettings ss)
+{
+    if (context.CanDelete(ss: ss))
+    {
+        var selectedWhere = SelectedWhere(
+            context: context,
+            ss: ss);
+        if (selectedWhere == null)
+        {
+            return Messages.ResponseSelectTargets(context: context).ToJson();
+        }
+        var view = Views.GetBySession(
+            context: context,
+            ss: ss);
+        var where = view.Where(
+            context: context,
+            ss: ss,
+            where: selectedWhere,
+            itemJoin: false);
+        var param = view.Param(
+            context: context,
+            ss: ss);
+        var invalid = ExistsLockedRecord(
+            context: context,
+            ss: ss,
+            where: where,
+            param: param,
+            orderBy: view.OrderBy(
+                context: context,
+                ss: ss));
+        switch (invalid.Type)
+        {
+            case Error.Types.None: break;
+            default: return invalid.MessageJson(context: context);
+        }
+        using var exclusiveObj = new Sessions.TableExclusive(context: context);
+        if (!exclusiveObj.TryLock())
+        {
+            return Error.Types.ImportLock.MessageJson(context: context);
+        }
+        var count = BulkDelete(
+            context: context,
+            ss: ss,
+            where: where,
+            param: param,
+            watchdog: () => exclusiveObj.Refresh());
+        exclusiveObj.Refresh();
+        Summaries.Synchronize(context: context, ss: ss);
+        var data = new string[]
+        {
+            ss.Title,
+            count.ToString()
+        };
+        ss.Notifications.ForEach(notification =>
+        {
+            var body = new System.Text.StringBuilder();
+            body.Append(Locations.ItemIndexAbsoluteUri(
+                context: context,
+                ss.SiteId) + "\n");
+            body.Append(
+                $"{Displays.#TableName#_Updator(context: context)}: ",
+                $"{context.User.Name}\n");
+            if (notification.AfterBulkDelete != false)
+            {
+                notification.Send(
+                    context: context,
+                    ss: ss,
+                    title: Displays.BulkDeleted(
+                        context: context,
+                        data: data),
+                    body: body.ToString());
+            }
+        });
+        exclusiveObj.Refresh();
+        return GridRows(
+            context: context,
+            ss: ss,
+            clearCheck: true,
+            message: Messages.BulkDeleted(
+                context: context,
+                data: data));
+    }
+    else
+    {
+        return Messages.ResponseHasNotPermission(context: context).ToJson();
+    }
+}
+
+public static int BulkDelete(
+    Context context,
+    SiteSettings ss,
+    SqlWhereCollection where,
+    SqlParamCollection param,
+    Action watchdog = null)
+{
+    var sub = Rds.Select#TableName#(
+        column: Rds.#TableName#Column().#ModelName#Id(),
+        join: ss.Join(
+            context: context,
+            join: new IJoin[]
+            {
+                where
+            }),
+        where: where,
+        param: param);
+    ss.LinkActions(
+        context: context,
+        type: "DeleteWithLinks",
+        sub: sub);
+    var sites = ss.IntegratedSites?.Any() == true
+        ? ss.AllowedIntegratedSites
+        : ss.SiteId.ToSingleList();
+    var statements = new List<SqlStatement>();
+    var guid = Strings.NewGuid();
+    statements.OnBulkDeletingExtendedSqls(
+        context: context,
+        siteId: ss.SiteId);
+    statements.Add(Rds.UpdateItems(
+        where: Rds.ItemsWhere()
+            .SiteId_In(sites)
+            .ReferenceId_In(sub: sub),
+        param: Rds.ItemsParam()
+            .ReferenceType(guid)));
+    statements.Add(Rds.DeleteBinaries(
+        factory: context,
+        where: Rds.BinariesWhere()
+            .TenantId(context.TenantId)
+            .ReferenceId_In(sub: sub)
+            .BinaryType(
+                value: "Images",
+                _operator: "<>",
+                _using: ss.DeleteImageWhenDeleting == false)));
+    statements.Add(Rds.Delete#TableName#(
+        factory: context,
+        where: Rds.#TableName#Where()
+            .SiteId_In(sites)
+            .#ModelName#Id_In(sub: Rds.SelectItems(
+                column: Rds.ItemsColumn().ReferenceId(),
+                where: Rds.ItemsWhere()
+                    .SiteId_In(sites)
+                    .ReferenceType(guid)))));
+    statements.Add(Rds.RowCount());
+    statements.Add(Rds.DeleteItems(
+        factory: context,
+        where: Rds.ItemsWhere()
+            .SiteId_In(sites)
+            .ReferenceType(guid)));
+    statements.Add(Rds.UpdateItems(
+        tableType: Sqls.TableTypes.Deleted,
+        where: Rds.ItemsWhere()
+            .SiteId_In(sites)
+            .ReferenceType(guid),
+        param: Rds.ItemsParam()
+            .ReferenceType(ss.ReferenceType)));
+    statements.OnBulkDeletedExtendedSqls(
+        context: context,
+        siteId: ss.SiteId);
+    watchdog?.Invoke();
+    var ids = Rds.ExecuteTable(
+        context: context,
+        statements: Rds.SelectBinaries(
+            column: Rds.BinariesColumn().ReferenceId(),
+            where: Rds.BinariesWhere()
+                .TenantId(context.TenantId)
+                .ReferenceId_In(sub: sub)))
+                    .AsEnumerable()
+                    .Select(dataRow => dataRow.Long("ReferenceId"))
+                    .ToList();
+    watchdog?.Invoke();
+    var affectedRows = Repository.ExecuteScalar_response(
+        context: context,
+        transactional: true,
+        statements: statements.ToArray()).Count.ToInt();
+    if (ss.DeleteImageWhenDeleting == false)
+    {
+        ids.ForEach(referenceId => BinaryUtilities.UpdateImageReferenceId(
+            context: context,
+            siteId: ss.SiteId,
+            referenceId: referenceId));
+    }
+    return affectedRows;
+}

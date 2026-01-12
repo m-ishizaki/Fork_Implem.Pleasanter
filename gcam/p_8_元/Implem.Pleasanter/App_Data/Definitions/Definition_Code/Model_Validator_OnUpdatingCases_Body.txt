@@ -1,0 +1,12 @@
+﻿case "#ColumnName#":
+    if (#modelName#Model.#ColumnName#_Updated(context: context))
+    {
+        return new ErrorData(
+            context: context,
+            type: Error.Types.HasNotChangeColumnPermission,
+            data: column.LabelText,
+            api: api,
+            sysLogsStatus: 403,
+            sysLogsDescription: Debugs.GetSysLogsDescription());
+    }
+    break;

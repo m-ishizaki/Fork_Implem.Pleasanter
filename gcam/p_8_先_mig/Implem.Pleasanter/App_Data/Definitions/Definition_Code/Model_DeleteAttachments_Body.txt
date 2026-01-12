@@ -1,0 +1,19 @@
+﻿if (Parameters.BinaryStorage.RestoreLocalFiles == false)
+{
+    ColumnNames()
+        .Where(columnName => columnName.StartsWith("Attachments"))
+        .ForEach(columnName =>
+        {
+            var attachments = GetAttachments(columnName: columnName);
+            attachments.ForEach(attachment =>
+                attachment.Deleted = true);
+            attachments.Statements(
+                context: context,
+                ss: ss,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: columnName),
+                statements: statements,
+                referenceId: #ModelName#Id);
+        });
+}

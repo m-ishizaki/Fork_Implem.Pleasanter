@@ -1,0 +1,37 @@
+﻿public static ErrorData OnDeleteHistory(
+    Context context,
+    SiteSettings ss,
+    #ModelName#Model #modelName#Model,
+    bool api = false,
+    bool serverScript = false)
+{
+    if (!Parameters.History.PhysicalDelete
+        || ss.AllowPhysicalDeleteHistories == false)
+    {
+        return new ErrorData(
+            context: context,
+            type: Error.Types.InvalidRequest,
+            api: api,
+            sysLogsStatus: 400,
+            sysLogsDescription: Debugs.GetSysLogsDescription());
+    }
+    if (!context.CanManageSite(ss: ss) || #modelName#Model.ReadOnly)
+    {
+        return new ErrorData(
+            context: context,
+            type: Error.Types.HasNotPermission,
+            api: api,
+            sysLogsStatus: 403,
+            sysLogsDescription: Debugs.GetSysLogsDescription());
+    }
+
+<!--Model_Validator_Api-->
+<!--Model_Validator_LockedRecord-->
+
+    return new ErrorData(
+        context: context,
+        type: Error.Types.None,
+        api: api,
+        sysLogsStatus: 200,
+        sysLogsDescription: Debugs.GetSysLogsDescription());
+}

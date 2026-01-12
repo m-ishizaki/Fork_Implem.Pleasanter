@@ -1,0 +1,18 @@
+﻿if (updateMailAddresses)
+{
+    if (userApiModel != null)
+    {
+        if (userApiModel.MailAddresses != null)
+        {
+            UpdateMailAddresses(context: context, userApiModel: userApiModel);
+        }
+    }
+    else
+    {
+        UpdateMailAddresses(context: context);
+    }
+}
+if (refreshSiteInfo)
+{
+    SiteInfo.Refresh(context: context);
+}

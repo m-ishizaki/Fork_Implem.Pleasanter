@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Year>$([System.DateTime]::Now.Year.ToString())</Year>
+    <Copyright>Copyright © Implem Inc 2014 - $(Year)</Copyright>
+    <AssemblyVersion>1.4.15.0</AssemblyVersion>
+    <FileVersion>1.4.15.0</FileVersion>
+    <Version>1.4.15.0</Version>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="8.0.7" />
+    <PackageReference Include="Azure.Identity" Version="1.18.0-beta.2" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.15.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0-preview3.25342.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Implem.Libraries\Implem.Libraries.csproj" />
+    <ProjectReference Include="..\Rds\Implem.IRds\Implem.IRds.csproj" />
+    <ProjectReference Include="..\Rds\Implem.MySql\Implem.MySql.csproj" />
+    <ProjectReference Include="..\Rds\Implem.PostgreSql\Implem.PostgreSql.csproj" />
+    <ProjectReference Include="..\Rds\Implem.SqlServer\Implem.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

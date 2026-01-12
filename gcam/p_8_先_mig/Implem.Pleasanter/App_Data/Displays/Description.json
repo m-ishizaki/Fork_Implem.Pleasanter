@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Description",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Description"
+        },
+        {
+            "Language": "zh",
+            "Body": "说明"
+        },
+        {
+            "Language": "ja",
+            "Body": "説明"
+        },
+        {
+            "Language": "de",
+            "Body": "Beschreibung"
+        },
+        {
+            "Language": "ko",
+            "Body": "설명"
+        },
+        {
+            "Language": "es",
+            "Body": "Descripción"
+        },
+        {
+            "Language": "vn",
+            "Body": "Mô tả"
+        }
+    ]
+}

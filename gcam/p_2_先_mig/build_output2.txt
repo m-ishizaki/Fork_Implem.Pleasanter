@@ -1,0 +1,1142 @@
+﻿  蠕ｩ蜈・ｯｾ雎｡縺ｮ繝励Ο繧ｸ繧ｧ繧ｯ繝医ｒ豎ｺ螳壹＠縺ｦ縺・∪縺・..
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.IO.FileSystem.Primitives 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.CodeDefiner.NetCore\Implem.CodeDefiner.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.ValueTuple 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Abstractions 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Memory 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj [C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Mvc 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Razor 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.Core 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.WebHost 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebPages 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.Web.Infrastructure 1.0.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'SendGrid.SmtpApi 1.3.3' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Sustainsys.Saml2.Mvc 2.11.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Xml.Linq 3.5.21022.801' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter\Implem.Pleasanter.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj [C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+  蠕ｩ蜈・ｯｾ雎｡縺ｮ縺吶∋縺ｦ縺ｮ繝励Ο繧ｸ繧ｧ繧ｯ繝医・譛譁ｰ縺ｧ縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetFramework\Implem.Pleasanter.NetFramework.csproj(575,3): error MSB4019: 繧､繝ｳ繝昴・繝医＆繧後◆繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\Program Files\dotnet\sdk\10.0.101\Microsoft\VisualStudio\v18.0\WebApplications\Microsoft.WebApplication.targets" 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆縲・C:\Program Files\dotnet\sdk\10.0.101\Microsoft\VisualStudio\v18.0\WebApplications\Microsoft.WebApplication.targets" 縺ｫ隧穂ｾ｡縺輔ｌ縺・Import 螳｣險 "$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" 縺ｮ蠑上′豁｣縺励＞縺薙→縺ｨ縲√ヵ繧｡繧､繝ｫ縺後ョ繧｣繧ｹ繧ｯ荳翫↓蟄伜惠縺吶ｋ縺薙→繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.CodeDefiner.NetCore\Implem.CodeDefiner.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.IO.FileSystem.Primitives 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.ValueTuple 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.IO.FileSystem.Primitives 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.ValueTuple 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter\Implem.Pleasanter.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj
+  ..\Implem.Pleasanter\Views\Web.config
+  ..\Implem.Pleasanter\Views\_ViewStart.cshtml
+  ..\Implem.Pleasanter\Views\Admins\Index.cshtml
+  ..\Implem.Pleasanter\Views\Admins\InitializeItems.cshtml
+  ..\Implem.Pleasanter\Views\Admins\MigrateSiteSettings.cshtml
+  ..\Implem.Pleasanter\Views\Admins\ResetDefinitions.cshtml
+  ..\Implem.Pleasanter\Views\Depts\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Depts\Index.cshtml
+  ..\Implem.Pleasanter\Views\Depts\New.cshtml
+  ..\Implem.Pleasanter\Views\Errors\BadRequest.cshtml
+  ..\Implem.Pleasanter\Views\Errors\EmptyUserName.cshtml
+  ..\Implem.Pleasanter\Views\Errors\Index.cshtml
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(158,5): warning NETSDK1137: Microsoft.NET.Sdk.WindowsDesktop SDK 繧剃ｽｿ逕ｨ縺吶ｋ蠢・ｦ√・縺ｪ縺上↑繧翫∪縺励◆縲ゅΝ繝ｼ繝・繝励Ο繧ｸ繧ｧ繧ｯ繝郁ｦ∫ｴ縺ｮ SDK 螻樊ｧ繧・'Microsoft.NET.Sdk' 縺ｫ螟画峩縺吶ｋ縺薙→繧偵＃讀懆ｨ弱￥縺縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\LdapSyncTester\Implem.SupportTools.LdapSyncTester.csproj]
+  ..\Implem.Pleasanter\Views\Errors\InternalServerError.cshtml
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.NET.Sdk.WindowsDesktop.targets(111,5): error NETSDK1022: 驥崎､・☆繧・'Page' 蛟九・繧｢繧､繝・Β縺悟性繧√ｉ繧後∪縺励◆縲・NET SDK 縺ｫ縺ｯ縲∵里螳壹〒繝励Ο繧ｸ繧ｧ繧ｯ繝・繝・ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮ繧｢繧､繝・Β縺・'Page' 蛟句性縺ｾ繧後※縺・∪縺吶ゅ％繧後ｉ縺ｮ繧｢繧､繝・Β繧偵・繝ｭ繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺九ｉ蜑企勁縺吶ｋ縺九・EnableDefaultPageItems' 繝励Ο繝代ユ繧｣繧・'false' 縺ｫ險ｭ螳壹＠縺ｦ繝励Ο繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺ｫ譏守､ｺ逧・↓蜷ｫ繧√ｋ縺薙→縺後〒縺阪∪縺吶りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/sdkimplicititems 繧偵＃隕ｧ縺上□縺輔＞縲る㍾隍・☆繧九い繧､繝・Β縺ｯ縲・LdapSyncTesterWindow.xaml' 縺ｧ縺励◆縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\LdapSyncTester\Implem.SupportTools.LdapSyncTester.csproj]
+  ..\Implem.Pleasanter\Views\Errors\InvalidIpAddress.cshtml
+  ..\Implem.Pleasanter\Views\Errors\InvalidSsoCode.cshtml
+  ..\Implem.Pleasanter\Views\Errors\LoginIdAlreadyUse.cshtml
+  ..\Implem.Pleasanter\Views\Errors\NotFound.cshtml
+  ..\Implem.Pleasanter\Views\Errors\ParameterSyntaxError.cshtml
+  ..\Implem.Pleasanter\Views\Errors\SamlLoginFailed.cshtml
+  ..\Implem.Pleasanter\Views\Errors\UserDisabled.cshtml
+  ..\Implem.Pleasanter\Views\Errors\UserLockout.cshtml
+  ..\Implem.Pleasanter\Views\Groups\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Groups\Index.cshtml
+  ..\Implem.Pleasanter\Views\Groups\New.cshtml
+  ..\Implem.Pleasanter\Views\Items\BurnDown.cshtml
+  ..\Implem.Pleasanter\Views\Items\Calendar.cshtml
+  ..\Implem.Pleasanter\Views\Items\Crosstab.cshtml
+  ..\Implem.Pleasanter\Views\Items\Edit.cshtml
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(158,5): warning NETSDK1137: Microsoft.NET.Sdk.WindowsDesktop SDK 繧剃ｽｿ逕ｨ縺吶ｋ蠢・ｦ√・縺ｪ縺上↑繧翫∪縺励◆縲ゅΝ繝ｼ繝・繝励Ο繧ｸ繧ｧ繧ｯ繝郁ｦ∫ｴ縺ｮ SDK 螻樊ｧ繧・'Microsoft.NET.Sdk' 縺ｫ螟画峩縺吶ｋ縺薙→繧偵＃讀懆ｨ弱￥縺縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\MailTester\Implem.SupportTools.MailTester.csproj]
+  ..\Implem.Pleasanter\Views\Items\EditOnGrid.cshtml
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.NET.Sdk.WindowsDesktop.targets(111,5): error NETSDK1022: 驥崎､・☆繧・'Page' 蛟九・繧｢繧､繝・Β縺悟性繧√ｉ繧後∪縺励◆縲・NET SDK 縺ｫ縺ｯ縲∵里螳壹〒繝励Ο繧ｸ繧ｧ繧ｯ繝・繝・ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮ繧｢繧､繝・Β縺・'Page' 蛟句性縺ｾ繧後※縺・∪縺吶ゅ％繧後ｉ縺ｮ繧｢繧､繝・Β繧偵・繝ｭ繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺九ｉ蜑企勁縺吶ｋ縺九・EnableDefaultPageItems' 繝励Ο繝代ユ繧｣繧・'false' 縺ｫ險ｭ螳壹＠縺ｦ繝励Ο繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺ｫ譏守､ｺ逧・↓蜷ｫ繧√ｋ縺薙→縺後〒縺阪∪縺吶りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/sdkimplicititems 繧偵＃隕ｧ縺上□縺輔＞縲る㍾隍・☆繧九い繧､繝・Β縺ｯ縲・View\MailTesterWindow.xaml' 縺ｧ縺励◆縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\MailTester\Implem.SupportTools.MailTester.csproj]
+  ..\Implem.Pleasanter\Views\Items\Gantt.cshtml
+  ..\Implem.Pleasanter\Views\Items\ImageLib.cshtml
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(158,5): warning NETSDK1137: Microsoft.NET.Sdk.WindowsDesktop SDK 繧剃ｽｿ逕ｨ縺吶ｋ蠢・ｦ√・縺ｪ縺上↑繧翫∪縺励◆縲ゅΝ繝ｼ繝・繝励Ο繧ｸ繧ｧ繧ｯ繝郁ｦ∫ｴ縺ｮ SDK 螻樊ｧ繧・'Microsoft.NET.Sdk' 縺ｫ螟画峩縺吶ｋ縺薙→繧偵＃讀懆ｨ弱￥縺縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\SysLogViewer\Implem.SupportTools.SysLogViewer.csproj]
+  ..\Implem.Pleasanter\Views\Items\Index.cshtml
+  ..\Implem.Pleasanter\Views\Items\Kamban.cshtml
+  ..\Implem.Pleasanter\Views\Items\New.cshtml
+  ..\Implem.Pleasanter\Views\Items\Search.cshtml
+  ..\Implem.Pleasanter\Views\Items\TimeSeries.cshtml
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.NET.Sdk.WindowsDesktop.targets(111,5): error NETSDK1022: 驥崎､・☆繧・'Page' 蛟九・繧｢繧､繝・Β縺悟性繧√ｉ繧後∪縺励◆縲・NET SDK 縺ｫ縺ｯ縲∵里螳壹〒繝励Ο繧ｸ繧ｧ繧ｯ繝・繝・ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮ繧｢繧､繝・Β縺・'Page' 蛟句性縺ｾ繧後※縺・∪縺吶ゅ％繧後ｉ縺ｮ繧｢繧､繝・Β繧偵・繝ｭ繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺九ｉ蜑企勁縺吶ｋ縺九・EnableDefaultPageItems' 繝励Ο繝代ユ繧｣繧・'false' 縺ｫ險ｭ螳壹＠縺ｦ繝励Ο繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺ｫ譏守､ｺ逧・↓蜷ｫ繧√ｋ縺薙→縺後〒縺阪∪縺吶りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/sdkimplicititems 繧偵＃隕ｧ縺上□縺輔＞縲る㍾隍・☆繧九い繧､繝・Β縺ｯ縲・View\DetailWindow.xaml'; 'View\SysLogViewerWindow.xaml' 縺ｧ縺励◆縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\SysLogViewer\Implem.SupportTools.SysLogViewer.csproj]
+  ..\Implem.Pleasanter\Views\Items\TrashBox.cshtml
+  ..\Implem.Pleasanter\Views\Permissions\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Publishes\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Publishes\Index.cshtml
+  ..\Implem.Pleasanter\Views\Registrations\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Registrations\Index.cshtml
+  ..\Implem.Pleasanter\Views\Registrations\Login.cshtml
+  ..\Implem.Pleasanter\Views\Registrations\New.cshtml
+  ..\Implem.Pleasanter\Views\Shared\_Layout.cshtml
+  ..\Implem.Pleasanter\Views\Tenants\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Users\Edit.cshtml
+  ..\Implem.Pleasanter\Views\Users\EditApi.cshtml
+  ..\Implem.Pleasanter\Views\Users\Index.cshtml
+  ..\Implem.Pleasanter\Views\Users\Login.cshtml
+  ..\Implem.Pleasanter\Views\Users\New.cshtml
+  ..\Implem.Pleasanter\Views\Versions\Index.cshtml
+  52 蛟九・繝輔ぃ繧､繝ｫ繧偵さ繝斐・縺励∪縺励◆
+  ..\Implem.Pleasanter\wwwroot\favicon.ico
+  ..\Implem.Pleasanter\wwwroot\bundles\generals.js
+  ..\Implem.Pleasanter\wwwroot\bundles\generals.min.js
+  ..\Implem.Pleasanter\wwwroot\content\styles.css
+  ..\Implem.Pleasanter\wwwroot\content\styles.min.css
+  ..\Implem.Pleasanter\wwwroot\images\Hayato1.png
+  ..\Implem.Pleasanter\wwwroot\images\Hayato2.png
+  ..\Implem.Pleasanter\wwwroot\images\Hayato3.png
+  ..\Implem.Pleasanter\wwwroot\images\loading.gif
+  ..\Implem.Pleasanter\wwwroot\images\logo-corp-with-title.png
+  ..\Implem.Pleasanter\wwwroot\images\logo-corp.png
+  ..\Implem.Pleasanter\wwwroot\images\logo-version.png
+  ..\Implem.Pleasanter\wwwroot\scripts\aggregationevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\anchorevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\attachments.js
+  ..\Implem.Pleasanter\wwwroot\scripts\attachmentsevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\basket.js
+  ..\Implem.Pleasanter\wwwroot\scripts\basketevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\BulkUpdate.js
+  ..\Implem.Pleasanter\wwwroot\scripts\burndown.js
+  ..\Implem.Pleasanter\wwwroot\scripts\burndownevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\calendar.js
+  ..\Implem.Pleasanter\wwwroot\scripts\calendarevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\clipboard.js
+  ..\Implem.Pleasanter\wwwroot\scripts\columnaccesscontrol.js
+  ..\Implem.Pleasanter\wwwroot\scripts\confirm.js
+  ..\Implem.Pleasanter\wwwroot\scripts\confirmevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\crosstab.js
+  ..\Implem.Pleasanter\wwwroot\scripts\dialog.js
+  ..\Implem.Pleasanter\wwwroot\scripts\dialogevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\display.js
+  ..\Implem.Pleasanter\wwwroot\scripts\dropdownsearch.js
+  ..\Implem.Pleasanter\wwwroot\scripts\dropdownsearchevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\export.js
+  ..\Implem.Pleasanter\wwwroot\scripts\fieldselectable.js
+  ..\Implem.Pleasanter\wwwroot\scripts\filterevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\focus.js
+  ..\Implem.Pleasanter\wwwroot\scripts\focusevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\gantt.js
+  ..\Implem.Pleasanter\wwwroot\scripts\ganttevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\grid.js
+  ..\Implem.Pleasanter\wwwroot\scripts\gridevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\group.js
+  ..\Implem.Pleasanter\wwwroot\scripts\imagelib.js
+  ..\Implem.Pleasanter\wwwroot\scripts\imageLibevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\import.js
+  ..\Implem.Pleasanter\wwwroot\scripts\item.js
+  ..\Implem.Pleasanter\wwwroot\scripts\jqueryui.js
+  ..\Implem.Pleasanter\wwwroot\scripts\kamban.js
+  ..\Implem.Pleasanter\wwwroot\scripts\kambanevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\keyevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\legendevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\loading.js
+  ..\Implem.Pleasanter\wwwroot\scripts\markdown.js
+  ..\Implem.Pleasanter\wwwroot\scripts\markdownevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\menuevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\message.js
+  ..\Implem.Pleasanter\wwwroot\scripts\messageevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\move.js
+  ..\Implem.Pleasanter\wwwroot\scripts\multiselect.js
+  ..\Implem.Pleasanter\wwwroot\scripts\navigation.js
+  ..\Implem.Pleasanter\wwwroot\scripts\navigationevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\outgoingmail.js
+  ..\Implem.Pleasanter\wwwroot\scripts\outgoingmailevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\permission.js
+  ..\Implem.Pleasanter\wwwroot\scripts\position.js
+  ..\Implem.Pleasanter\wwwroot\scripts\positionevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\relatingcolumns.js
+  ..\Implem.Pleasanter\wwwroot\scripts\scroll.js
+  ..\Implem.Pleasanter\wwwroot\scripts\scrollevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\searchevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\security.js
+  ..\Implem.Pleasanter\wwwroot\scripts\selectable.js
+  ..\Implem.Pleasanter\wwwroot\scripts\separate.js
+  ..\Implem.Pleasanter\wwwroot\scripts\setdaterangedialog.js
+  ..\Implem.Pleasanter\wwwroot\scripts\SetNumericRangeDialog.js
+  ..\Implem.Pleasanter\wwwroot\scripts\site.js
+  ..\Implem.Pleasanter\wwwroot\scripts\siteinfo.js
+  ..\Implem.Pleasanter\wwwroot\scripts\sitemenu.js
+  ..\Implem.Pleasanter\wwwroot\scripts\sitepackage.js
+  ..\Implem.Pleasanter\wwwroot\scripts\sitesettings.js
+  ..\Implem.Pleasanter\wwwroot\scripts\sitesettingsevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\startguide.js
+  ..\Implem.Pleasanter\wwwroot\scripts\statusevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\submitevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\template.js
+  ..\Implem.Pleasanter\wwwroot\scripts\tenants.js
+  ..\Implem.Pleasanter\wwwroot\scripts\timeseries.js
+  ..\Implem.Pleasanter\wwwroot\scripts\users.js
+  ..\Implem.Pleasanter\wwwroot\scripts\validator.js
+  ..\Implem.Pleasanter\wwwroot\scripts\video.js
+  ..\Implem.Pleasanter\wwwroot\scripts\viewmode.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_ajax.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_api.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_controllevents.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_data.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_dispatch.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_elements.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_event.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_form.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_init.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_show.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_time.js
+  ..\Implem.Pleasanter\wwwroot\scripts\_view.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\d3.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\hogan-3.0.2.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery-3.1.0.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery-ui.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery.datetimepicker.full.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery.multiselect.filter.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery.multiselect.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery.validate.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\marked.min.js
+  ..\Implem.Pleasanter\wwwroot\scripts\plugins\jquery-ui\i18n\datepicker-ja.js
+  ..\Implem.Pleasanter\wwwroot\styles\site.css
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\jquery-ui.min.css
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\jquery.datetimepicker.min.css
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\jquery.multiselect.css
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\jquery.multiselect.filter.css
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\normalize.css
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_diagonals-medium_20_d34d17_40x40.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_gloss-wave_45_817865_500x100.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_gloss-wave_60_fece2f_500x100.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_gloss-wave_70_ffdd57_500x100.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_gloss-wave_90_fff9e5_500x100.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_highlight-soft_100_feeebd_1x100.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-bg_inset-soft_30_ffffff_1x100.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_3d3d3d_256x240.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_bd7b00_256x240.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_d19405_256x240.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_eb990f_256x240.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_ed9f26_256x240.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_fadc7a_256x240.png
+  ..\Implem.Pleasanter\wwwroot\styles\plugins\images\ui-icons_ffe180_256x240.png
+  134 蛟九・繝輔ぃ繧､繝ｫ繧偵さ繝斐・縺励∪縺励◆
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_Code.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_Column.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_Css.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_Demo.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_Sql.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_Template.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\definition_ViewMode.xlsm
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\AlterLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\BeginTransaction.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\BulkInsert.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CanRead.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CanReadSites.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Columns.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CommitTransaction.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CompletionTimeColumn.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateDatabase.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateDefault.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateFullText.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateIx.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateLoginAdmin.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateLoginUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreatePk.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateTable.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Defaults.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DeleteDefault.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DropConstraint.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DropIndex.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DropLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DropUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsDatabase.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsTable.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\GrantPrivilegeAdmin.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\GrantPrivilegeUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\HasPermission.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Identity.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\IfConflicted.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\IfDuplicated.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Indexes.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\KillSpid.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\MigrateTable.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\MigrateTableWithIdentity.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\MoveTarget.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ProgressRateDelay.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\RecreateLoginAdmin.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\RecreateLoginUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SelectIdentity.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SelectPkName.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SiteDepts.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Spaceused.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SpWho.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\StartTimeColumn.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\TruncateTemplate.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\AlterLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\BeginTransaction.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\BulkInsert.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CanRead.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CanReadSites.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Columns.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CommitTransaction.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CompletionTimeColumn.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateDatabase.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateDefault.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateFullText.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateIx.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateLoginAdmin.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateLoginUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreatePk.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateTable.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Defaults.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DeleteDefault.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DropConstraint.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DropIndex.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DropLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DropUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsDatabase.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsLoginRole.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsTable.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\GrantPrivilegeAdmin.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\GrantPrivilegeUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\HasPermission.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Identity.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\IfConflicted.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\IfDuplicated.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Indexes.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\KillSpid.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\MigrateTable.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\MigrateTableWithIdentity.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\MoveTarget.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ProgressRateDelay.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\RecreateLoginAdmin.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\RecreateLoginUser.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SelectIdentity.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SelectPkName.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SiteDepts.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Spaceused.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SpWho.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\StartTimeColumn.sql
+  ..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\TruncateTemplate.sql
+  ..\Implem.Pleasanter\App_Data\Displays\Add.json
+  ..\Implem.Pleasanter\App_Data\Displays\AddPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\Address.json
+  ..\Implem.Pleasanter\App_Data\Displays\AddressBook.json
+  ..\Implem.Pleasanter\App_Data\Displays\Admin.json
+  ..\Implem.Pleasanter\App_Data\Displays\AdvancedSetting.json
+  ..\Implem.Pleasanter\App_Data\Displays\AfterCondition.json
+  ..\Implem.Pleasanter\App_Data\Displays\AggregationDetails.json
+  ..\Implem.Pleasanter\App_Data\Displays\Aggregations.json
+  ..\Implem.Pleasanter\App_Data\Displays\AggregationSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\AggregationTarget.json
+  ..\Implem.Pleasanter\App_Data\Displays\AggregationType.json
+  ..\Implem.Pleasanter\App_Data\Displays\AggregationView.json
+  ..\Implem.Pleasanter\App_Data\Displays\AGPL.json
+  ..\Implem.Pleasanter\App_Data\Displays\All.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllowBulkUpdate.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllowEditingComments.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllowedUsers.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllowImage.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllowLockTable.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllowSeparate.json
+  ..\Implem.Pleasanter\App_Data\Displays\AllUsers.json
+  ..\Implem.Pleasanter\App_Data\Displays\AlreadyAdded.json
+  ..\Implem.Pleasanter\App_Data\Displays\AlreadyLinked.json
+  ..\Implem.Pleasanter\App_Data\Displays\AlwaysRequestSearchCondition.json
+  ..\Implem.Pleasanter\App_Data\Displays\And.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApiKey.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApiKeyCreated.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApiKeyDeleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApiSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApplicationBuildingGuide.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApplicationError.json
+  ..\Implem.Pleasanter\App_Data\Displays\Approval.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalMailBody.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalMailTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalMessage.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalMessageInvited.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalMessageInviting.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalRequest.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalRequestMailBody.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalRequestMailTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalRequestMessage.json
+  ..\Implem.Pleasanter\App_Data\Displays\ApprovalRequestMessageRequesting.json
+  ..\Implem.Pleasanter\App_Data\Displays\Assembly.json
+  ..\Implem.Pleasanter\App_Data\Displays\Attachments.json
+  ..\Implem.Pleasanter\App_Data\Displays\Authentication.json
+  ..\Implem.Pleasanter\App_Data\Displays\Auto.json
+  ..\Implem.Pleasanter\App_Data\Displays\Average.json
+  ..\Implem.Pleasanter\App_Data\Displays\BadFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\BadMailAddress.json
+  ..\Implem.Pleasanter\App_Data\Displays\BadRequest.json
+  ..\Implem.Pleasanter\App_Data\Displays\Basic.json
+  ..\Implem.Pleasanter\App_Data\Displays\BeforeCondition.json
+  ..\Implem.Pleasanter\App_Data\Displays\Blog.json
+  ..\Implem.Pleasanter\App_Data\Displays\Body.json
+  ..\Implem.Pleasanter\App_Data\Displays\BroadMatchOfTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkDelete.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkDeleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkMove.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkMoved.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkRestored.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkUpdate.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkUpdated.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkUpdatedEmailBody.json
+  ..\Implem.Pleasanter\App_Data\Displays\BulkUpdatedEmailTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\BurnDown.json
+  ..\Implem.Pleasanter\App_Data\Displays\BusinessImprovement.json
+  ..\Implem.Pleasanter\App_Data\Displays\Calendar.json
+  ..\Implem.Pleasanter\App_Data\Displays\Camera.json
+  ..\Implem.Pleasanter\App_Data\Displays\Cancel.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotChangeInheritance.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotConnectCamera.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotDisabled.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotInherit.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotLink.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotPerformed.json
+  ..\Implem.Pleasanter\App_Data\Displays\CanNotUpdate.json
+  ..\Implem.Pleasanter\App_Data\Displays\CantSetAtTopOfSite.json
+  ..\Implem.Pleasanter\App_Data\Displays\Change.json
+  ..\Implem.Pleasanter\App_Data\Displays\ChangeHistoryList.json
+  ..\Implem.Pleasanter\App_Data\Displays\ChangePassword.json
+  ..\Implem.Pleasanter\App_Data\Displays\ChangingPasswordComplete.json
+  ..\Implem.Pleasanter\App_Data\Displays\CharacterCode.json
+  ..\Implem.Pleasanter\App_Data\Displays\ChatWork.json
+  ..\Implem.Pleasanter\App_Data\Displays\Check.json
+  ..\Implem.Pleasanter\App_Data\Displays\CheckAll.json
+  ..\Implem.Pleasanter\App_Data\Displays\Class.json
+  ..\Implem.Pleasanter\App_Data\Displays\Classification.json
+  ..\Implem.Pleasanter\App_Data\Displays\Clear.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerBackupCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerCssCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerDefCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerErrorCount.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerInsertTestDataCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerMvcCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\CodeDefinerRdsCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Column.json
+  ..\Implem.Pleasanter\App_Data\Displays\ColumnAccessControl.json
+  ..\Implem.Pleasanter\App_Data\Displays\ColumnList.json
+  ..\Implem.Pleasanter\App_Data\Displays\CommentDeleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Comments.json
+  ..\Implem.Pleasanter\App_Data\Displays\CommentUpdated.json
+  ..\Implem.Pleasanter\App_Data\Displays\CommercialLicense.json
+  ..\Implem.Pleasanter\App_Data\Displays\Condition.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmCreateLink.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmDelete.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmDeleteSite.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmPhysicalDelete.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmRebuildSearchIndex.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmReset.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmRestore.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmSendMail.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmSeparate.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmSwitchUser.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmSynchronize.json
+  ..\Implem.Pleasanter\App_Data\Displays\ConfirmUnload.json
+  ..\Implem.Pleasanter\App_Data\Displays\Contact.json
+  ..\Implem.Pleasanter\App_Data\Displays\ControlType.json
+  ..\Implem.Pleasanter\App_Data\Displays\Copied.json
+  ..\Implem.Pleasanter\App_Data\Displays\Copy.json
+  ..\Implem.Pleasanter\App_Data\Displays\CopyByDefault.json
+  ..\Implem.Pleasanter\App_Data\Displays\CopySettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\CopyToNew.json
+  ..\Implem.Pleasanter\App_Data\Displays\CopyWithComments.json
+  ..\Implem.Pleasanter\App_Data\Displays\CorporatePlanning.json
+  ..\Implem.Pleasanter\App_Data\Displays\Count.json
+  ..\Implem.Pleasanter\App_Data\Displays\Create.json
+  ..\Implem.Pleasanter\App_Data\Displays\CreateColumnAccessControl.json
+  ..\Implem.Pleasanter\App_Data\Displays\Created.json
+  ..\Implem.Pleasanter\App_Data\Displays\CreatedTime.json
+  ..\Implem.Pleasanter\App_Data\Displays\Crosstab.json
+  ..\Implem.Pleasanter\App_Data\Displays\Csv.json
+  ..\Implem.Pleasanter\App_Data\Displays\CsvFile.json
+  ..\Implem.Pleasanter\App_Data\Displays\Currency.json
+  ..\Implem.Pleasanter\App_Data\Displays\CurrentMembers.json
+  ..\Implem.Pleasanter\App_Data\Displays\CurrentPassword.json
+  ..\Implem.Pleasanter\App_Data\Displays\CurrentSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\Custom.json
+  ..\Implem.Pleasanter\App_Data\Displays\CustomDesign.json
+  ..\Implem.Pleasanter\App_Data\Displays\Customer.json
+  ..\Implem.Pleasanter\App_Data\Displays\Daily.json
+  ..\Implem.Pleasanter\App_Data\Displays\DatabaseSize.json
+  ..\Implem.Pleasanter\App_Data\Displays\DataStorageDestination.json
+  ..\Implem.Pleasanter\App_Data\Displays\DataView.json
+  ..\Implem.Pleasanter\App_Data\Displays\Date.json
+  ..\Implem.Pleasanter\App_Data\Displays\DateFilterSetMode.json
+  ..\Implem.Pleasanter\App_Data\Displays\DateFilterSetModeDefault.json
+  ..\Implem.Pleasanter\App_Data\Displays\DateFilterSetModeRange.json
+  ..\Implem.Pleasanter\App_Data\Displays\DateRange.json
+  ..\Implem.Pleasanter\App_Data\Displays\Day.json
+  ..\Implem.Pleasanter\App_Data\Displays\DayAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\DayOfWeek.json
+  ..\Implem.Pleasanter\App_Data\Displays\DaysAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\DecimalPlaces.json
+  ..\Implem.Pleasanter\App_Data\Displays\Default.json
+  ..\Implem.Pleasanter\App_Data\Displays\DefaultAddressBook.json
+  ..\Implem.Pleasanter\App_Data\Displays\DefaultDestinations.json
+  ..\Implem.Pleasanter\App_Data\Displays\DefaultInput.json
+  ..\Implem.Pleasanter\App_Data\Displays\DefaultView.json
+  ..\Implem.Pleasanter\App_Data\Displays\DefinitionNotFound.json
+  ..\Implem.Pleasanter\App_Data\Displays\Delay.json
+  ..\Implem.Pleasanter\App_Data\Displays\Delete.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeleteConflicts.json
+  ..\Implem.Pleasanter\App_Data\Displays\Deleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeletedImage.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeletedTime.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeleteFromTrashBox.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeleteHistory.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeletePermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\Deleter.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeleteSite.json
+  ..\Implem.Pleasanter\App_Data\Displays\DemoMailBody.json
+  ..\Implem.Pleasanter\App_Data\Displays\DemoMailTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\DeptAdmin.json
+  ..\Implem.Pleasanter\App_Data\Displays\Description.json
+  ..\Implem.Pleasanter\App_Data\Displays\Destination.json
+  ..\Implem.Pleasanter\App_Data\Displays\Difference.json
+  ..\Implem.Pleasanter\App_Data\Displays\Direct.json
+  ..\Implem.Pleasanter\App_Data\Displays\DirectUrlCopied.json
+  ..\Implem.Pleasanter\App_Data\Displays\Disabled.json
+  ..\Implem.Pleasanter\App_Data\Displays\DisableStartGuide.json
+  ..\Implem.Pleasanter\App_Data\Displays\DisplayName.json
+  ..\Implem.Pleasanter\App_Data\Displays\Duplicated.json
+  ..\Implem.Pleasanter\App_Data\Displays\EarnedValue.json
+  ..\Implem.Pleasanter\App_Data\Displays\Edit.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditInDialog.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditInGrid.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditMode.json
+  ..\Implem.Pleasanter\App_Data\Displays\Editor.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditorFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditorSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditProfile.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditScript.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\EditStyle.json
+  ..\Implem.Pleasanter\App_Data\Displays\Education.json
+  ..\Implem.Pleasanter\App_Data\Displays\EmptyUserName.json
+  ..\Implem.Pleasanter\App_Data\Displays\Enabled.json
+  ..\Implem.Pleasanter\App_Data\Displays\End.json
+  ..\Implem.Pleasanter\App_Data\Displays\EndOfMonth.json
+  ..\Implem.Pleasanter\App_Data\Displays\EnterTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\Error.json
+  ..\Implem.Pleasanter\App_Data\Displays\Excel.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExcludeData.json
+  ..\Implem.Pleasanter\App_Data\Displays\Expired.json
+  ..\Implem.Pleasanter\App_Data\Displays\Export.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportAccepted.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportColumns.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportEmailBody.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportEmailBodyFaild.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportEmailTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportEmailTitleFaild.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportExecutionType.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportNotSetEmail.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportSitePackage.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExportTypes.json
+  ..\Implem.Pleasanter\App_Data\Displays\Expression.json
+  ..\Implem.Pleasanter\App_Data\Displays\ExternalMailAddress.json
+  Implem.IRds -> C:\D\Dev\blog\mig\p_2_蜈・Rds\Implem.IRds\bin\Debug\netstandard2.0\Implem.IRds.dll
+  ..\Implem.Pleasanter\App_Data\Displays\FailedReadFile.json
+  ..\Implem.Pleasanter\App_Data\Displays\Faq.json
+  ..\Implem.Pleasanter\App_Data\Displays\File.json
+  ..\Implem.Pleasanter\App_Data\Displays\FileDeleteCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\FileDragDrop.json
+  ..\Implem.Pleasanter\App_Data\Displays\FileNotFound.json
+  ..\Implem.Pleasanter\App_Data\Displays\FileUpdateCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Filters.json
+  ..\Implem.Pleasanter\App_Data\Displays\FilterSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\FirstDay.json
+  ..\Implem.Pleasanter\App_Data\Displays\Folder.json
+  ..\Implem.Pleasanter\App_Data\Displays\ForceUnlockTable.json
+  ..\Implem.Pleasanter\App_Data\Displays\Format.json
+  ..\Implem.Pleasanter\App_Data\Displays\Formulas.json
+  ..\Implem.Pleasanter\App_Data\Displays\Friday.json
+  ..\Implem.Pleasanter\App_Data\Displays\From.json
+  ..\Implem.Pleasanter\App_Data\Displays\Fulltext.json
+  ..\Implem.Pleasanter\App_Data\Displays\Fy.json
+  ..\Implem.Pleasanter\App_Data\Displays\Gantt.json
+  ..\Implem.Pleasanter\App_Data\Displays\General.json
+  ..\Implem.Pleasanter\App_Data\Displays\GeneralUser.json
+  ..\Implem.Pleasanter\App_Data\Displays\GoBack.json
+  Implem.SupportTools.Common -> C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\Common\bin\Debug\net10.0\Implem.SupportTools.Common.dll
+  ..\Implem.Pleasanter\App_Data\Displays\Grid.json
+  ..\Implem.Pleasanter\App_Data\Displays\GridEditorTypes.json
+  ..\Implem.Pleasanter\App_Data\Displays\GridFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\GridScript.json
+  ..\Implem.Pleasanter\App_Data\Displays\GridStyle.json
+  ..\Implem.Pleasanter\App_Data\Displays\GroupAdmin.json
+  ..\Implem.Pleasanter\App_Data\Displays\GroupBy.json
+  ..\Implem.Pleasanter\App_Data\Displays\GroupByX.json
+  ..\Implem.Pleasanter\App_Data\Displays\GroupByY.json
+  ..\Implem.Pleasanter\App_Data\Displays\Half1.json
+  ..\Implem.Pleasanter\App_Data\Displays\Half2.json
+  ..\Implem.Pleasanter\App_Data\Displays\HasBeenDeleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\HasBeenMoved.json
+  ..\Implem.Pleasanter\App_Data\Displays\HasNotPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\Hidden.json
+  ..\Implem.Pleasanter\App_Data\Displays\Hide.json
+  ..\Implem.Pleasanter\App_Data\Displays\HideList.json
+  ..\Implem.Pleasanter\App_Data\Displays\Histories.json
+  ..\Implem.Pleasanter\App_Data\Displays\HistoryDeleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\HistoryOnGrid.json
+  ..\Implem.Pleasanter\App_Data\Displays\HourAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\HoursAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\HtmlTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\HumanResourcesAndGeneralAffairs.json
+  ..\Implem.Pleasanter\App_Data\Displays\Hyphen.json
+  ..\Implem.Pleasanter\App_Data\Displays\Icon.json
+  ..\Implem.Pleasanter\App_Data\Displays\Id.json
+  ..\Implem.Pleasanter\App_Data\Displays\ImageAndText.json
+  ..\Implem.Pleasanter\App_Data\Displays\ImageLib.json
+  ..\Implem.Pleasanter\App_Data\Displays\ImageOnly.json
+  ..\Implem.Pleasanter\App_Data\Displays\Import.json
+  ..\Implem.Pleasanter\App_Data\Displays\Imported.json
+  ..\Implem.Pleasanter\App_Data\Displays\ImportMax.json
+  ..\Implem.Pleasanter\App_Data\Displays\ImportSitePackage.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncludeColumnPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncludeData.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncludePermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncludeRecordPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncludeSitePermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\Incomplete.json
+  ..\Implem.Pleasanter\App_Data\Displays\InCompression.json
+  ..\Implem.Pleasanter\App_Data\Displays\InCopying.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncorrectCurrentPassword.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncorrectFileFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\IncorrectSiteDeleting.json
+  ..\Implem.Pleasanter\App_Data\Displays\Index.json
+  ..\Implem.Pleasanter\App_Data\Displays\InformationSystem.json
+  ..\Implem.Pleasanter\App_Data\Displays\InheritPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\InputMailAddress.json
+  ..\Implem.Pleasanter\App_Data\Displays\InternalServerError.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvalidCsvData.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvalidFormula.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvalidIpAddress.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvalidRequest.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvalidSsoCode.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvitationMailBody.json
+  ..\Implem.Pleasanter\App_Data\Displays\InvitationMailTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\Invite.json
+  ..\Implem.Pleasanter\App_Data\Displays\Invited.json
+  ..\Implem.Pleasanter\App_Data\Displays\InviteMessage.json
+  ..\Implem.Pleasanter\App_Data\Displays\Inviting.json
+  ..\Implem.Pleasanter\App_Data\Displays\ItemsLimit.json
+  ..\Implem.Pleasanter\App_Data\Displays\JoeAccountCheck.json
+  ..\Implem.Pleasanter\App_Data\Displays\Json.json
+  ..\Implem.Pleasanter\App_Data\Displays\Kamban.json
+  ..\Implem.Pleasanter\App_Data\Displays\Latest.json
+  ..\Implem.Pleasanter\App_Data\Displays\Leader.json
+  ..\Implem.Pleasanter\App_Data\Displays\LegalAffairs.json
+  ..\Implem.Pleasanter\App_Data\Displays\LessThan.json
+  ..\Implem.Pleasanter\App_Data\Displays\License.json
+  ..\Implem.Pleasanter\App_Data\Displays\LicenseDeadline.json
+  ..\Implem.Pleasanter\App_Data\Displays\Licensee.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterDay.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterDays.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterHour.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterHours.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterMinute.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterMinutes.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterMonth.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterMonths.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterSecond.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterSeconds.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterYear.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitAfterYears.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeDay.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeDays.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeHour.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeHours.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMinute.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMinutes.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMonth.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMonths.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeSecond.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeSeconds.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeYear.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitBeforeYears.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitJust.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitQuantity.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitSize.json
+  ..\Implem.Pleasanter\App_Data\Displays\LimitTotalSize.json
+  ..\Implem.Pleasanter\App_Data\Displays\Line.json
+  ..\Implem.Pleasanter\App_Data\Displays\LineGroup.json
+  ..\Implem.Pleasanter\App_Data\Displays\LinkColumn.json
+  ..\Implem.Pleasanter\App_Data\Displays\LinkCreated.json
+  ..\Implem.Pleasanter\App_Data\Displays\LinkCreations.json
+  ..\Implem.Pleasanter\App_Data\Displays\LinkDestinations.json
+  ..\Implem.Pleasanter\App_Data\Displays\Links.json
+  ..\Implem.Pleasanter\App_Data\Displays\LinkSources.json
+  ..\Implem.Pleasanter\App_Data\Displays\List.json
+  ..\Implem.Pleasanter\App_Data\Displays\ListMode.json
+  ..\Implem.Pleasanter\App_Data\Displays\ListSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\LockTable.json
+  ..\Implem.Pleasanter\App_Data\Displays\LockWarning.json
+  ..\Implem.Pleasanter\App_Data\Displays\Login.json
+  ..\Implem.Pleasanter\App_Data\Displays\LoginIdAlreadyUse.json
+  Implem.IRds -> C:\D\Dev\blog\mig\p_2_蜈・Rds\Implem.IRds\bin\Debug\net10.0\Implem.IRds.dll
+  ..\Implem.Pleasanter\App_Data\Displays\LoginIn.json
+  ..\Implem.Pleasanter\App_Data\Displays\Logistics.json
+  ..\Implem.Pleasanter\App_Data\Displays\LogoImage.json
+  ..\Implem.Pleasanter\App_Data\Displays\Logout.json
+  ..\Implem.Pleasanter\App_Data\Displays\Mail.json
+  ..\Implem.Pleasanter\App_Data\Displays\MailAddress.json
+  ..\Implem.Pleasanter\App_Data\Displays\MailAddressHasNotSet.json
+  ..\Implem.Pleasanter\App_Data\Displays\MailNotify.json
+  ..\Implem.Pleasanter\App_Data\Displays\MailTransmissionCompletion.json
+  ..\Implem.Pleasanter\App_Data\Displays\Manage.json
+  ..\Implem.Pleasanter\App_Data\Displays\ManageFolder.json
+  ..\Implem.Pleasanter\App_Data\Displays\ManagePermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\ManagePermissions.json
+  ..\Implem.Pleasanter\App_Data\Displays\Manager.json
+  ..\Implem.Pleasanter\App_Data\Displays\ManageSite.json
+  ..\Implem.Pleasanter\App_Data\Displays\ManageTable.json
+  ..\Implem.Pleasanter\App_Data\Displays\ManageWiki.json
+  ..\Implem.Pleasanter\App_Data\Displays\Manufacture.json
+  ..\Implem.Pleasanter\App_Data\Displays\MarkDown.json
+  ..\Implem.Pleasanter\App_Data\Displays\Marketing.json
+  ..\Implem.Pleasanter\App_Data\Displays\MatchInFrontOfTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\Max.json
+  ..\Implem.Pleasanter\App_Data\Displays\MaxColumns.json
+  ..\Implem.Pleasanter\App_Data\Displays\Md.json
+  ..\Implem.Pleasanter\App_Data\Displays\MdFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\Members.json
+  ..\Implem.Pleasanter\App_Data\Displays\Menu.json
+  ..\Implem.Pleasanter\App_Data\Displays\MenuGuide.json
+  ..\Implem.Pleasanter\App_Data\Displays\Min.json
+  ..\Implem.Pleasanter\App_Data\Displays\MinuteAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\MinutesAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\Monday.json
+  ..\Implem.Pleasanter\App_Data\Displays\MonitorChangesColumns.json
+  ..\Implem.Pleasanter\App_Data\Displays\Month.json
+  ..\Implem.Pleasanter\App_Data\Displays\MonthAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\Monthly.json
+  ..\Implem.Pleasanter\App_Data\Displays\MonthsAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\Move.json
+  ..\Implem.Pleasanter\App_Data\Displays\Moved.json
+  ..\Implem.Pleasanter\App_Data\Displays\MoveDown.json
+  ..\Implem.Pleasanter\App_Data\Displays\MoveSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\MoveTargetsSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\MoveUp.json
+  ..\Implem.Pleasanter\App_Data\Displays\Name.json
+  ..\Implem.Pleasanter\App_Data\Displays\NearCompletionTime.json
+  ..\Implem.Pleasanter\App_Data\Displays\NearCompletionTimeAfterDays.json
+  ..\Implem.Pleasanter\App_Data\Displays\NearCompletionTimeBeforeDays.json
+  ..\Implem.Pleasanter\App_Data\Displays\New.json
+  ..\Implem.Pleasanter\App_Data\Displays\Newer.json
+  ..\Implem.Pleasanter\App_Data\Displays\NewScript.json
+  ..\Implem.Pleasanter\App_Data\Displays\NewStyle.json
+  ..\Implem.Pleasanter\App_Data\Displays\Next.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoClassification.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoData.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoDataSearchCond.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoDuplication.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoLinks.json
+  ..\Implem.Pleasanter\App_Data\Displays\Normal.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoTargetRecord.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotFound.json
+  ..\Implem.Pleasanter\App_Data\Displays\Notifications.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotificationType.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotInheritPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotOutput.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotRequiredColumn.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotSendIfNotApplicable.json
+  ..\Implem.Pleasanter\App_Data\Displays\NotSet.json
+  ..\Implem.Pleasanter\App_Data\Displays\NoWrap.json
+  ..\Implem.Pleasanter\App_Data\Displays\Num.json
+  ..\Implem.Pleasanter\App_Data\Displays\NumberPerPage.json
+  ..\Implem.Pleasanter\App_Data\Displays\NumberWeekly.json
+  ..\Implem.Pleasanter\App_Data\Displays\NumericColumn.json
+  ..\Implem.Pleasanter\App_Data\Displays\NumericRange.json
+  ..\Implem.Pleasanter\App_Data\Displays\Off.json
+  ..\Implem.Pleasanter\App_Data\Displays\OK.json
+  ..\Implem.Pleasanter\App_Data\Displays\Older.json
+  ..\Implem.Pleasanter\App_Data\Displays\On.json
+  ..\Implem.Pleasanter\App_Data\Displays\OnAndOff.json
+  ..\Implem.Pleasanter\App_Data\Displays\OnOnly.json
+  ..\Implem.Pleasanter\App_Data\Displays\Operations.json
+  ..\Implem.Pleasanter\App_Data\Displays\OptionList.json
+  ..\Implem.Pleasanter\App_Data\Displays\Or.json
+  ..\Implem.Pleasanter\App_Data\Displays\OrderAsc.json
+  ..\Implem.Pleasanter\App_Data\Displays\OrderDesc.json
+  ..\Implem.Pleasanter\App_Data\Displays\OrderRelease.json
+  ..\Implem.Pleasanter\App_Data\Displays\OriginalMessage.json
+  ..\Implem.Pleasanter\App_Data\Displays\Others.json
+  ..\Implem.Pleasanter\App_Data\Displays\OutgoingMail.json
+  ..\Implem.Pleasanter\App_Data\Displays\OutOfCondition.json
+  ..\Implem.Pleasanter\App_Data\Displays\Output.json
+  ..\Implem.Pleasanter\App_Data\Displays\OutputDestination.json
+  ..\Implem.Pleasanter\App_Data\Displays\OutputHeader.json
+  ..\Implem.Pleasanter\App_Data\Displays\Over.json
+  ..\Implem.Pleasanter\App_Data\Displays\Overdue.json
+  ..\Implem.Pleasanter\App_Data\Displays\OverLimitApi.json
+  ..\Implem.Pleasanter\App_Data\Displays\OverLimitQuantity.json
+  ..\Implem.Pleasanter\App_Data\Displays\OverLimitSize.json
+  ..\Implem.Pleasanter\App_Data\Displays\OverTenantStorageSize.json
+  ..\Implem.Pleasanter\App_Data\Displays\OverTotalLimitSize.json
+  ..\Implem.Pleasanter\App_Data\Displays\Own.json
+  ..\Implem.Pleasanter\App_Data\Displays\ParameterSyntaxError.json
+  ..\Implem.Pleasanter\App_Data\Displays\PartialMatch.json
+  ..\Implem.Pleasanter\App_Data\Displays\Password.json
+  ..\Implem.Pleasanter\App_Data\Displays\PasswordNotChanged.json
+  ..\Implem.Pleasanter\App_Data\Displays\PasswordPolicyViolation.json
+  ..\Implem.Pleasanter\App_Data\Displays\PasswordResetCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Pattern.json
+  ..\Implem.Pleasanter\App_Data\Displays\Period.json
+  ..\Implem.Pleasanter\App_Data\Displays\PeriodType.json
+  ..\Implem.Pleasanter\App_Data\Displays\PermissionDestination.json
+  ..\Implem.Pleasanter\App_Data\Displays\PermissionForCreating.json
+  ..\Implem.Pleasanter\App_Data\Displays\PermissionNotSelfChange.json
+  ..\Implem.Pleasanter\App_Data\Displays\PermissionSetting.json
+  ..\Implem.Pleasanter\App_Data\Displays\PermissionSource.json
+  ..\Implem.Pleasanter\App_Data\Displays\PhysicalDeleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Plan.json
+  ..\Implem.Pleasanter\App_Data\Displays\PlannedValue.json
+  ..\Implem.Pleasanter\App_Data\Displays\Portal.json
+  ..\Implem.Pleasanter\App_Data\Displays\Prefix.json
+  ..\Implem.Pleasanter\App_Data\Displays\Previous.json
+  ..\Implem.Pleasanter\App_Data\Displays\ProductList.json
+  ..\Implem.Pleasanter\App_Data\Displays\ProductName.json
+  ..\Implem.Pleasanter\App_Data\Displays\Project.json
+  ..\Implem.Pleasanter\App_Data\Displays\Publish.json
+  ..\Implem.Pleasanter\App_Data\Displays\PublishToAnonymousUsers.json
+  ..\Implem.Pleasanter\App_Data\Displays\PublishWarning.json
+  ..\Implem.Pleasanter\App_Data\Displays\Purchase.json
+  ..\Implem.Pleasanter\App_Data\Displays\Quantity.json
+  ..\Implem.Pleasanter\App_Data\Displays\Quarter.json
+  ..\Implem.Pleasanter\App_Data\Displays\Range.json
+  ..\Implem.Pleasanter\App_Data\Displays\Read.json
+  ..\Implem.Pleasanter\App_Data\Displays\ReadColumnAccessControl.json
+  ..\Implem.Pleasanter\App_Data\Displays\ReadOnly.json
+  ..\Implem.Pleasanter\App_Data\Displays\ReadOnlyBecausePreviousVer.json
+  ..\Implem.Pleasanter\App_Data\Displays\ReadWrite.json
+  ..\Implem.Pleasanter\App_Data\Displays\RebuildingCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\RebuildSearchIndexes.json
+  ..\Implem.Pleasanter\App_Data\Displays\RecordAccessControl.json
+  ..\Implem.Pleasanter\App_Data\Displays\ReCreate.json
+  ..\Implem.Pleasanter\App_Data\Displays\Register.json
+  ..\Implem.Pleasanter\App_Data\Displays\RelatingColumn.json
+  ..\Implem.Pleasanter\App_Data\Displays\RelatingColumnSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\Reload.json
+  ..\Implem.Pleasanter\App_Data\Displays\Reminders.json
+  ..\Implem.Pleasanter\App_Data\Displays\Reply.json
+  ..\Implem.Pleasanter\App_Data\Displays\RequestingApproval.json
+  ..\Implem.Pleasanter\App_Data\Displays\Required.json
+  ..\Implem.Pleasanter\App_Data\Displays\RequiredPermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\RequireMailAddresses.json
+  ..\Implem.Pleasanter\App_Data\Displays\RequireManagePermission.json
+  ..\Implem.Pleasanter\App_Data\Displays\RequireTo.json
+  ..\Implem.Pleasanter\App_Data\Displays\ResearchAndDevelopment.json
+  ..\Implem.Pleasanter\App_Data\Displays\Reset.json
+  ..\Implem.Pleasanter\App_Data\Displays\ResetOrder.json
+  ..\Implem.Pleasanter\App_Data\Displays\ResetPassword.json
+  ..\Implem.Pleasanter\App_Data\Displays\Restore.json
+  ..\Implem.Pleasanter\App_Data\Displays\RestoredFromHistory.json
+  ..\Implem.Pleasanter\App_Data\Displays\Restricted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Row.json
+  ..\Implem.Pleasanter\App_Data\Displays\Sales.json
+  ..\Implem.Pleasanter\App_Data\Displays\SamlLoginFailed.json
+  ..\Implem.Pleasanter\App_Data\Displays\SamplesDisplayed.json
+  ..\Implem.Pleasanter\App_Data\Displays\Saturday.json
+  ..\Implem.Pleasanter\App_Data\Displays\Save.json
+  ..\Implem.Pleasanter\App_Data\Displays\SaveViewNone.json
+  ..\Implem.Pleasanter\App_Data\Displays\SaveViewSession.json
+  ..\Implem.Pleasanter\App_Data\Displays\SaveViewType.json
+  ..\Implem.Pleasanter\App_Data\Displays\SaveViewUser.json
+  ..\Implem.Pleasanter\App_Data\Displays\Script.json
+  ..\Implem.Pleasanter\App_Data\Displays\Scripts.json
+  ..\Implem.Pleasanter\App_Data\Displays\Search.json
+  ..\Implem.Pleasanter\App_Data\Displays\SearchSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\SearchTypes.json
+  ..\Implem.Pleasanter\App_Data\Displays\SecondsAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\Section.json
+  ..\Implem.Pleasanter\App_Data\Displays\Select.json
+  ..\Implem.Pleasanter\App_Data\Displays\SelectableMembers.json
+  ..\Implem.Pleasanter\App_Data\Displays\SelectFile.json
+  ..\Implem.Pleasanter\App_Data\Displays\SelectOne.json
+  ..\Implem.Pleasanter\App_Data\Displays\SelectTargets.json
+  ..\Implem.Pleasanter\App_Data\Displays\SelectTemplate.json
+  ..\Implem.Pleasanter\App_Data\Displays\Send.json
+  ..\Implem.Pleasanter\App_Data\Displays\SendCompletedInPast.json
+  ..\Implem.Pleasanter\App_Data\Displays\SendMail.json
+  ..\Implem.Pleasanter\App_Data\Displays\SentAcceptanceMail .json
+  ..\Implem.Pleasanter\App_Data\Displays\SentMail.json
+  ..\Implem.Pleasanter\App_Data\Displays\Separate.json
+  ..\Implem.Pleasanter\App_Data\Displays\Separated.json
+  ..\Implem.Pleasanter\App_Data\Displays\SeparateNumber.json
+  ..\Implem.Pleasanter\App_Data\Displays\SeparateSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\Setting.json
+  ..\Implem.Pleasanter\App_Data\Displays\SetZeroWhenOutOfCondition.json
+  ..\Implem.Pleasanter\App_Data\Displays\ShortDisplayName.json
+  ..\Implem.Pleasanter\App_Data\Displays\ShowHistory.json
+  ..\Implem.Pleasanter\App_Data\Displays\ShowProgressRate.json
+  ..\Implem.Pleasanter\App_Data\Displays\ShowStartGuide.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteAccessControl.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteId.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteImageSettingsEditor.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteIntegration.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteName.json
+  ..\Implem.Pleasanter\App_Data\Displays\SitePackage.json
+  ..\Implem.Pleasanter\App_Data\Displays\SitePackageImported.json
+  ..\Implem.Pleasanter\App_Data\Displays\SitesCreated.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\SitesLimit.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteTitle.json
+  ..\Implem.Pleasanter\App_Data\Displays\SiteUser.json
+  ..\Implem.Pleasanter\App_Data\Displays\Slack.json
+  ..\Implem.Pleasanter\App_Data\Displays\SortBy.json
+  ..\Implem.Pleasanter\App_Data\Displays\Sorters.json
+  ..\Implem.Pleasanter\App_Data\Displays\Special.json
+  ..\Implem.Pleasanter\App_Data\Displays\Spinner.json
+  ..\Implem.Pleasanter\App_Data\Displays\Standard.json
+  ..\Implem.Pleasanter\App_Data\Displays\Start.json
+  ..\Implem.Pleasanter\App_Data\Displays\StartDate.json
+  ..\Implem.Pleasanter\App_Data\Displays\StartDateTime.json
+  ..\Implem.Pleasanter\App_Data\Displays\Status.json
+  ..\Implem.Pleasanter\App_Data\Displays\Step.json
+  ..\Implem.Pleasanter\App_Data\Displays\Storage.json
+  ..\Implem.Pleasanter\App_Data\Displays\StorageCapacity.json
+  ..\Implem.Pleasanter\App_Data\Displays\Store.json
+  ..\Implem.Pleasanter\App_Data\Displays\Style.json
+  ..\Implem.Pleasanter\App_Data\Displays\Styles.json
+  ..\Implem.Pleasanter\App_Data\Displays\Subject.json
+  ..\Implem.Pleasanter\App_Data\Displays\SuffixCopy.json
+  ..\Implem.Pleasanter\App_Data\Displays\Summaries.json
+  ..\Implem.Pleasanter\App_Data\Displays\SummaryLinkColumn.json
+  ..\Implem.Pleasanter\App_Data\Displays\SummarySourceColumn.json
+  ..\Implem.Pleasanter\App_Data\Displays\SummaryType.json
+  ..\Implem.Pleasanter\App_Data\Displays\Sunday.json
+  ..\Implem.Pleasanter\App_Data\Displays\Support.json
+  ..\Implem.Pleasanter\App_Data\Displays\SwitchRecordWithAjax.json
+  ..\Implem.Pleasanter\App_Data\Displays\SwitchToCommercialLicense.json
+  ..\Implem.Pleasanter\App_Data\Displays\SwitchUser.json
+  ..\Implem.Pleasanter\App_Data\Displays\SwitchUserInfo.json
+  ..\Implem.Pleasanter\App_Data\Displays\SynchronizationCompleted.json
+  ..\Implem.Pleasanter\App_Data\Displays\Synchronize.json
+  ..\Implem.Pleasanter\App_Data\Displays\Tables.json
+  ..\Implem.Pleasanter\App_Data\Displays\Target.json
+  ..\Implem.Pleasanter\App_Data\Displays\Teams.json
+  ..\Implem.Pleasanter\App_Data\Displays\Template.json
+  ..\Implem.Pleasanter\App_Data\Displays\TenantAdmin.json
+  ..\Implem.Pleasanter\App_Data\Displays\TenantImageType.json
+  ..\Implem.Pleasanter\App_Data\Displays\Test.json
+  ..\Implem.Pleasanter\App_Data\Displays\ThisMonth.json
+  ..\Implem.Pleasanter\App_Data\Displays\Thursday.json
+  ..\Implem.Pleasanter\App_Data\Displays\TimeSeries.json
+  ..\Implem.Pleasanter\App_Data\Displays\Title.json
+  ..\Implem.Pleasanter\App_Data\Displays\TitleSeparator.json
+  ..\Implem.Pleasanter\App_Data\Displays\To.json
+  ..\Implem.Pleasanter\App_Data\Displays\ToDay.json
+  ..\Implem.Pleasanter\App_Data\Displays\ToDisable.json
+  ..\Implem.Pleasanter\App_Data\Displays\ToEnable.json
+  ..\Implem.Pleasanter\App_Data\Displays\Token.json
+  ..\Implem.Pleasanter\App_Data\Displays\TooManyCases.json
+  ..\Implem.Pleasanter\App_Data\Displays\TooManyColumnCases.json
+  ..\Implem.Pleasanter\App_Data\Displays\TooManyRowCases.json
+  ..\Implem.Pleasanter\App_Data\Displays\Top.json
+  ..\Implem.Pleasanter\App_Data\Displays\ToParent.json
+  ..\Implem.Pleasanter\App_Data\Displays\ToShoot.json
+  ..\Implem.Pleasanter\App_Data\Displays\Total.json
+  ..\Implem.Pleasanter\App_Data\Displays\TrashBox.json
+  ..\Implem.Pleasanter\App_Data\Displays\Tuesday.json
+  ..\Implem.Pleasanter\App_Data\Displays\Unauthorized.json
+  ..\Implem.Pleasanter\App_Data\Displays\UncheckAll.json
+  ..\Implem.Pleasanter\App_Data\Displays\Unit.json
+  ..\Implem.Pleasanter\App_Data\Displays\UnlockTable.json
+  ..\Implem.Pleasanter\App_Data\Displays\UpdatableImport.json
+  ..\Implem.Pleasanter\App_Data\Displays\Update.json
+  ..\Implem.Pleasanter\App_Data\Displays\UpdateColumnAccessControl.json
+  ..\Implem.Pleasanter\App_Data\Displays\UpdateConflicts.json
+  ..\Implem.Pleasanter\App_Data\Displays\Updated.json
+  ..\Implem.Pleasanter\App_Data\Displays\UpdatedByGrid.json
+  ..\Implem.Pleasanter\App_Data\Displays\UpdatedTime.json
+  ..\Implem.Pleasanter\App_Data\Displays\Upload.json
+  ..\Implem.Pleasanter\App_Data\Displays\UsageGuide.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseCustomDesign.json
+  ..\Implem.Pleasanter\App_Data\Displays\UsedRateStorageCapacity.json
+  ..\Implem.Pleasanter\App_Data\Displays\UsedStorageCapacity.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseFiltersArea.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseFy.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseGridHeaderFilters.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseHalf.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseIndentOption.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseMonth.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseQuarter.json
+  ..\Implem.Pleasanter\App_Data\Displays\UserAdmin.json
+  ..\Implem.Pleasanter\App_Data\Displays\UserDisabled.json
+  ..\Implem.Pleasanter\App_Data\Displays\UserLockout.json
+  ..\Implem.Pleasanter\App_Data\Displays\UserNotSelfDelete.json
+  ..\Implem.Pleasanter\App_Data\Displays\UsersLimit.json
+  ..\Implem.Pleasanter\App_Data\Displays\UserSwitched.json
+  ..\Implem.Pleasanter\App_Data\Displays\UseSearch.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateDate.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateEmail.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateEqualTo.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateMaxLength.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateMaxNumber.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateMinNumber.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateNumber.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidateRequired.json
+  ..\Implem.Pleasanter\App_Data\Displays\ValidationError.json
+  ..\Implem.Pleasanter\App_Data\Displays\Value.json
+  ..\Implem.Pleasanter\App_Data\Displays\Version.json
+  ..\Implem.Pleasanter\App_Data\Displays\VerUp.json
+  ..\Implem.Pleasanter\App_Data\Displays\View.json
+  ..\Implem.Pleasanter\App_Data\Displays\ViewDemoEnvironment.json
+  ..\Implem.Pleasanter\App_Data\Displays\ViewSettings.json
+  ..\Implem.Pleasanter\App_Data\Displays\Wednesday.json
+  ..\Implem.Pleasanter\App_Data\Displays\Week.json
+  ..\Implem.Pleasanter\App_Data\Displays\Weekly.json
+  ..\Implem.Pleasanter\App_Data\Displays\Wide.json
+  ..\Implem.Pleasanter\App_Data\Displays\WorkValue.json
+  ..\Implem.Pleasanter\App_Data\Displays\Year.json
+  ..\Implem.Pleasanter\App_Data\Displays\Yearly.json
+  ..\Implem.Pleasanter\App_Data\Displays\YearsAgo.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ym.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ymd.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ymda.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdaFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ymdahm.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdahmFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ymdahms.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdahmsFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdDatePickerFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ymdhm.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdhmDatePickerFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdhmFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\Ymdhms.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmdhmsFormat.json
+  ..\Implem.Pleasanter\App_Data\Displays\YmFormat.json
+  ..\Implem.Pleasanter\App_Data\Histories\History_20191124171625E68364EB473548869CDF746F4C3FDEE6.zip
+  ..\Implem.Pleasanter\App_Data\Histories\History_2019112417163865EED81ABE8347028CC4C203B57CBF28.zip
+  ..\Implem.Pleasanter\App_Data\Licenses\Implem.License.dll
+  ..\Implem.Pleasanter\App_Data\Logs\Performance02A4091356C249DFAB31D0148F14E807.csv
+  ..\Implem.Pleasanter\App_Data\Logs\Performance75A4C64052354FDA95AA8F3CDECBDC37.csv
+  ..\Implem.Pleasanter\App_Data\Logs\Performance7DEF20697D2B44F28831C663173C9201.csv
+  ..\Implem.Pleasanter\App_Data\Parameters\Api.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Authentication.json
+  ..\Implem.Pleasanter\App_Data\Parameters\BackgroundTask.json
+  ..\Implem.Pleasanter\App_Data\Parameters\BinaryStorage.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Deleted.json
+  ..\Implem.Pleasanter\App_Data\Parameters\General.json
+  ..\Implem.Pleasanter\App_Data\Parameters\History.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Mail.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Notification.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Parameter.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Permissions.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Rds.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Registration.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Reminder.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Search.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Security.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Service.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Session.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Site.json
+  ..\Implem.Pleasanter\App_Data\Parameters\SysLog.json
+  ..\Implem.Pleasanter\App_Data\Parameters\Version.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Attachments.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Check.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Class.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Date.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Description.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Num.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumns\Issues.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumns\Results.json
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedScripts\Sample.js.txt
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedSqls\Sample.json.txt
+  ..\Implem.Pleasanter\App_Data\Parameters\ExtendedStyles\Sample.css.txt
+  833 蛟九・繝輔ぃ繧､繝ｫ繧偵さ繝斐・縺励∪縺励◆
+  Implem.SqlServer -> C:\D\Dev\blog\mig\p_2_蜈・Rds\Implem.SqlServer\bin\Debug\netstandard2.0\Implem.SqlServer.dll
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Abstractions 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Memory 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Mvc 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Razor 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.Core 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.WebHost 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebPages 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.Web.Infrastructure 1.0.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'SendGrid.SmtpApi 1.3.3' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Sustainsys.Saml2.Mvc 2.11.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Xml.Linq 3.5.21022.801' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+  Implem.PostgreSql -> C:\D\Dev\blog\mig\p_2_蜈・Rds\Implem.PostgreSql\bin\Debug\netstandard2.0\Implem.PostgreSql.dll
+  Implem.DisplayAccessor -> C:\D\Dev\blog\mig\p_2_蜈・Implem.DisplayAccessor\bin\Debug\netstandard2.0\Implem.DisplayAccessor.dll
+C:\Program Files\dotnet\sdk\10.0.101\Microsoft.Common.CurrentVersion.targets(1889,5): warning NU1702: ProjectReference 'C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter\Implem.Pleasanter.csproj' 縺ｯ縲√・繝ｭ繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ '.NETCoreApp,Version=v10.0' 縺ｧ縺ｯ縺ｪ縺上・.NETFramework,Version=v4.7.2' 繧剃ｽｿ逕ｨ縺励※隗｣豎ｺ縺輔ｌ縺ｾ縺励◆縲ゅ％縺ｮ繝励Ο繧ｸ繧ｧ繧ｯ繝医・縲√＃閾ｪ霄ｫ縺ｮ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj]
+  Implem.ParameterAccessor -> C:\D\Dev\blog\mig\p_2_蜈・Implem.ParameterAccessor\bin\Debug\netstandard2.0\Implem.ParameterAccessor.dll
+  Implem.SqlServer -> C:\D\Dev\blog\mig\p_2_蜈・Rds\Implem.SqlServer\bin\Debug\net10.0\Implem.SqlServer.dll
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(11,22): error CS0234: 蝙九∪縺溘・蜷榊燕遨ｺ髢薙・蜷榊燕 'Imaging' 縺悟錐蜑咲ｩｺ髢・'System.Drawing' 縺ｫ蟄伜惠縺励∪縺帙ｓ (繧｢繧ｻ繝ｳ繝悶Μ蜿ら・縺後≠繧九％縺ｨ繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞) [C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(122,33): error CS0234: 蝙九∪縺溘・蜷榊燕遨ｺ髢薙・蜷榊燕 'Image' 縺悟錐蜑咲ｩｺ髢・'System.Drawing' 縺ｫ蟄伜惠縺励∪縺帙ｓ (繧｢繧ｻ繝ｳ繝悶Μ蜿ら・縺後≠繧九％縺ｨ繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞) [C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(124,13): error CS0246: 蝙九∪縺溘・蜷榊燕遨ｺ髢薙・蜷榊燕 'ImageFormat' 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆ (using 繝・ぅ繝ｬ繧ｯ繝・ぅ繝悶∪縺溘・繧｢繧ｻ繝ｳ繝悶Μ蜿ら・縺梧欠螳壹＆繧後※縺・ｋ縺薙→繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞) [C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Classes\Performance.cs(63,30): warning CS0672: 繝｡繝ｳ繝舌・ 'PerformanceCollection.GetObjectData(SerializationInfo, StreamingContext)' 縺ｯ蜿､縺・ｽ｢蠑上・繝｡繝ｳ繝舌・ 'Dictionary<string, Performance>.GetObjectData(SerializationInfo, StreamingContext)' 繧偵が繝ｼ繝舌・繝ｩ繧､繝峨＠縺ｾ縺吶０bsolete 螻樊ｧ繧・'PerformanceCollection.GetObjectData(SerializationInfo, StreamingContext)' 縺ｫ霑ｽ蜉縺励※縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Classes\XlsIo.cs(163,30): warning CS0672: 繝｡繝ｳ繝舌・ 'XlsRow.GetObjectData(SerializationInfo, StreamingContext)' 縺ｯ蜿､縺・ｽ｢蠑上・繝｡繝ｳ繝舌・ 'Dictionary<string, string>.GetObjectData(SerializationInfo, StreamingContext)' 繧偵が繝ｼ繝舌・繝ｩ繧､繝峨＠縺ｾ縺吶０bsolete 螻樊ｧ繧・'XlsRow.GetObjectData(SerializationInfo, StreamingContext)' 縺ｫ霑ｽ蜉縺励※縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(122,33): error CS1069: 蝙句錐 'Image' 縺ｯ蜷榊燕遨ｺ髢・'System.Drawing' 縺ｫ隕九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆縲ゅ％縺ｮ蝙九・繧｢繧ｻ繝ｳ繝悶Μ 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' 縺ｫ霆｢騾√＆繧後∪縺励◆縲ゅ％縺ｮ繧｢繧ｻ繝ｳ繝悶Μ縺ｸ縺ｮ蜿ら・繧定ｿｽ蜉縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(124,13): error CS1069: 蝙句錐 'ImageFormat' 縺ｯ蜷榊燕遨ｺ髢・'System.Drawing.Imaging' 縺ｫ隕九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆縲ゅ％縺ｮ蝙九・繧｢繧ｻ繝ｳ繝悶Μ 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' 縺ｫ霆｢騾√＆繧後∪縺励◆縲ゅ％縺ｮ繧｢繧ｻ繝ｳ繝悶Μ縺ｸ縺ｮ蜿ら・繧定ｿｽ蜉縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+  Implem.Factory -> C:\D\Dev\blog\mig\p_2_蜈・Implem.Factory\bin\Debug\netstandard2.0\Implem.Factory.dll
+
+繝薙Ν繝峨↓螟ｱ謨励＠縺ｾ縺励◆縲・
+
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.IO.FileSystem.Primitives 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.CodeDefiner.NetCore\Implem.CodeDefiner.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.ValueTuple 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Abstractions 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Memory 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj [C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Mvc 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Razor 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.Core 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.WebHost 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebPages 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.Web.Infrastructure 1.0.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'SendGrid.SmtpApi 1.3.3' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Sustainsys.Saml2.Mvc 2.11.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Xml.Linq 3.5.21022.801' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter\Implem.Pleasanter.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj [C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.sln]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.CodeDefiner.NetCore\Implem.CodeDefiner.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.IO.FileSystem.Primitives 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.ValueTuple 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.IO.FileSystem.Primitives 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj : warning NU1510: PackageReference System.ValueTuple 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter\Implem.Pleasanter.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(158,5): warning NETSDK1137: Microsoft.NET.Sdk.WindowsDesktop SDK 繧剃ｽｿ逕ｨ縺吶ｋ蠢・ｦ√・縺ｪ縺上↑繧翫∪縺励◆縲ゅΝ繝ｼ繝・繝励Ο繧ｸ繧ｧ繧ｯ繝郁ｦ∫ｴ縺ｮ SDK 螻樊ｧ繧・'Microsoft.NET.Sdk' 縺ｫ螟画峩縺吶ｋ縺薙→繧偵＃讀懆ｨ弱￥縺縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\LdapSyncTester\Implem.SupportTools.LdapSyncTester.csproj]
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(158,5): warning NETSDK1137: Microsoft.NET.Sdk.WindowsDesktop SDK 繧剃ｽｿ逕ｨ縺吶ｋ蠢・ｦ√・縺ｪ縺上↑繧翫∪縺励◆縲ゅΝ繝ｼ繝・繝励Ο繧ｸ繧ｧ繧ｯ繝郁ｦ∫ｴ縺ｮ SDK 螻樊ｧ繧・'Microsoft.NET.Sdk' 縺ｫ螟画峩縺吶ｋ縺薙→繧偵＃讀懆ｨ弱￥縺縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\MailTester\Implem.SupportTools.MailTester.csproj]
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(158,5): warning NETSDK1137: Microsoft.NET.Sdk.WindowsDesktop SDK 繧剃ｽｿ逕ｨ縺吶ｋ蠢・ｦ√・縺ｪ縺上↑繧翫∪縺励◆縲ゅΝ繝ｼ繝・繝励Ο繧ｸ繧ｧ繧ｯ繝郁ｦ∫ｴ縺ｮ SDK 螻樊ｧ繧・'Microsoft.NET.Sdk' 縺ｫ螟画峩縺吶ｋ縺薙→繧偵＃讀懆ｨ弱￥縺縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\SysLogViewer\Implem.SupportTools.SysLogViewer.csproj]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Abstractions 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference Microsoft.Extensions.Caching.Memory 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages 縺ｯ蜿悶ｊ髯､縺九ｌ縺ｾ縺帙ｓ縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ荳崎ｦ√〒縺ゅｋ蜿ｯ閭ｽ諤ｧ縺後≠繧九◆繧√∽ｾ晏ｭ倬未菫ゅ°繧牙炎髯､縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1904: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Drawing.Common' 4.7.0 縺ｫ譌｢遏･縺ｮ 繧ｯ繝ｪ繝・ぅ繧ｫ繝ｫ 驥榊､ｧ蠎ｦ縺ｮ閼・ｼｱ諤ｧ縺後≠繧翫∪縺吶”ttps://github.com/advisories/GHSA-rxg9-xrhp-64gj
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Mvc 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.Razor 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.Core 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebApi.WebHost 5.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.AspNet.WebPages 3.2.7' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Microsoft.Web.Infrastructure 1.0.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'SendGrid.SmtpApi 1.3.3' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'Sustainsys.Saml2.Mvc 2.11.0' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj : warning NU1701: 繝代ャ繧ｱ繝ｼ繧ｸ 'System.Xml.Linq 3.5.21022.801' 縺ｯ繝励Ο繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ 'net10.0' 縺ｧ縺ｯ縺ｪ縺・'.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' 繧剃ｽｿ逕ｨ縺励※蠕ｩ蜈・＆繧後∪縺励◆縲ゅ％縺ｮ繝代ャ繧ｱ繝ｼ繧ｸ縺ｯ縲∽ｽｿ逕ｨ縺励※縺・ｋ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・
+C:\Program Files\dotnet\sdk\10.0.101\Microsoft.Common.CurrentVersion.targets(1889,5): warning NU1702: ProjectReference 'C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter\Implem.Pleasanter.csproj' 縺ｯ縲√・繝ｭ繧ｸ繧ｧ繧ｯ繝医・繧ｿ繝ｼ繧ｲ繝・ヨ 繝輔Ξ繝ｼ繝繝ｯ繝ｼ繧ｯ '.NETCoreApp,Version=v10.0' 縺ｧ縺ｯ縺ｪ縺上・.NETFramework,Version=v4.7.2' 繧剃ｽｿ逕ｨ縺励※隗｣豎ｺ縺輔ｌ縺ｾ縺励◆縲ゅ％縺ｮ繝励Ο繧ｸ繧ｧ繧ｯ繝医・縲√＃閾ｪ霄ｫ縺ｮ繝励Ο繧ｸ繧ｧ繧ｯ繝医→縺ｮ螳悟・縺ｪ莠呈鋤諤ｧ縺後↑縺・庄閭ｽ諤ｧ縺後≠繧翫∪縺吶・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetCore\Implem.Pleasanter.NetCore.csproj]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Classes\Performance.cs(63,30): warning CS0672: 繝｡繝ｳ繝舌・ 'PerformanceCollection.GetObjectData(SerializationInfo, StreamingContext)' 縺ｯ蜿､縺・ｽ｢蠑上・繝｡繝ｳ繝舌・ 'Dictionary<string, Performance>.GetObjectData(SerializationInfo, StreamingContext)' 繧偵が繝ｼ繝舌・繝ｩ繧､繝峨＠縺ｾ縺吶０bsolete 螻樊ｧ繧・'PerformanceCollection.GetObjectData(SerializationInfo, StreamingContext)' 縺ｫ霑ｽ蜉縺励※縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Classes\XlsIo.cs(163,30): warning CS0672: 繝｡繝ｳ繝舌・ 'XlsRow.GetObjectData(SerializationInfo, StreamingContext)' 縺ｯ蜿､縺・ｽ｢蠑上・繝｡繝ｳ繝舌・ 'Dictionary<string, string>.GetObjectData(SerializationInfo, StreamingContext)' 繧偵が繝ｼ繝舌・繝ｩ繧､繝峨＠縺ｾ縺吶０bsolete 螻樊ｧ繧・'XlsRow.GetObjectData(SerializationInfo, StreamingContext)' 縺ｫ霑ｽ蜉縺励※縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Pleasanter.NetFramework\Implem.Pleasanter.NetFramework.csproj(575,3): error MSB4019: 繧､繝ｳ繝昴・繝医＆繧後◆繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\Program Files\dotnet\sdk\10.0.101\Microsoft\VisualStudio\v18.0\WebApplications\Microsoft.WebApplication.targets" 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆縲・C:\Program Files\dotnet\sdk\10.0.101\Microsoft\VisualStudio\v18.0\WebApplications\Microsoft.WebApplication.targets" 縺ｫ隧穂ｾ｡縺輔ｌ縺・Import 螳｣險 "$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" 縺ｮ蠑上′豁｣縺励＞縺薙→縺ｨ縲√ヵ繧｡繧､繝ｫ縺後ョ繧｣繧ｹ繧ｯ荳翫↓蟄伜惠縺吶ｋ縺薙→繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞縲・
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.NET.Sdk.WindowsDesktop.targets(111,5): error NETSDK1022: 驥崎､・☆繧・'Page' 蛟九・繧｢繧､繝・Β縺悟性繧√ｉ繧後∪縺励◆縲・NET SDK 縺ｫ縺ｯ縲∵里螳壹〒繝励Ο繧ｸ繧ｧ繧ｯ繝・繝・ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮ繧｢繧､繝・Β縺・'Page' 蛟句性縺ｾ繧後※縺・∪縺吶ゅ％繧後ｉ縺ｮ繧｢繧､繝・Β繧偵・繝ｭ繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺九ｉ蜑企勁縺吶ｋ縺九・EnableDefaultPageItems' 繝励Ο繝代ユ繧｣繧・'false' 縺ｫ險ｭ螳壹＠縺ｦ繝励Ο繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺ｫ譏守､ｺ逧・↓蜷ｫ繧√ｋ縺薙→縺後〒縺阪∪縺吶りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/sdkimplicititems 繧偵＃隕ｧ縺上□縺輔＞縲る㍾隍・☆繧九い繧､繝・Β縺ｯ縲・LdapSyncTesterWindow.xaml' 縺ｧ縺励◆縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\LdapSyncTester\Implem.SupportTools.LdapSyncTester.csproj]
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.NET.Sdk.WindowsDesktop.targets(111,5): error NETSDK1022: 驥崎､・☆繧・'Page' 蛟九・繧｢繧､繝・Β縺悟性繧√ｉ繧後∪縺励◆縲・NET SDK 縺ｫ縺ｯ縲∵里螳壹〒繝励Ο繧ｸ繧ｧ繧ｯ繝・繝・ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮ繧｢繧､繝・Β縺・'Page' 蛟句性縺ｾ繧後※縺・∪縺吶ゅ％繧後ｉ縺ｮ繧｢繧､繝・Β繧偵・繝ｭ繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺九ｉ蜑企勁縺吶ｋ縺九・EnableDefaultPageItems' 繝励Ο繝代ユ繧｣繧・'false' 縺ｫ險ｭ螳壹＠縺ｦ繝励Ο繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺ｫ譏守､ｺ逧・↓蜷ｫ繧√ｋ縺薙→縺後〒縺阪∪縺吶りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/sdkimplicititems 繧偵＃隕ｧ縺上□縺輔＞縲る㍾隍・☆繧九い繧､繝・Β縺ｯ縲・View\MailTesterWindow.xaml' 縺ｧ縺励◆縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\MailTester\Implem.SupportTools.MailTester.csproj]
+C:\Program Files\dotnet\sdk\10.0.101\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.NET.Sdk.WindowsDesktop.targets(111,5): error NETSDK1022: 驥崎､・☆繧・'Page' 蛟九・繧｢繧､繝・Β縺悟性繧√ｉ繧後∪縺励◆縲・NET SDK 縺ｫ縺ｯ縲∵里螳壹〒繝励Ο繧ｸ繧ｧ繧ｯ繝・繝・ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮ繧｢繧､繝・Β縺・'Page' 蛟句性縺ｾ繧後※縺・∪縺吶ゅ％繧後ｉ縺ｮ繧｢繧､繝・Β繧偵・繝ｭ繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺九ｉ蜑企勁縺吶ｋ縺九・EnableDefaultPageItems' 繝励Ο繝代ユ繧｣繧・'false' 縺ｫ險ｭ螳壹＠縺ｦ繝励Ο繧ｸ繧ｧ繧ｯ繝・繝輔ぃ繧､繝ｫ縺ｫ譏守､ｺ逧・↓蜷ｫ繧√ｋ縺薙→縺後〒縺阪∪縺吶りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/sdkimplicititems 繧偵＃隕ｧ縺上□縺輔＞縲る㍾隍・☆繧九い繧､繝・Β縺ｯ縲・View\DetailWindow.xaml'; 'View\SysLogViewerWindow.xaml' 縺ｧ縺励◆縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.SupportTools\SysLogViewer\Implem.SupportTools.SysLogViewer.csproj]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(11,22): error CS0234: 蝙九∪縺溘・蜷榊燕遨ｺ髢薙・蜷榊燕 'Imaging' 縺悟錐蜑咲ｩｺ髢・'System.Drawing' 縺ｫ蟄伜惠縺励∪縺帙ｓ (繧｢繧ｻ繝ｳ繝悶Μ蜿ら・縺後≠繧九％縺ｨ繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞) [C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(122,33): error CS0234: 蝙九∪縺溘・蜷榊燕遨ｺ髢薙・蜷榊燕 'Image' 縺悟錐蜑咲ｩｺ髢・'System.Drawing' 縺ｫ蟄伜惠縺励∪縺帙ｓ (繧｢繧ｻ繝ｳ繝悶Μ蜿ら・縺後≠繧九％縺ｨ繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞) [C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(124,13): error CS0246: 蝙九∪縺溘・蜷榊燕遨ｺ髢薙・蜷榊燕 'ImageFormat' 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆ (using 繝・ぅ繝ｬ繧ｯ繝・ぅ繝悶∪縺溘・繧｢繧ｻ繝ｳ繝悶Μ蜿ら・縺梧欠螳壹＆繧後※縺・ｋ縺薙→繧堤｢ｺ隱阪＠縺ｦ縺上□縺輔＞) [C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=netstandard2.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(122,33): error CS1069: 蝙句錐 'Image' 縺ｯ蜷榊燕遨ｺ髢・'System.Drawing' 縺ｫ隕九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆縲ゅ％縺ｮ蝙九・繧｢繧ｻ繝ｳ繝悶Μ 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' 縺ｫ霆｢騾√＆繧後∪縺励◆縲ゅ％縺ｮ繧｢繧ｻ繝ｳ繝悶Μ縺ｸ縺ｮ蜿ら・繧定ｿｽ蜉縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Utilities\Files.cs(124,13): error CS1069: 蝙句錐 'ImageFormat' 縺ｯ蜷榊燕遨ｺ髢・'System.Drawing.Imaging' 縺ｫ隕九▽縺九ｊ縺ｾ縺帙ｓ縺ｧ縺励◆縲ゅ％縺ｮ蝙九・繧｢繧ｻ繝ｳ繝悶Μ 'System.Drawing.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' 縺ｫ霆｢騾√＆繧後∪縺励◆縲ゅ％縺ｮ繧｢繧ｻ繝ｳ繝悶Μ縺ｸ縺ｮ蜿ら・繧定ｿｽ蜉縺吶ｋ縺薙→繧呈､懆ｨ弱＠縺ｦ縺上□縺輔＞縲・[C:\D\Dev\blog\mig\p_2_蜈・Implem.Libraries\Implem.Libraries.csproj::TargetFramework=net10.0]
+    42 蛟九・隴ｦ蜻・
+    9 繧ｨ繝ｩ繝ｼ
+
+邨碁℃譎る俣 00:00:05.61

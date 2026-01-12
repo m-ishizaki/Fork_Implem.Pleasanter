@@ -1,0 +1,9 @@
+﻿{
+    "DisableTopSiteCreation": false,
+    "DisableMovingFromTopSite": false,
+    "DisableGroupAdmin": false,
+    "DisableGroupCreation": false,
+    "DisableApi": false,
+    "SelectorToolTip": "LoginId",
+    "Theme": "cerulean"
+}

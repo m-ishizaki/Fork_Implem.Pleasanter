@@ -1,0 +1,4 @@
+﻿if (refreshSiteInfo)
+{
+    SiteInfo.Refresh(context: context);
+}

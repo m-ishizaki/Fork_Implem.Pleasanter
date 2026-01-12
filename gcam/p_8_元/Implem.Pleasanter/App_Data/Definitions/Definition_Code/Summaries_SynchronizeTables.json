@@ -1,0 +1,7 @@
+﻿{
+    "Id": "Summaries_SynchronizeTables",
+    "RepeatType": "Table",
+    "Indent": "2",
+    "ItemOnly": "1",
+    "Exclude": "Sites,Wikis,Dashboards"
+}

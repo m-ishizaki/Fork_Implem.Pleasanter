@@ -1,0 +1,8 @@
+﻿{
+    "Id": "HtmlLinks_TableCases",
+    "RepeatType": "Table",
+    "Indent": "7",
+    "Separator": "\\r\\n",
+    "ItemOnly": "1",
+    "Exclude": "Sites,Wikis,Dashboards"
+}

@@ -1,0 +1,70 @@
+﻿public void ExecuteAutomaticNumbering(
+    Context context,
+    SiteSettings ss)
+{
+    ss.Columns
+        .Where(column => !column.AutoNumberingFormat.IsNullOrEmpty())
+        .Where(column => !column.Joined)
+        .ForEach(column => ExecuteAutomaticNumbering(
+            context: context,
+            ss: ss,
+            autoNumbering: new AutoNumbering()
+            {
+                ColumnName = column.ColumnName,
+                Format = column.AutoNumberingFormat,
+                ResetType = column.AutoNumberingResetType,
+                Default = column.AutoNumberingDefault,
+                Step = column.AutoNumberingStep
+            }));
+}
+
+private void ExecuteAutomaticNumbering(
+    Context context,
+    SiteSettings ss,
+    AutoNumbering autoNumbering,
+    bool overwrite = true)
+{
+    if (autoNumbering == null)
+    {
+        return;
+    }
+    var column = ss.GetColumn(
+        context: context,
+        columnName: autoNumbering.ColumnName);
+    if (column == null)
+    {
+        return;
+    }
+    if (!overwrite
+        && !GetValue(
+            context: context,
+            column: column).IsNullOrEmpty())
+    {
+        return;
+    }
+    SetByForm(
+        context: context,
+        ss: ss,
+        formData: new Dictionary<string, string>()
+        {
+            {
+                $"#TableName#_{autoNumbering.ColumnName}",
+                AutoNumberingUtilities.ExecuteAutomaticNumbering(
+                    context: context,
+                    ss: ss,
+                    autoNumbering: autoNumbering,
+                    data: ss.IncludedColumns(value: autoNumbering.Format)
+                        .ToDictionary(
+                            o => o.ColumnName,
+                            o => ToDisplay(
+                                context: context,
+                                ss: ss,
+                                column: o,
+                                mine: Mine(context: context))),
+                    updateModel: Rds.Update#TableName#(
+                        where: Rds.#TableName#Where()
+                            .SiteId(SiteId)
+                            .#ModelName#Id(#ModelName#Id)))
+            }
+        });
+}

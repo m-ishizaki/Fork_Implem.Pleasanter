@@ -1,0 +1,30 @@
+﻿{
+    "Id": "Id",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "ID"
+        },
+        {
+            "Language": "zh",
+            "Body": "ID"
+        },
+        {
+            "Language": "de",
+            "Body": "ICH WÜRDE"
+        },
+        {
+            "Language": "ko",
+            "Body": "ID"
+        },
+        {
+            "Language": "es",
+            "Body": "Identificación"
+        },
+        {
+            "Language": "vn",
+            "Body": "ID"
+        }
+    ]
+}

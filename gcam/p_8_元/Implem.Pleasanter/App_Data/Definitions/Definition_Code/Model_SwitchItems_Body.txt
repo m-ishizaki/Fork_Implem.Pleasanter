@@ -1,0 +1,976 @@
+﻿public string Index(Context context)
+{
+    if (ReferenceId == 0)
+    {
+        return SiteUtilities.SiteTop(context: context);
+    }
+    if (ReferenceType != "Sites")
+    {
+        return HtmlTemplates.Error(
+            context: context,
+            errorData: new ErrorData(
+                context: context,
+                type: Error.Types.NotFound,
+                sysLogsStatus: 404,
+                sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+        case "Sites":
+            return SiteUtilities.SiteMenu(context: context, siteModel: Site);
+
+<!--Model_IndexCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string IndexJson(Context context)
+{
+    if (ReferenceType != "Sites")
+    {
+        return Messages.ResponseNotFound(context: context).ToJson();
+    }
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_IndexJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string TrashBox(Context context)
+{
+    if (ReferenceId != 0 && ReferenceType != "Sites")
+    {
+        return HtmlTemplates.Error(
+            context: context,
+            errorData: new ErrorData(
+                context: context,
+                type: Error.Types.NotFound,
+                sysLogsStatus: 404,
+                sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        tableType: Sqls.TableTypes.Deleted);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    if (ReferenceId == 0)
+    {
+        if (!context.HasPrivilege)
+        {
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+        }
+        return SiteUtilities.TrashBox(
+            context: context,
+            ss: Site.SiteSettings);
+    }
+    if (!context.CanManageSite(ss: Site.SiteSettings))
+    {
+        return HtmlTemplates.Error(
+            context: context,
+            errorData: new ErrorData(
+                context: context,
+                type: Error.Types.NotFound,
+                sysLogsStatus: 404,
+                sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_TrashBoxCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string TrashBoxJson(Context context)
+{
+    if (ReferenceId != 0 && ReferenceType != "Sites")
+    {
+        return Messages.ResponseNotFound(context: context).ToJson();
+    }
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        tableType: Sqls.TableTypes.Deleted);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    if (ReferenceId == 0)
+    {
+        if (!context.HasPrivilege)
+        {
+            return Messages.ResponseNotFound(context: context).ToJson();
+        }
+        return SiteUtilities.TrashBoxJson(
+            context: context,
+            ss: Site.SiteSettings);
+    }
+    if (!context.CanManageSite(ss: Site.SiteSettings))
+    {
+        return Messages.ResponseNotFound(context: context).ToJson();
+    }
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_TrashBoxJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string Calendar(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_CalendarCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string CalendarJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    if (Site.ReferenceType != "Dashboards")
+    {
+        ViewModes.Set(context: context, siteId: Site.SiteId);
+    }
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_CalendarJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string Crosstab(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_CrosstabCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string CrosstabJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_CrosstabJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string DashboardPartJson(Context context,string dashboardPartId)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    return DashboardUtilities.DashboardPartJson(
+        context: context,
+        ss: Site.SiteSettings,
+        dashboardPartId: dashboardPartId);
+}
+
+public string DashboardPartLayout (Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    return DashboardUtilities.DashboardPartLayout(
+        context: context,
+        ss: Site.SiteSettings);
+}
+
+public string Gantt(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_GanttCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string GanttJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_GanttJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string BurnDown(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_BurnDownCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string BurnDownJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_BurnDownJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string BurnDownRecordDetailsJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_BurnDownRecordDetailsJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string TimeSeries(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_TimeSeriesCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string TimeSeriesJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_TimeSeriesJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+ public string SmartDesignJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_SmartDesignJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string UpdateSmartDesign(Context context, string jsonBody, string referenceType = null)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true);
+    switch (referenceType ?? Site.ReferenceType)
+    {
+        case "Sites":
+        case "Issues":
+        case "Results":
+            return SiteUtilities.UpdateSmartDesign(
+                context: context,
+                ss: Site.SiteSettings,
+                siteModel: Site,
+                jsonBody: jsonBody);
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string Analy(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_AnalyCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string AnalyJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_AnalyJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string OpenAnalyPartDialog(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_OpenAnalyPartDialogCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string Kamban(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_KambanCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string KambanJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_KambanJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string ImageLib(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_ImageLibCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string ImageLibJson(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    ViewModes.Set(context: context, siteId: Site.SiteId);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_ImageLibJsonCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string New(Context context)
+{
+    SetSite(
+        context: context,
+        siteOnly: true,
+        initSiteSettings: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_NewCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string NewJson(Context context)
+{
+    SetSite(
+        context: context,
+        siteOnly: true,
+        initSiteSettings: true);
+    var ss = Site.SiteSettings;
+    var referenceType = Site.ReferenceType;
+    if (!context.QueryStrings.Bool("control-auto-postback"))
+    {
+        Process process = null;
+        if (referenceType == "Issues")
+        {
+            var issueModel = new IssueModel(
+                context: context,
+                ss: ss,
+                issueId: 0);
+            process = Process.GetProcess(
+                context: context,
+                ss: ss,
+                getProcessMatchConditions: (o) => issueModel.GetProcessMatchConditions(
+                    context: context,
+                    ss: ss,
+                    process: o));
+        }
+        else if (referenceType == "Results")
+        {
+            var resultModel = new ResultModel(
+                context: context,
+                ss: ss,
+                resultId: 0);
+            process = Process.GetProcess(
+                context: context,
+                ss: ss,
+                getProcessMatchConditions: (o) => resultModel.GetProcessMatchConditions(
+                    context: context,
+                    ss: ss,
+                    process: o));
+        }
+        return new ResponseCollection(context: context)
+            .ReplaceAll("#MainContainer", New(context: context))
+            .WindowScrollTop()
+            .FocusMainForm()
+            .ClearFormData(_using: process?.ActionType != Libraries.Settings.Process.ActionTypes.PostBack)
+            .PushState("Edit", Locations.Get(
+                context: context,
+                parts: new string[]
+                {
+                    "Items",
+                    ReferenceId.ToString(),
+                    "New"
+                }))
+            .Events("on_editor_load")
+            .ToJson();
+    }
+    else
+    {
+        switch (referenceType)
+        {
+
+<!--Model_NewJsonCases-->
+
+            default:
+                return HtmlTemplates.Error(
+                    context: context,
+                    errorData: new ErrorData(
+                        context: context,
+                        type: Error.Types.NotFound,
+                        sysLogsStatus: 404,
+                        sysLogsDescription: Debugs.GetSysLogsDescription()));
+        }
+    }
+}
+
+public string NewOnGrid(Context context)
+{
+    SetSite(
+        context: context,
+        siteOnly: true,
+        initSiteSettings: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_NewOnGridCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string CancelNewRow(Context context)
+{
+    SetSite(
+        context: context,
+        siteOnly: true,
+        initSiteSettings: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_CancelNewRowCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string Editor(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true);
+    switch (ReferenceType)
+    {
+        case "Sites":
+            return SiteUtilities.Editor(
+                context: context,
+                siteId: ReferenceId,
+                clearSessions: true);
+
+<!--Model_EditorCases-->
+
+        default:
+            return HtmlTemplates.Error(
+                context: context,
+                errorData: new ErrorData(
+                    context: context,
+                    type: Error.Types.NotFound,
+                    sysLogsStatus: 404,
+                    sysLogsDescription: Debugs.GetSysLogsDescription()));
+    }
+}
+
+public string SelectedIds(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_SelectedIds-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+    return Messages.ResponseNotFound(context: context).ToJson();
+}
+
+public string LinkTable(Context context)
+{
+    SetSite(context: context);
+    var dataTableName = context.Forms.Data("TableId");
+    return new ResponseCollection(context: context)
+        .ReplaceAll("#" + dataTableName, new HtmlBuilder()
+            .LinkTable(
+                context: context,
+                siteId: context.Forms.Long("TableSiteId"),
+                direction: context.Forms.Data("Direction"),
+                dataTableName: dataTableName))
+        .ToJson();
+}
+
+public string Import(Context context)
+{
+    SetSite(context: context);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_ImportCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string OpenExportSelectorDialog(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_OpenExportSelectorDialogCases-->
+
+        default:
+            return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string OpenSetNumericRangeDialog(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true);
+    if (context.HasPermission(ss: Site.SiteSettings))
+    {
+        var controlId = context.Forms.ControlId();
+        var columnName = controlId
+            .Substring(controlId.IndexOf("__") + 2)
+            .Replace("_NumericRange", string.Empty);
+        var column = Site.SiteSettings.GetColumn(
+            context: context,
+            columnName: columnName);
+        return new ResponseCollection(context: context)
+            .Html(
+                "#SetNumericRangeDialog",
+                new HtmlBuilder().SetNumericRangeDialog(
+                    context: context,
+                    ss: Site.SiteSettings,
+                    column: column,
+                    itemfilter: true))
+            .ToJson();
+    }
+    else
+    {
+        return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public string OpenSetDateRangeDialog(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true);
+    if (context.HasPermission(ss: Site.SiteSettings))
+    {
+        var controlId = context.Forms.ControlId();
+        var columnName = controlId
+            .Substring(controlId.IndexOf("__") + 2)
+            .Replace("_DateRange", string.Empty);
+        var column = Site.SiteSettings.GetColumn(
+            context: context,
+            columnName: columnName);
+        if (column == null)
+        {
+            Parameters.ExtendedFields.ForEach(extendedField =>
+            {
+                if (extendedField.Name == columnName) column = new Implem.Pleasanter.Libraries.Settings.Column(extendedField.Name);
+            });
+        }
+        return new ResponseCollection(context: context)
+            .Html(
+                "#SetDateRangeDialog",
+                new HtmlBuilder().SetDateRangeDialog(
+                    context: context,
+                    ss: Site.SiteSettings,
+                    column: column,
+                    itemfilter: true))
+            .ToJson();
+    }
+    else
+    {
+        return Messages.ResponseNotFound(context: context).ToJson();
+    }
+}
+
+public ResponseFile Export(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_ExportCases-->
+
+        default:
+            return null;
+    }
+}
+
+public string ExportAndMailNotify(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    var export = Site.SiteSettings.Exports?
+        .Where(exp => exp.Id == context.Forms.Int("ExportId"))?
+        .FirstOrDefault();
+    if(export?.ExecutionType != Libraries.Settings.Export.ExecutionTypes.MailNotify)
+    {
+        return Error.Types.InvalidRequest.MessageJson(context: context);
+    }
+    if (MailAddressUtilities.Get(
+        context: context,
+        userId: context.UserId).IsNullOrEmpty())
+    {
+        return Messages.ResponseExportNotSetEmail(
+            context: context,
+            target: null,
+            $"{context.User.Name}<{context.User.LoginId}>").ToJson();
+    }
+    switch (Site.ReferenceType)
+    {
+        
+<!--Model_ExportAndMailNotifyCases-->
+
+        default:
+            return Error.Types.InvalidRequest.MessageJson(context: context);
+    }
+}
+
+public ResponseFile ExportCrosstab(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true,
+        setAllChoices: true);
+    switch (Site.ReferenceType)
+    {
+
+<!--Model_ExportCrosstabCases-->
+
+        default:
+            return null;
+    }
+}
+
+public string SearchDropDown(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    return DropDowns.SearchDropDown(
+        context: context,
+        ss: Site.SiteSettings);
+}
+
+public string RelatingDropDown(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    return DropDowns.RelatingDropDown(
+        context: context,
+        ss: Site.SiteSettings);
+}
+
+public string SelectSearchDropDown(Context context)
+{
+    SetSite(
+        context: context,
+        initSiteSettings: true,
+        setSiteIntegration: true);
+    return DropDowns.SelectSearchDropDown(
+        context: context,
+        ss: Site.SiteSettings);
+}

@@ -1,0 +1,7 @@
+﻿var errorData = #modelName#Model.Create(
+    context: context,
+    ss: ss,
+    processes: processes,
+    copyFrom: context.Forms.Long("CopyFrom"),
+    notice: true,
+    otherInitValue: copyFrom > 0);

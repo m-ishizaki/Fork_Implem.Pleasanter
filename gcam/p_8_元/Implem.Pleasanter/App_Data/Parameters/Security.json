@@ -1,0 +1,121 @@
+﻿{
+    "AllowIpAddresses": null,
+    "IpRestrictionExcludeMembers": null,
+    "MimeTypeCheckOnApi": false,
+    "PrivilegedUsers": null,
+    "RevealUserDisabled": false,
+    "LockoutCount": 0,
+    "PasswordExpirationPeriod": 0,
+    "JoeAccountCheck": true,
+    "TokenCheck": false,
+    "SecureCookies": false,
+    "DisableMvcResponseHeader": false,
+    "DisableDeletingSiteAuthentication": false,
+    "AccessControlAllowOrigin": null,
+    "EnforcePasswordHistories": 0,
+    "DisableCheckPasswordPolicyIfApi": false,
+    "PasswordPolicies": [
+        {
+            "Enabled": true,
+            "Regex": ".{6,}",
+            "Languages": [
+                {
+                    "Body": "Please enter at least 6 characters for the password."
+                },
+                {
+                    "Language": "ja",
+                    "Body": "パスワードは6文字以上を入力してください。"
+                }
+            ]
+        },
+        {
+            "Enabled": false,
+            "Regex": "[a-z]+",
+            "Languages": [
+                {
+                    "Body": "Please enter at least one lower case alphabetic character in the password."
+                },
+                {
+                    "Language": "ja",
+                    "Body": "パスワードにはアルファベット小文字を1文字以上を入力してください。"
+                }
+            ]
+        },
+        {
+            "Enabled": false,
+            "Regex": "[A-Z]+",
+            "Languages": [
+                {
+                    "Body": "Please enter at least one alphabetic capital letter in the password."
+                },
+                {
+                    "Language": "ja",
+                    "Body": "パスワードにはアルファベット大文字を1文字以上を入力してください。"
+                }
+            ]
+        },
+        {
+            "Enabled": false,
+            "Regex": "[0-9]+",
+            "Languages": [
+                {
+                    "Body": "Please enter one or more digits in the password."
+                },
+                {
+                    "Language": "ja",
+                    "Body": "パスワードには数字を1文字以上を入力してください。"
+                }
+            ]
+        },
+        {
+            "Enabled": false,
+            "Regex": "[^a-zA-Z0-9]+",
+            "Languages": [
+                {
+                    "Body": "Please enter one or more symbols in the password."
+                },
+                {
+                    "Language": "ja",
+                    "Body": "パスワードには記号を1文字以上を入力してください。"
+                }
+            ]
+        }
+    ],
+    "PasswordGenerator": true,
+    "SecondaryAuthentication": {
+        "Mode": "None",
+        "NotificationType": "Mail",
+        "CountTolerances": 1,
+        "NotificationMailBcc": false,
+        "AuthenticationCodeCharacterType": "Number",
+        "AuthenticationCodeLength": 8,
+        "AuthenticationCodeExpirationPeriod": 300
+    },
+    "AspNetCoreDataProtection": {
+        "BlobContainerUri": null,
+        "KeyIdentifier": null,
+        "KeyFileName": "Keys.xml",
+        "XmlAesKey": null
+    },
+    "HttpStrictTransportSecurity": {
+        "Enabled": false,
+        "Preload": false,
+        "IncludeSubDomains": false,
+        "MaxAge": "30.00:00:00",
+        "ExcludeHosts": null
+    },
+    "SecureCacheControl": {
+        "NoCache": false,
+        "NoStore": false,
+        "Private": false,
+        "MustRevalidate": false,
+        "PragmaNoCache": false
+    },
+    "HealthCheck": {
+        "Enabled": false,
+        "EnableDatabaseCheck": false,
+        "HealthQuery": null,
+        "RequireHosts": null,
+        "EnableDetailedResponse": false
+    }
+}

@@ -1,0 +1,50 @@
+﻿private void SetByLookups(
+    Context context,
+    SiteSettings ss,
+    Dictionary<string,string> formData = null,
+    bool copyByDefaultOnly = false)
+{
+    var changedFormData = ss.Links
+        .OrderBy(link => context.ControlledOrder?.Contains($"{ss.ReferenceType}_{link.ColumnName}") == true
+            ? context.ControlledOrder.IndexOf($"{ss.ReferenceType}_{link.ColumnName}")
+            : int.MaxValue)
+        .Where(link => link.Lookups?.Any() == true)
+        .Where(link => PropertyUpdated(
+            context: context,
+            name: link.ColumnName)
+                || context.Forms.ContainsKey($"{ss.ReferenceType}_{link.ColumnName}"))
+        .SelectMany(link => link.Lookups?.LookupData(
+            context: context,
+            ss: ss,
+            link: link,
+            id: PropertyValue(
+                context: context,
+                column: ss.GetColumn(
+                    context: context,
+                    columnName: link.ColumnName)).ToLong(),
+            formData: formData,
+            blankColumns: link.Lookups
+                ?.Select(lookup => ss.GetColumn(
+                    context: context,
+                    columnName: lookup.To))
+                .Where(column => column?.BlankValue(value: AccessStatus == Databases.AccessStatuses.Selected
+                    ? SavedPropertyValue(
+                        context: context,
+                        column: column)
+                    : PropertyValue(
+                        context: context,
+                        column: column)) == true)
+                .Select(column => column.ColumnName)
+                .ToList(),
+            copyByDefaultOnly: copyByDefaultOnly))
+        .GroupBy(o => o.Key)
+        .Select(o => o.FirstOrDefault())
+        .ToDictionary(o => o.Key, o => o.Value);
+    if (changedFormData.Any())
+    {
+        SetByForm(
+            context: context,
+            ss: ss,
+            formData: changedFormData);
+    }
+}

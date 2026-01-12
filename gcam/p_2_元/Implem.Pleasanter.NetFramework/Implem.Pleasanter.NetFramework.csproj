@@ -1,0 +1,2901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FEFBEEF-C7F4-43A4-9A8F-894EB7E4FF3E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Implem.Pleasanter.NetFramework</RootNamespace>
+    <AssemblyName>Implem.Pleasanter.NetFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <ResolveComReferenceSilent>True</ResolveComReferenceSilent>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.92.1.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.92.1\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper, Version=12.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.12.1.2\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.9.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.9.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.3.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.3\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.4.1\lib\net461\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember.Signed, Version=1.4.1.0, Culture=neutral, PublicKeyToken=9e8f22703bef9a29, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.Signed.1.4.1\lib\net461\FastMember.Signed.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SessionState.SessionStateModule, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SessionState.SessionStateModule.1.1.0\lib\Net462\Microsoft.AspNet.SessionState.SessionStateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Debug, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Debug.1.0.0\lib\net451\Microsoft.Extensions.Logging.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.5.4.0\lib\net461\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocols.5.4.0\lib\net461\Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.4.0\lib\net461\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens.Saml, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.Saml.5.4.0\lib\net461\Microsoft.IdentityModel.Tokens.Saml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Xml, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Xml.5.4.0\lib\net461\Microsoft.IdentityModel.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.RedisSessionStateProvider, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.RedisSessionStateProvider.4.0.1\lib\net462\Microsoft.Web.RedisSessionStateProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Novell.Directory.Ldap.NETStandard, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Novell.Directory.Ldap.NETStandard.2.3.8\lib\netstandard1.3\Novell.Directory.Ldap.NETStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=4.0.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.7\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="Pipelines.Sockets.Unofficial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42ea0a778e13fbe2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Pipelines.Sockets.Unofficial.1.0.9\lib\net472\Pipelines.Sockets.Unofficial.dll</HintPath>
+    </Reference>
+    <Reference Include="SendGrid, Version=9.10.0.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sendgrid.9.10.0\lib\net452\SendGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="SendGrid.SmtpApi, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SendGrid.SmtpApi.1.3.3\lib\SendGrid.SmtpApi.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.2.0.519\lib\net472\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis.StrongName, Version=1.2.6.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.StrongName.1.2.6\lib\net46\StackExchange.Redis.StrongName.dll</HintPath>
+    </Reference>
+    <Reference Include="Sustainsys.Saml2, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sustainsys.Saml2.2.2.0\lib\net47\Sustainsys.Saml2.dll</HintPath>
+    </Reference>
+    <Reference Include="Sustainsys.Saml2.Mvc, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sustainsys.Saml2.Mvc.2.2.0\lib\net461\Sustainsys.Saml2.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.0.1\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.5.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.0.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SqlClient, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.6.0\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.PerformanceCounter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.PerformanceCounter.4.5.0\lib\net461\System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Services" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.0.1\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.5.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.4.5.3\lib\netstandard2.0\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.1.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.NameResolution.4.0.0\lib\net46\System.Net.NameResolution.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Security.4.0.0\lib\net46\System.Net.Security.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.1.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.1.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reflection.TypeExtensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.TypeExtensions.4.1.0\lib\net462\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.1.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.1.0\lib\net462\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.4.5.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.5.1\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.1.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Channels.4.5.0\lib\netstandard2.0\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Thread.4.0.0\lib\net46\System.Threading.Thread.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\ApiRouteConfig.cs" />
+    <Compile Include="Controllers\AdminsController.cs" />
+    <Compile Include="Controllers\Api\DeptsController.cs" />
+    <Compile Include="Controllers\Api\GroupsController.cs" />
+    <Compile Include="Controllers\Api\ItemsController.cs" />
+    <Compile Include="Controllers\Api\SessionsController.cs" />
+    <Compile Include="Controllers\Api\UsersController.cs" />
+    <Compile Include="Controllers\Api_DeptsController.cs" />
+    <Compile Include="Controllers\Api_GroupsController.cs" />
+    <Compile Include="Controllers\Api_ItemsController.cs" />
+    <Compile Include="Controllers\Api_UsersController.cs" />
+    <Compile Include="Controllers\PublishBinariesController.cs" />
+    <Compile Include="Controllers\PublishesController.cs" />
+    <Compile Include="Controllers\RegistrationsController.cs" />
+    <Compile Include="Controllers\ReminderSchedulesController.cs" />
+    <Compile Include="Controllers\BackgroundTasksController.cs" />
+    <Compile Include="Controllers\BinariesController.cs" />
+    <Compile Include="Controllers\DemosController.cs" />
+    <Compile Include="Controllers\GroupsController.cs" />
+    <Compile Include="Controllers\DeptsController.cs" />
+    <Compile Include="Controllers\ErrorsController.cs" />
+    <Compile Include="Controllers\ItemsController.cs" />
+    <Compile Include="Controllers\OutgoingMailsController.cs" />
+    <Compile Include="Controllers\ResourcesController.cs" />
+    <Compile Include="Controllers\TenantsController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Controllers\VersionsController.cs" />
+    <Compile Include="Filters\PublishesAttributes.cs" />
+    <Compile Include="Filters\CheckContextAttributes.cs" />
+    <Compile Include="Filters\HandleErrorExAttribute.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Libraries\Requests\Context.cs" />
+    <Compile Include="Libraries\Requests\HttpPostedFile.cs" />
+    <Compile Include="Libraries\Responses\ApiResults.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\BackgroundTasks.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Content Include="App_Data\Definitions\Sqls\PostgreSQL\CreateFullText.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Definitions\Sqls\PostgreSQL\SelectPkName.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Definitions\Sqls\SQLServer\CreateFullText.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Definitions\Sqls\SQLServer\SelectPkName.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Licenses\Implem.License.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Global.asax" />
+    <Content Include="Tools\DbBackup.vbs" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Implem.DefinitionAccessor\Implem.DefinitionAccessor.csproj">
+      <Project>{c082a0d7-13c6-4d8a-9735-3c302e81b280}</Project>
+      <Name>Implem.DefinitionAccessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implem.DisplayAccessor\Implem.DisplayAccessor.csproj">
+      <Project>{68a8c5c4-db19-4edd-b1c2-7722e19e5d7a}</Project>
+      <Name>Implem.DisplayAccessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implem.Factory\Implem.Factory.csproj">
+      <Project>{34f5c4bd-1ce6-40c1-bd84-3ba965615453}</Project>
+      <Name>Implem.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implem.Libraries\Implem.Libraries.csproj">
+      <Project>{cbe3ee93-92e6-4347-842f-de597048da29}</Project>
+      <Name>Implem.Libraries</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implem.ParameterAccessor\Implem.ParameterAccessor.csproj">
+      <Project>{43ca1830-2e4d-4137-898e-9c3c1b104baf}</Project>
+      <Name>Implem.ParameterAccessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implem.Pleasanter\Implem.Pleasanter.csproj">
+      <Project>{87025b44-c7c0-402d-bcb4-5797bda54dde}</Project>
+      <Name>Implem.Pleasanter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rds\Implem.IRds\Implem.IRds.csproj">
+      <Project>{c2ac0af2-9cb2-4341-87ae-4dcee66d06eb}</Project>
+      <Name>Implem.IRds</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Parameters\Version.json" />
+    <Content Include="App_Data\Parameters\Registration.json" />
+    <Content Include="App_Data\Displays\AGPL.json" />
+    <Content Include="App_Data\Displays\AllowBulkUpdate.json" />
+    <Content Include="App_Data\Displays\AllowLockTable.json" />
+    <Content Include="App_Data\Displays\AllowSeparate.json" />
+    <Content Include="App_Data\Displays\AlwaysRequestSearchCondition.json" />
+    <Content Include="App_Data\Displays\Approval.json" />
+    <Content Include="App_Data\Displays\ApprovalMailBody.json" />
+    <Content Include="App_Data\Displays\ApprovalMailTitle.json" />
+    <Content Include="App_Data\Displays\ApprovalMessage.json" />
+    <Content Include="App_Data\Displays\ApprovalMessageInvited.json" />
+    <Content Include="App_Data\Displays\ApprovalMessageInviting.json" />
+    <Content Include="App_Data\Displays\ApprovalRequest.json" />
+    <Content Include="App_Data\Displays\ApprovalRequestMailBody.json" />
+    <Content Include="App_Data\Displays\ApprovalRequestMailTitle.json" />
+    <Content Include="App_Data\Displays\ApprovalRequestMessage.json" />
+    <Content Include="App_Data\Displays\ApprovalRequestMessageRequesting.json" />
+    <Content Include="App_Data\Displays\BulkUpdate.json" />
+    <Content Include="App_Data\Displays\BulkUpdatedEmailBody.json" />
+    <Content Include="App_Data\Displays\BulkUpdatedEmailTitle.json" />
+    <Content Include="App_Data\Displays\CodeDefinerErrorCount.json" />
+    <Content Include="App_Data\Displays\CommercialLicense.json" />
+    <Content Include="App_Data\Displays\Direct.json" />
+    <Content Include="App_Data\Displays\ExportAccepted.json" />
+    <Content Include="App_Data\Displays\ExportEmailBody.json" />
+    <Content Include="App_Data\Displays\ExportEmailBodyFaild.json" />
+    <Content Include="App_Data\Displays\ExportEmailTitle.json" />
+    <Content Include="App_Data\Displays\ExportEmailTitleFaild.json" />
+    <Content Include="App_Data\Displays\ExportExecutionType.json" />
+    <Content Include="App_Data\Displays\ExportNotSetEmail.json" />
+    <Content Include="App_Data\Displays\HistoryOnGrid.json" />
+    <Content Include="App_Data\Displays\HtmlTitle.json" />
+    <Content Include="App_Data\Displays\InvitationMailBody.json" />
+    <Content Include="App_Data\Displays\InvitationMailTitle.json" />
+    <Content Include="App_Data\Displays\Invite.json" />
+    <Content Include="App_Data\Displays\Invited.json" />
+    <Content Include="App_Data\Displays\InviteMessage.json" />
+    <Content Include="App_Data\Displays\Inviting.json" />
+    <Content Include="App_Data\Displays\License.json" />
+    <Content Include="App_Data\Displays\LicenseDeadline.json" />
+    <Content Include="App_Data\Displays\Licensee.json" />
+    <Content Include="App_Data\Displays\MailNotify.json" />
+    <Content Include="App_Data\Displays\NoDataSearchCond.json" />
+    <Content Include="App_Data\Displays\NumericRange.json" />
+    <Content Include="App_Data\Displays\OverLimitApi.json" />
+    <Content Include="App_Data\Displays\RequestingApproval.json" />
+    <Content Include="App_Data\Displays\RequireManagePermission.json" />
+    <Content Include="App_Data\Displays\Status.json" />
+    <Content Include="App_Data\Displays\Storage.json" />
+    <Content Include="App_Data\Displays\StorageCapacity.json" />
+    <Content Include="App_Data\Displays\UpdatedByGrid.json" />
+    <Content Include="App_Data\Displays\UsedRateStorageCapacity.json" />
+    <Content Include="App_Data\Displays\UsedStorageCapacity.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tools\Reminder.ps1" />
+    <Content Include="Tools\BackgroundTasks.ps1" />
+    <Content Include="Tools\SyncByLdap.ps1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1759</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1759/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <ItemGroup>
+    <Content Include="..\Implem.Pleasanter\Views\*.*" Link="Views\%(RecursiveDir)%(FileName)%(Extension)" />
+    <Content Include="..\Implem.Pleasanter\Views\*\*.*" Link="Views\%(RecursiveDir)%(FileName)%(Extension)" />
+    <Content Include="..\Implem.Pleasanter\wwwroot\*.*" Link="%(RecursiveDir)%(FileName)%(Extension)" />
+    <Content Include="..\Implem.Pleasanter\wwwroot\*\*.*" Link="%(RecursiveDir)%(FileName)%(Extension)" />
+    <Content Include="..\Implem.Pleasanter\wwwroot\*\*\*.*" Link="%(RecursiveDir)%(FileName)%(Extension)" />
+    <Content Include="..\Implem.Pleasanter\App_Data\*.*" Link="App_Data\%(RecursiveDir)%(FileName)%(Extension)" />
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\definition_Code.xlsm">
+      <Link>App_Data\Definitions\definition_Code.xlsm</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\definition_Column.xlsm">
+      <Link>App_Data\Definitions\definition_Column.xlsm</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\definition_Css.xlsm">
+      <Link>App_Data\Definitions\definition_Css.xlsm</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\definition_Demo.xlsm">
+      <Link>App_Data\Definitions\definition_Demo.xlsm</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\definition_Template.xlsm">
+      <Link>App_Data\Definitions\definition_Template.xlsm</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\definition_ViewMode.xlsm">
+      <Link>App_Data\Definitions\definition_ViewMode.xlsm</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Add.json">
+      <Link>App_Data\Displays\Add.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AddPermission.json">
+      <Link>App_Data\Displays\AddPermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Address.json">
+      <Link>App_Data\Displays\Address.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AddressBook.json">
+      <Link>App_Data\Displays\AddressBook.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Admin.json">
+      <Link>App_Data\Displays\Admin.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AdvancedSetting.json">
+      <Link>App_Data\Displays\AdvancedSetting.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AfterCondition.json">
+      <Link>App_Data\Displays\AfterCondition.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AggregationDetails.json">
+      <Link>App_Data\Displays\AggregationDetails.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Aggregations.json">
+      <Link>App_Data\Displays\Aggregations.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AggregationSettings.json">
+      <Link>App_Data\Displays\AggregationSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AggregationTarget.json">
+      <Link>App_Data\Displays\AggregationTarget.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AggregationType.json">
+      <Link>App_Data\Displays\AggregationType.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AggregationView.json">
+      <Link>App_Data\Displays\AggregationView.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\All.json">
+      <Link>App_Data\Displays\All.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AllowEditingComments.json">
+      <Link>App_Data\Displays\AllowEditingComments.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AllowedUsers.json">
+      <Link>App_Data\Displays\AllowedUsers.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AllowImage.json">
+      <Link>App_Data\Displays\AllowImage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AllUsers.json">
+      <Link>App_Data\Displays\AllUsers.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AlreadyAdded.json">
+      <Link>App_Data\Displays\AlreadyAdded.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\AlreadyLinked.json">
+      <Link>App_Data\Displays\AlreadyLinked.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\And.json">
+      <Link>App_Data\Displays\And.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ApiKey.json">
+      <Link>App_Data\Displays\ApiKey.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ApiKeyCreated.json">
+      <Link>App_Data\Displays\ApiKeyCreated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ApiKeyDeleted.json">
+      <Link>App_Data\Displays\ApiKeyDeleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ApiSettings.json">
+      <Link>App_Data\Displays\ApiSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ApplicationError.json">
+      <Link>App_Data\Displays\ApplicationError.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Assembly.json">
+      <Link>App_Data\Displays\Assembly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Attachments.json">
+      <Link>App_Data\Displays\Attachments.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Authentication.json">
+      <Link>App_Data\Displays\Authentication.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Auto.json">
+      <Link>App_Data\Displays\Auto.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Average.json">
+      <Link>App_Data\Displays\Average.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BadFormat.json">
+      <Link>App_Data\Displays\BadFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BadMailAddress.json">
+      <Link>App_Data\Displays\BadMailAddress.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BadRequest.json">
+      <Link>App_Data\Displays\BadRequest.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Basic.json">
+      <Link>App_Data\Displays\Basic.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BeforeCondition.json">
+      <Link>App_Data\Displays\BeforeCondition.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Blog.json">
+      <Link>App_Data\Displays\Blog.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Body.json">
+      <Link>App_Data\Displays\Body.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BroadMatchOfTitle.json">
+      <Link>App_Data\Displays\BroadMatchOfTitle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BulkDelete.json">
+      <Link>App_Data\Displays\BulkDelete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BulkDeleted.json">
+      <Link>App_Data\Displays\BulkDeleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BulkMove.json">
+      <Link>App_Data\Displays\BulkMove.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BulkMoved.json">
+      <Link>App_Data\Displays\BulkMoved.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BulkRestored.json">
+      <Link>App_Data\Displays\BulkRestored.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BulkUpdated.json">
+      <Link>App_Data\Displays\BulkUpdated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BurnDown.json">
+      <Link>App_Data\Displays\BurnDown.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\BusinessImprovement.json">
+      <Link>App_Data\Displays\BusinessImprovement.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Calendar.json">
+      <Link>App_Data\Displays\Calendar.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Camera.json">
+      <Link>App_Data\Displays\Camera.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Cancel.json">
+      <Link>App_Data\Displays\Cancel.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotChangeInheritance.json">
+      <Link>App_Data\Displays\CanNotChangeInheritance.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotConnectCamera.json">
+      <Link>App_Data\Displays\CanNotConnectCamera.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotDisabled.json">
+      <Link>App_Data\Displays\CanNotDisabled.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotInherit.json">
+      <Link>App_Data\Displays\CanNotInherit.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotLink.json">
+      <Link>App_Data\Displays\CanNotLink.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotPerformed.json">
+      <Link>App_Data\Displays\CanNotPerformed.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CanNotUpdate.json">
+      <Link>App_Data\Displays\CanNotUpdate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CantSetAtTopOfSite.json">
+      <Link>App_Data\Displays\CantSetAtTopOfSite.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Change.json">
+      <Link>App_Data\Displays\Change.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ChangeHistoryList.json">
+      <Link>App_Data\Displays\ChangeHistoryList.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ChangePassword.json">
+      <Link>App_Data\Displays\ChangePassword.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ChangingPasswordComplete.json">
+      <Link>App_Data\Displays\ChangingPasswordComplete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CharacterCode.json">
+      <Link>App_Data\Displays\CharacterCode.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ChatWork.json">
+      <Link>App_Data\Displays\ChatWork.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Check.json">
+      <Link>App_Data\Displays\Check.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CheckAll.json">
+      <Link>App_Data\Displays\CheckAll.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Class.json">
+      <Link>App_Data\Displays\Class.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Classification.json">
+      <Link>App_Data\Displays\Classification.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Clear.json">
+      <Link>App_Data\Displays\Clear.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerBackupCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerBackupCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerCssCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerCssCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerDefCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerDefCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerInsertTestDataCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerInsertTestDataCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerMvcCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerMvcCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CodeDefinerRdsCompleted.json">
+      <Link>App_Data\Displays\CodeDefinerRdsCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Column.json">
+      <Link>App_Data\Displays\Column.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ColumnAccessControl.json">
+      <Link>App_Data\Displays\ColumnAccessControl.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ColumnList.json">
+      <Link>App_Data\Displays\ColumnList.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CommentDeleted.json">
+      <Link>App_Data\Displays\CommentDeleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Comments.json">
+      <Link>App_Data\Displays\Comments.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CommentUpdated.json">
+      <Link>App_Data\Displays\CommentUpdated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Condition.json">
+      <Link>App_Data\Displays\Condition.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmCreateLink.json">
+      <Link>App_Data\Displays\ConfirmCreateLink.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmDelete.json">
+      <Link>App_Data\Displays\ConfirmDelete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmDeleteSite.json">
+      <Link>App_Data\Displays\ConfirmDeleteSite.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmPhyscalDelete.json">
+      <Link>App_Data\Displays\ConfirmPhyscalDelete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmRebuildSearchIndex.json">
+      <Link>App_Data\Displays\ConfirmRebuildSearchIndex.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmReset.json">
+      <Link>App_Data\Displays\ConfirmReset.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmRestore.json">
+      <Link>App_Data\Displays\ConfirmRestore.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmSendMail.json">
+      <Link>App_Data\Displays\ConfirmSendMail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmSeparate.json">
+      <Link>App_Data\Displays\ConfirmSeparate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmSwitchUser.json">
+      <Link>App_Data\Displays\ConfirmSwitchUser.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmSynchronize.json">
+      <Link>App_Data\Displays\ConfirmSynchronize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ConfirmUnload.json">
+      <Link>App_Data\Displays\ConfirmUnload.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Contact.json">
+      <Link>App_Data\Displays\Contact.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ControlType.json">
+      <Link>App_Data\Displays\ControlType.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Copied.json">
+      <Link>App_Data\Displays\Copied.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Copy.json">
+      <Link>App_Data\Displays\Copy.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CopyByDefault.json">
+      <Link>App_Data\Displays\CopyByDefault.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CopySettings.json">
+      <Link>App_Data\Displays\CopySettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CopyToNew.json">
+      <Link>App_Data\Displays\CopyToNew.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CopyWithComments.json">
+      <Link>App_Data\Displays\CopyWithComments.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CorporatePlanning.json">
+      <Link>App_Data\Displays\CorporatePlanning.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Count.json">
+      <Link>App_Data\Displays\Count.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Create.json">
+      <Link>App_Data\Displays\Create.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CreateColumnAccessControl.json">
+      <Link>App_Data\Displays\CreateColumnAccessControl.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Created.json">
+      <Link>App_Data\Displays\Created.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CreatedTime.json">
+      <Link>App_Data\Displays\CreatedTime.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Crosstab.json">
+      <Link>App_Data\Displays\Crosstab.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Csv.json">
+      <Link>App_Data\Displays\Csv.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CsvFile.json">
+      <Link>App_Data\Displays\CsvFile.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Currency.json">
+      <Link>App_Data\Displays\Currency.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CurrentMembers.json">
+      <Link>App_Data\Displays\CurrentMembers.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CurrentPassword.json">
+      <Link>App_Data\Displays\CurrentPassword.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CurrentSettings.json">
+      <Link>App_Data\Displays\CurrentSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Custom.json">
+      <Link>App_Data\Displays\Custom.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\CustomDesign.json">
+      <Link>App_Data\Displays\CustomDesign.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Customer.json">
+      <Link>App_Data\Displays\Customer.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Daily.json">
+      <Link>App_Data\Displays\Daily.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DatabaseSize.json">
+      <Link>App_Data\Displays\DatabaseSize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DataStorageDestination.json">
+      <Link>App_Data\Displays\DataStorageDestination.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DataView.json">
+      <Link>App_Data\Displays\DataView.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Date.json">
+      <Link>App_Data\Displays\Date.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DateFilterSetMode.json">
+      <Link>App_Data\Displays\DateFilterSetMode.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DateFilterSetModeDefault.json">
+      <Link>App_Data\Displays\DateFilterSetModeDefault.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DateFilterSetModeRange.json">
+      <Link>App_Data\Displays\DateFilterSetModeRange.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DateRange.json">
+      <Link>App_Data\Displays\DateRange.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Day.json">
+      <Link>App_Data\Displays\Day.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DayAgo.json">
+      <Link>App_Data\Displays\DayAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DayOfWeek.json">
+      <Link>App_Data\Displays\DayOfWeek.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DaysAgo.json">
+      <Link>App_Data\Displays\DaysAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DecimalPlaces.json">
+      <Link>App_Data\Displays\DecimalPlaces.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Default.json">
+      <Link>App_Data\Displays\Default.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DefaultAddressBook.json">
+      <Link>App_Data\Displays\DefaultAddressBook.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DefaultDestinations.json">
+      <Link>App_Data\Displays\DefaultDestinations.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DefaultInput.json">
+      <Link>App_Data\Displays\DefaultInput.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DefaultView.json">
+      <Link>App_Data\Displays\DefaultView.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DefinitionNotFound.json">
+      <Link>App_Data\Displays\DefinitionNotFound.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Delay.json">
+      <Link>App_Data\Displays\Delay.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Delete.json">
+      <Link>App_Data\Displays\Delete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeleteConflicts.json">
+      <Link>App_Data\Displays\DeleteConflicts.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Deleted.json">
+      <Link>App_Data\Displays\Deleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeletedImage.json">
+      <Link>App_Data\Displays\DeletedImage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeletedTime.json">
+      <Link>App_Data\Displays\DeletedTime.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeleteFromTrashBox.json">
+      <Link>App_Data\Displays\DeleteFromTrashBox.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeleteHistory.json">
+      <Link>App_Data\Displays\DeleteHistory.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeletePermission.json">
+      <Link>App_Data\Displays\DeletePermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Deleter.json">
+      <Link>App_Data\Displays\Deleter.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeleteSite.json">
+      <Link>App_Data\Displays\DeleteSite.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DemoMailBody.json">
+      <Link>App_Data\Displays\DemoMailBody.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DemoMailTitle.json">
+      <Link>App_Data\Displays\DemoMailTitle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DeptAdmin.json">
+      <Link>App_Data\Displays\DeptAdmin.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Description.json">
+      <Link>App_Data\Displays\Description.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Destination.json">
+      <Link>App_Data\Displays\Destination.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Difference.json">
+      <Link>App_Data\Displays\Difference.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DirectUrlCopied.json">
+      <Link>App_Data\Displays\DirectUrlCopied.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Disabled.json">
+      <Link>App_Data\Displays\Disabled.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DisplayCompletedInPast.json">
+      <Link>App_Data\Displays\DisplayCompletedInPast.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\DisplayName.json">
+      <Link>App_Data\Displays\DisplayName.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Duplicated.json">
+      <Link>App_Data\Displays\Duplicated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EarnedValue.json">
+      <Link>App_Data\Displays\EarnedValue.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Edit.json">
+      <Link>App_Data\Displays\Edit.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditInDialog.json">
+      <Link>App_Data\Displays\EditInDialog.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditInGrid.json">
+      <Link>App_Data\Displays\EditInGrid.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditMode.json">
+      <Link>App_Data\Displays\EditMode.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Editor.json">
+      <Link>App_Data\Displays\Editor.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditorFormat.json">
+      <Link>App_Data\Displays\EditorFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditorSettings.json">
+      <Link>App_Data\Displays\EditorSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditProfile.json">
+      <Link>App_Data\Displays\EditProfile.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditScript.json">
+      <Link>App_Data\Displays\EditScript.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditSettings.json">
+      <Link>App_Data\Displays\EditSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EditStyle.json">
+      <Link>App_Data\Displays\EditStyle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Education.json">
+      <Link>App_Data\Displays\Education.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EmptyUserName.json">
+      <Link>App_Data\Displays\EmptyUserName.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Enabled.json">
+      <Link>App_Data\Displays\Enabled.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\End.json">
+      <Link>App_Data\Displays\End.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EndOfMonth.json">
+      <Link>App_Data\Displays\EndOfMonth.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\EnterTitle.json">
+      <Link>App_Data\Displays\EnterTitle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Error.json">
+      <Link>App_Data\Displays\Error.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Excel.json">
+      <Link>App_Data\Displays\Excel.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Expired.json">
+      <Link>App_Data\Displays\Expired.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Export.json">
+      <Link>App_Data\Displays\Export.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ExportColumns.json">
+      <Link>App_Data\Displays\ExportColumns.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ExportFormat.json">
+      <Link>App_Data\Displays\ExportFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ExportTypes.json">
+      <Link>App_Data\Displays\ExportTypes.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Expression.json">
+      <Link>App_Data\Displays\Expression.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ExternalMailAddress.json">
+      <Link>App_Data\Displays\ExternalMailAddress.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FailedReadFile.json">
+      <Link>App_Data\Displays\FailedReadFile.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\File.json">
+      <Link>App_Data\Displays\File.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FileDeleteCompleted.json">
+      <Link>App_Data\Displays\FileDeleteCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FileDragDrop.json">
+      <Link>App_Data\Displays\FileDragDrop.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FileNotFound.json">
+      <Link>App_Data\Displays\FileNotFound.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FileUpdateCompleted.json">
+      <Link>App_Data\Displays\FileUpdateCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Filters.json">
+      <Link>App_Data\Displays\Filters.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FilterSettings.json">
+      <Link>App_Data\Displays\FilterSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\FirstDay.json">
+      <Link>App_Data\Displays\FirstDay.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Folder.json">
+      <Link>App_Data\Displays\Folder.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ForceUnlockTable.json">
+      <Link>App_Data\Displays\ForceUnlockTable.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Format.json">
+      <Link>App_Data\Displays\Format.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Formulas.json">
+      <Link>App_Data\Displays\Formulas.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Friday.json">
+      <Link>App_Data\Displays\Friday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\From.json">
+      <Link>App_Data\Displays\From.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Fulltext.json">
+      <Link>App_Data\Displays\Fulltext.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Fy.json">
+      <Link>App_Data\Displays\Fy.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Gantt.json">
+      <Link>App_Data\Displays\Gantt.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\General.json">
+      <Link>App_Data\Displays\General.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GeneralUser.json">
+      <Link>App_Data\Displays\GeneralUser.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GoBack.json">
+      <Link>App_Data\Displays\GoBack.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Grid.json">
+      <Link>App_Data\Displays\Grid.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GridEditorTypes.json">
+      <Link>App_Data\Displays\GridEditorTypes.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GridFormat.json">
+      <Link>App_Data\Displays\GridFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GridScript.json">
+      <Link>App_Data\Displays\GridScript.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GridStyle.json">
+      <Link>App_Data\Displays\GridStyle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GroupAdmin.json">
+      <Link>App_Data\Displays\GroupAdmin.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GroupBy.json">
+      <Link>App_Data\Displays\GroupBy.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GroupByX.json">
+      <Link>App_Data\Displays\GroupByX.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\GroupByY.json">
+      <Link>App_Data\Displays\GroupByY.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Half1.json">
+      <Link>App_Data\Displays\Half1.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Half2.json">
+      <Link>App_Data\Displays\Half2.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HasBeenDeleted.json">
+      <Link>App_Data\Displays\HasBeenDeleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HasBeenMoved.json">
+      <Link>App_Data\Displays\HasBeenMoved.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HasNotPermission.json">
+      <Link>App_Data\Displays\HasNotPermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Hidden.json">
+      <Link>App_Data\Displays\Hidden.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Hide.json">
+      <Link>App_Data\Displays\Hide.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HideList.json">
+      <Link>App_Data\Displays\HideList.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Histories.json">
+      <Link>App_Data\Displays\Histories.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HistoryDeleted.json">
+      <Link>App_Data\Displays\HistoryDeleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HourAgo.json">
+      <Link>App_Data\Displays\HourAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HoursAgo.json">
+      <Link>App_Data\Displays\HoursAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\HumanResourcesAndGeneralAffairs.json">
+      <Link>App_Data\Displays\HumanResourcesAndGeneralAffairs.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Hyphen.json">
+      <Link>App_Data\Displays\Hyphen.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Icon.json">
+      <Link>App_Data\Displays\Icon.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Id.json">
+      <Link>App_Data\Displays\Id.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ImageAndText.json">
+      <Link>App_Data\Displays\ImageAndText.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ImageLib.json">
+      <Link>App_Data\Displays\ImageLib.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ImageOnly.json">
+      <Link>App_Data\Displays\ImageOnly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Import.json">
+      <Link>App_Data\Displays\Import.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Imported.json">
+      <Link>App_Data\Displays\Imported.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ImportMax.json">
+      <Link>App_Data\Displays\ImportMax.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Incomplete.json">
+      <Link>App_Data\Displays\Incomplete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InCompression.json">
+      <Link>App_Data\Displays\InCompression.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InCopying.json">
+      <Link>App_Data\Displays\InCopying.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\IncorrectCurrentPassword.json">
+      <Link>App_Data\Displays\IncorrectCurrentPassword.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\IncorrectFileFormat.json">
+      <Link>App_Data\Displays\IncorrectFileFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\IncorrectSiteDeleting.json">
+      <Link>App_Data\Displays\IncorrectSiteDeleting.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Index.json">
+      <Link>App_Data\Displays\Index.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InformationSystem.json">
+      <Link>App_Data\Displays\InformationSystem.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InheritPermission.json">
+      <Link>App_Data\Displays\InheritPermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InputMailAddress.json">
+      <Link>App_Data\Displays\InputMailAddress.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InternalServerError.json">
+      <Link>App_Data\Displays\InternalServerError.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InvalidCsvData.json">
+      <Link>App_Data\Displays\InvalidCsvData.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InvalidFormula.json">
+      <Link>App_Data\Displays\InvalidFormula.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InvalidIpAddress.json">
+      <Link>App_Data\Displays\InvalidIpAddress.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InvalidRequest.json">
+      <Link>App_Data\Displays\InvalidRequest.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\InvalidSsoCode.json">
+      <Link>App_Data\Displays\InvalidSsoCode.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ItemsLimit.json">
+      <Link>App_Data\Displays\ItemsLimit.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\JoeAccountCheck.json">
+      <Link>App_Data\Displays\JoeAccountCheck.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Json.json">
+      <Link>App_Data\Displays\Json.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Kamban.json">
+      <Link>App_Data\Displays\Kamban.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Latest.json">
+      <Link>App_Data\Displays\Latest.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Leader.json">
+      <Link>App_Data\Displays\Leader.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LegalAffairs.json">
+      <Link>App_Data\Displays\LegalAffairs.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LessThan.json">
+      <Link>App_Data\Displays\LessThan.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterDay.json">
+      <Link>App_Data\Displays\LimitAfterDay.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterDays.json">
+      <Link>App_Data\Displays\LimitAfterDays.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterHour.json">
+      <Link>App_Data\Displays\LimitAfterHour.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterHours.json">
+      <Link>App_Data\Displays\LimitAfterHours.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterMinute.json">
+      <Link>App_Data\Displays\LimitAfterMinute.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterMinutes.json">
+      <Link>App_Data\Displays\LimitAfterMinutes.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterMonth.json">
+      <Link>App_Data\Displays\LimitAfterMonth.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterMonths.json">
+      <Link>App_Data\Displays\LimitAfterMonths.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterSecond.json">
+      <Link>App_Data\Displays\LimitAfterSecond.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterSeconds.json">
+      <Link>App_Data\Displays\LimitAfterSeconds.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterYear.json">
+      <Link>App_Data\Displays\LimitAfterYear.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitAfterYears.json">
+      <Link>App_Data\Displays\LimitAfterYears.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeDay.json">
+      <Link>App_Data\Displays\LimitBeforeDay.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeDays.json">
+      <Link>App_Data\Displays\LimitBeforeDays.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeHour.json">
+      <Link>App_Data\Displays\LimitBeforeHour.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeHours.json">
+      <Link>App_Data\Displays\LimitBeforeHours.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMinute.json">
+      <Link>App_Data\Displays\LimitBeforeMinute.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMinutes.json">
+      <Link>App_Data\Displays\LimitBeforeMinutes.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMonth.json">
+      <Link>App_Data\Displays\LimitBeforeMonth.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeMonths.json">
+      <Link>App_Data\Displays\LimitBeforeMonths.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeSecond.json">
+      <Link>App_Data\Displays\LimitBeforeSecond.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeSeconds.json">
+      <Link>App_Data\Displays\LimitBeforeSeconds.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeYear.json">
+      <Link>App_Data\Displays\LimitBeforeYear.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitBeforeYears.json">
+      <Link>App_Data\Displays\LimitBeforeYears.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitJust.json">
+      <Link>App_Data\Displays\LimitJust.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitQuantity.json">
+      <Link>App_Data\Displays\LimitQuantity.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitSize.json">
+      <Link>App_Data\Displays\LimitSize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LimitTotalSize.json">
+      <Link>App_Data\Displays\LimitTotalSize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Line.json">
+      <Link>App_Data\Displays\Line.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LineGroup.json">
+      <Link>App_Data\Displays\LineGroup.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LinkColumn.json">
+      <Link>App_Data\Displays\LinkColumn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LinkCreated.json">
+      <Link>App_Data\Displays\LinkCreated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LinkCreations.json">
+      <Link>App_Data\Displays\LinkCreations.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LinkDestinations.json">
+      <Link>App_Data\Displays\LinkDestinations.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Links.json">
+      <Link>App_Data\Displays\Links.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LinkSources.json">
+      <Link>App_Data\Displays\LinkSources.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\List.json">
+      <Link>App_Data\Displays\List.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ListMode.json">
+      <Link>App_Data\Displays\ListMode.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ListSettings.json">
+      <Link>App_Data\Displays\ListSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LockTable.json">
+      <Link>App_Data\Displays\LockTable.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LockWarning.json">
+      <Link>App_Data\Displays\LockWarning.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Login.json">
+      <Link>App_Data\Displays\Login.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LoginIdAlreadyUse.json">
+      <Link>App_Data\Displays\LoginIdAlreadyUse.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LoginIn.json">
+      <Link>App_Data\Displays\LoginIn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Logistics.json">
+      <Link>App_Data\Displays\Logistics.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\LogoImage.json">
+      <Link>App_Data\Displays\LogoImage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Logout.json">
+      <Link>App_Data\Displays\Logout.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Mail.json">
+      <Link>App_Data\Displays\Mail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MailAddress.json">
+      <Link>App_Data\Displays\MailAddress.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MailAddressHasNotSet.json">
+      <Link>App_Data\Displays\MailAddressHasNotSet.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MailTransmissionCompletion.json">
+      <Link>App_Data\Displays\MailTransmissionCompletion.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Manage.json">
+      <Link>App_Data\Displays\Manage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ManageFolder.json">
+      <Link>App_Data\Displays\ManageFolder.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ManagePermission.json">
+      <Link>App_Data\Displays\ManagePermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ManagePermissions.json">
+      <Link>App_Data\Displays\ManagePermissions.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Manager.json">
+      <Link>App_Data\Displays\Manager.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ManageSite.json">
+      <Link>App_Data\Displays\ManageSite.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ManageWiki.json">
+      <Link>App_Data\Displays\ManageWiki.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Manufacture.json">
+      <Link>App_Data\Displays\Manufacture.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MarkDown.json">
+      <Link>App_Data\Displays\MarkDown.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Marketing.json">
+      <Link>App_Data\Displays\Marketing.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MatchInFrontOfTitle.json">
+      <Link>App_Data\Displays\MatchInFrontOfTitle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Max.json">
+      <Link>App_Data\Displays\Max.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MaxColumns.json">
+      <Link>App_Data\Displays\MaxColumns.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Md.json">
+      <Link>App_Data\Displays\Md.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MdFormat.json">
+      <Link>App_Data\Displays\MdFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Members.json">
+      <Link>App_Data\Displays\Members.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Menu.json">
+      <Link>App_Data\Displays\Menu.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MenuGuide.json">
+      <Link>App_Data\Displays\MenuGuide.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Min.json">
+      <Link>App_Data\Displays\Min.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MinuteAgo.json">
+      <Link>App_Data\Displays\MinuteAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MinutesAgo.json">
+      <Link>App_Data\Displays\MinutesAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Monday.json">
+      <Link>App_Data\Displays\Monday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MonitorChangesColumns.json">
+      <Link>App_Data\Displays\MonitorChangesColumns.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Month.json">
+      <Link>App_Data\Displays\Month.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MonthAgo.json">
+      <Link>App_Data\Displays\MonthAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Monthly.json">
+      <Link>App_Data\Displays\Monthly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MonthsAgo.json">
+      <Link>App_Data\Displays\MonthsAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Move.json">
+      <Link>App_Data\Displays\Move.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Moved.json">
+      <Link>App_Data\Displays\Moved.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MoveDown.json">
+      <Link>App_Data\Displays\MoveDown.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MoveSettings.json">
+      <Link>App_Data\Displays\MoveSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MoveTargetsSettings.json">
+      <Link>App_Data\Displays\MoveTargetsSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\MoveUp.json">
+      <Link>App_Data\Displays\MoveUp.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Name.json">
+      <Link>App_Data\Displays\Name.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NearCompletionTime.json">
+      <Link>App_Data\Displays\NearCompletionTime.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NearCompletionTimeAfterDays.json">
+      <Link>App_Data\Displays\NearCompletionTimeAfterDays.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NearCompletionTimeBeforeDays.json">
+      <Link>App_Data\Displays\NearCompletionTimeBeforeDays.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\New.json">
+      <Link>App_Data\Displays\New.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Newer.json">
+      <Link>App_Data\Displays\Newer.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NewScript.json">
+      <Link>App_Data\Displays\NewScript.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NewStyle.json">
+      <Link>App_Data\Displays\NewStyle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Next.json">
+      <Link>App_Data\Displays\Next.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoClassification.json">
+      <Link>App_Data\Displays\NoClassification.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoData.json">
+      <Link>App_Data\Displays\NoData.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoDuplication.json">
+      <Link>App_Data\Displays\NoDuplication.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoLinks.json">
+      <Link>App_Data\Displays\NoLinks.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Normal.json">
+      <Link>App_Data\Displays\Normal.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoTargetRecord.json">
+      <Link>App_Data\Displays\NoTargetRecord.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotFound.json">
+      <Link>App_Data\Displays\NotFound.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Notifications.json">
+      <Link>App_Data\Displays\Notifications.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotificationType.json">
+      <Link>App_Data\Displays\NotificationType.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotInheritPermission.json">
+      <Link>App_Data\Displays\NotInheritPermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoTitle.json">
+      <Link>App_Data\Displays\NoTitle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotOutput.json">
+      <Link>App_Data\Displays\NotOutput.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotRequiredColumn.json">
+      <Link>App_Data\Displays\NotRequiredColumn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotSendIfNotApplicable.json">
+      <Link>App_Data\Displays\NotSendIfNotApplicable.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NotSet.json">
+      <Link>App_Data\Displays\NotSet.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NoWrap.json">
+      <Link>App_Data\Displays\NoWrap.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Num.json">
+      <Link>App_Data\Displays\Num.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NumberPerPage.json">
+      <Link>App_Data\Displays\NumberPerPage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NumberWeekly.json">
+      <Link>App_Data\Displays\NumberWeekly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\NumericColumn.json">
+      <Link>App_Data\Displays\NumericColumn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Off.json">
+      <Link>App_Data\Displays\Off.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OK.json">
+      <Link>App_Data\Displays\OK.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Older.json">
+      <Link>App_Data\Displays\Older.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\On.json">
+      <Link>App_Data\Displays\On.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OnAndOff.json">
+      <Link>App_Data\Displays\OnAndOff.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OnOnly.json">
+      <Link>App_Data\Displays\OnOnly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Operations.json">
+      <Link>App_Data\Displays\Operations.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OptionList.json">
+      <Link>App_Data\Displays\OptionList.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Or.json">
+      <Link>App_Data\Displays\Or.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OrderAsc.json">
+      <Link>App_Data\Displays\OrderAsc.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OrderDesc.json">
+      <Link>App_Data\Displays\OrderDesc.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OrderRelease.json">
+      <Link>App_Data\Displays\OrderRelease.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OriginalMessage.json">
+      <Link>App_Data\Displays\OriginalMessage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Others.json">
+      <Link>App_Data\Displays\Others.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OutgoingMail.json">
+      <Link>App_Data\Displays\OutgoingMail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OutOfCondition.json">
+      <Link>App_Data\Displays\OutOfCondition.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Output.json">
+      <Link>App_Data\Displays\Output.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OutputDestination.json">
+      <Link>App_Data\Displays\OutputDestination.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OutputHeader.json">
+      <Link>App_Data\Displays\OutputHeader.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Over.json">
+      <Link>App_Data\Displays\Over.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Overdue.json">
+      <Link>App_Data\Displays\Overdue.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OverLimitQuantity.json">
+      <Link>App_Data\Displays\OverLimitQuantity.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OverLimitSize.json">
+      <Link>App_Data\Displays\OverLimitSize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OverTenantStorageSize.json">
+      <Link>App_Data\Displays\OverTenantStorageSize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\OverTotalLimitSize.json">
+      <Link>App_Data\Displays\OverTotalLimitSize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Own.json">
+      <Link>App_Data\Displays\Own.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ParameterSyntaxError.json">
+      <Link>App_Data\Displays\ParameterSyntaxError.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PartialMatch.json">
+      <Link>App_Data\Displays\PartialMatch.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Password.json">
+      <Link>App_Data\Displays\Password.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PasswordNotChanged.json">
+      <Link>App_Data\Displays\PasswordNotChanged.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PasswordPolicyViolation.json">
+      <Link>App_Data\Displays\PasswordPolicyViolation.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PasswordResetCompleted.json">
+      <Link>App_Data\Displays\PasswordResetCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Pattern.json">
+      <Link>App_Data\Displays\Pattern.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Period.json">
+      <Link>App_Data\Displays\Period.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PeriodType.json">
+      <Link>App_Data\Displays\PeriodType.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PermissionDestination.json">
+      <Link>App_Data\Displays\PermissionDestination.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PermissionForCreating.json">
+      <Link>App_Data\Displays\PermissionForCreating.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PermissionNotSelfChange.json">
+      <Link>App_Data\Displays\PermissionNotSelfChange.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PermissionSetting.json">
+      <Link>App_Data\Displays\PermissionSetting.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PermissionSource.json">
+      <Link>App_Data\Displays\PermissionSource.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PhysicalDeleted.json">
+      <Link>App_Data\Displays\PhysicalDeleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Plan.json">
+      <Link>App_Data\Displays\Plan.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PlannedValue.json">
+      <Link>App_Data\Displays\PlannedValue.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Portal.json">
+      <Link>App_Data\Displays\Portal.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Prefix.json">
+      <Link>App_Data\Displays\Prefix.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Previous.json">
+      <Link>App_Data\Displays\Previous.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ProductList.json">
+      <Link>App_Data\Displays\ProductList.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ProductName.json">
+      <Link>App_Data\Displays\ProductName.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Project.json">
+      <Link>App_Data\Displays\Project.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Publish.json">
+      <Link>App_Data\Displays\Publish.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PublishToAnonymousUsers.json">
+      <Link>App_Data\Displays\PublishToAnonymousUsers.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\PublishWarning.json">
+      <Link>App_Data\Displays\PublishWarning.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Purchase.json">
+      <Link>App_Data\Displays\Purchase.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Quantity.json">
+      <Link>App_Data\Displays\Quantity.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Quarter.json">
+      <Link>App_Data\Displays\Quarter.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Range.json">
+      <Link>App_Data\Displays\Range.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Read.json">
+      <Link>App_Data\Displays\Read.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ReadColumnAccessControl.json">
+      <Link>App_Data\Displays\ReadColumnAccessControl.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ReadOnly.json">
+      <Link>App_Data\Displays\ReadOnly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ReadOnlyBecausePreviousVer.json">
+      <Link>App_Data\Displays\ReadOnlyBecausePreviousVer.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ReadWrite.json">
+      <Link>App_Data\Displays\ReadWrite.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RebuildingCompleted.json">
+      <Link>App_Data\Displays\RebuildingCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RebuildSearchIndexes.json">
+      <Link>App_Data\Displays\RebuildSearchIndexes.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RecordAccessControl.json">
+      <Link>App_Data\Displays\RecordAccessControl.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ReCreate.json">
+      <Link>App_Data\Displays\ReCreate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Register.json">
+      <Link>App_Data\Displays\Register.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RelatingColumn.json">
+      <Link>App_Data\Displays\RelatingColumn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RelatingColumnSettings.json">
+      <Link>App_Data\Displays\RelatingColumnSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Reload.json">
+      <Link>App_Data\Displays\Reload.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Reminders.json">
+      <Link>App_Data\Displays\Reminders.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Reply.json">
+      <Link>App_Data\Displays\Reply.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Required.json">
+      <Link>App_Data\Displays\Required.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RequiredPermission.json">
+      <Link>App_Data\Displays\RequiredPermission.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RequireMailAddresses.json">
+      <Link>App_Data\Displays\RequireMailAddresses.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RequireTo.json">
+      <Link>App_Data\Displays\RequireTo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ResearchAndDevelopment.json">
+      <Link>App_Data\Displays\ResearchAndDevelopment.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Reset.json">
+      <Link>App_Data\Displays\Reset.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ResetOrder.json">
+      <Link>App_Data\Displays\ResetOrder.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ResetPassword.json">
+      <Link>App_Data\Displays\ResetPassword.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Restore.json">
+      <Link>App_Data\Displays\Restore.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\RestoredFromHistory.json">
+      <Link>App_Data\Displays\RestoredFromHistory.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Restricted.json">
+      <Link>App_Data\Displays\Restricted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Row.json">
+      <Link>App_Data\Displays\Row.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Sales.json">
+      <Link>App_Data\Displays\Sales.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SamlLoginFailed.json">
+      <Link>App_Data\Displays\SamlLoginFailed.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SamplesDisplayed.json">
+      <Link>App_Data\Displays\SamplesDisplayed.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Saturday.json">
+      <Link>App_Data\Displays\Saturday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Save.json">
+      <Link>App_Data\Displays\Save.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Script.json">
+      <Link>App_Data\Displays\Script.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Scripts.json">
+      <Link>App_Data\Displays\Scripts.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Search.json">
+      <Link>App_Data\Displays\Search.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SearchSettings.json">
+      <Link>App_Data\Displays\SearchSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SearchTypes.json">
+      <Link>App_Data\Displays\SearchTypes.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SecondsAgo.json">
+      <Link>App_Data\Displays\SecondsAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Section.json">
+      <Link>App_Data\Displays\Section.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Select.json">
+      <Link>App_Data\Displays\Select.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SelectableMembers.json">
+      <Link>App_Data\Displays\SelectableMembers.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SelectFile.json">
+      <Link>App_Data\Displays\SelectFile.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SelectOne.json">
+      <Link>App_Data\Displays\SelectOne.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SelectTargets.json">
+      <Link>App_Data\Displays\SelectTargets.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SelectTemplate.json">
+      <Link>App_Data\Displays\SelectTemplate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Send.json">
+      <Link>App_Data\Displays\Send.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SendMail.json">
+      <Link>App_Data\Displays\SendMail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SentAcceptanceMail .json">
+      <Link>App_Data\Displays\SentAcceptanceMail .json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SentMail.json">
+      <Link>App_Data\Displays\SentMail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Separate.json">
+      <Link>App_Data\Displays\Separate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Separated.json">
+      <Link>App_Data\Displays\Separated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SeparateNumber.json">
+      <Link>App_Data\Displays\SeparateNumber.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SeparateSettings.json">
+      <Link>App_Data\Displays\SeparateSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Setting.json">
+      <Link>App_Data\Displays\Setting.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SetZeroWhenOutOfCondition.json">
+      <Link>App_Data\Displays\SetZeroWhenOutOfCondition.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ShortDisplayName.json">
+      <Link>App_Data\Displays\ShortDisplayName.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ShowHistory.json">
+      <Link>App_Data\Displays\ShowHistory.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ShowProgressRate.json">
+      <Link>App_Data\Displays\ShowProgressRate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteAccessControl.json">
+      <Link>App_Data\Displays\SiteAccessControl.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteId.json">
+      <Link>App_Data\Displays\SiteId.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteImageSettingsEditor.json">
+      <Link>App_Data\Displays\SiteImageSettingsEditor.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteIntegration.json">
+      <Link>App_Data\Displays\SiteIntegration.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteName.json">
+      <Link>App_Data\Displays\SiteName.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SitesCreated.json">
+      <Link>App_Data\Displays\SitesCreated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteSettings.json">
+      <Link>App_Data\Displays\SiteSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SitesLimit.json">
+      <Link>App_Data\Displays\SitesLimit.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteTitle.json">
+      <Link>App_Data\Displays\SiteTitle.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SiteUser.json">
+      <Link>App_Data\Displays\SiteUser.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Slack.json">
+      <Link>App_Data\Displays\Slack.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SortBy.json">
+      <Link>App_Data\Displays\SortBy.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Sorters.json">
+      <Link>App_Data\Displays\Sorters.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Special.json">
+      <Link>App_Data\Displays\Special.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Spinner.json">
+      <Link>App_Data\Displays\Spinner.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Standard.json">
+      <Link>App_Data\Displays\Standard.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Start.json">
+      <Link>App_Data\Displays\Start.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\StartDate.json">
+      <Link>App_Data\Displays\StartDate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\StartDateTime.json">
+      <Link>App_Data\Displays\StartDateTime.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Step.json">
+      <Link>App_Data\Displays\Step.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Store.json">
+      <Link>App_Data\Displays\Store.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Style.json">
+      <Link>App_Data\Displays\Style.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Styles.json">
+      <Link>App_Data\Displays\Styles.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Subject.json">
+      <Link>App_Data\Displays\Subject.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SuffixCopy.json">
+      <Link>App_Data\Displays\SuffixCopy.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Summaries.json">
+      <Link>App_Data\Displays\Summaries.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SummaryLinkColumn.json">
+      <Link>App_Data\Displays\SummaryLinkColumn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SummarySourceColumn.json">
+      <Link>App_Data\Displays\SummarySourceColumn.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SummaryType.json">
+      <Link>App_Data\Displays\SummaryType.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Sunday.json">
+      <Link>App_Data\Displays\Sunday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Support.json">
+      <Link>App_Data\Displays\Support.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SwitchRecordWithAjax.json">
+      <Link>App_Data\Displays\SwitchRecordWithAjax.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SwitchUser.json">
+      <Link>App_Data\Displays\SwitchUser.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SwitchUserInfo.json">
+      <Link>App_Data\Displays\SwitchUserInfo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\SynchronizationCompleted.json">
+      <Link>App_Data\Displays\SynchronizationCompleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Synchronize.json">
+      <Link>App_Data\Displays\Synchronize.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Tables.json">
+      <Link>App_Data\Displays\Tables.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TableSettings.json">
+      <Link>App_Data\Displays\TableSettings.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Target.json">
+      <Link>App_Data\Displays\Target.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Teams.json">
+      <Link>App_Data\Displays\Teams.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Template.json">
+      <Link>App_Data\Displays\Template.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TenantAdmin.json">
+      <Link>App_Data\Displays\TenantAdmin.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TenantImageType.json">
+      <Link>App_Data\Displays\TenantImageType.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Test.json">
+      <Link>App_Data\Displays\Test.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ThisMonth.json">
+      <Link>App_Data\Displays\ThisMonth.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Thursday.json">
+      <Link>App_Data\Displays\Thursday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TimeSeries.json">
+      <Link>App_Data\Displays\TimeSeries.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Title.json">
+      <Link>App_Data\Displays\Title.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TitleSeparator.json">
+      <Link>App_Data\Displays\TitleSeparator.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\To.json">
+      <Link>App_Data\Displays\To.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ToDay.json">
+      <Link>App_Data\Displays\ToDay.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ToDisable.json">
+      <Link>App_Data\Displays\ToDisable.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ToEnable.json">
+      <Link>App_Data\Displays\ToEnable.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Token.json">
+      <Link>App_Data\Displays\Token.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TooManyCases.json">
+      <Link>App_Data\Displays\TooManyCases.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TooManyColumnCases.json">
+      <Link>App_Data\Displays\TooManyColumnCases.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TooManyRowCases.json">
+      <Link>App_Data\Displays\TooManyRowCases.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Top.json">
+      <Link>App_Data\Displays\Top.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ToParent.json">
+      <Link>App_Data\Displays\ToParent.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ToShoot.json">
+      <Link>App_Data\Displays\ToShoot.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Total.json">
+      <Link>App_Data\Displays\Total.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\TrashBox.json">
+      <Link>App_Data\Displays\TrashBox.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Tuesday.json">
+      <Link>App_Data\Displays\Tuesday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Unauthorized.json">
+      <Link>App_Data\Displays\Unauthorized.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UncheckAll.json">
+      <Link>App_Data\Displays\UncheckAll.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Unit.json">
+      <Link>App_Data\Displays\Unit.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UnlockTable.json">
+      <Link>App_Data\Displays\UnlockTable.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UpdatableImport.json">
+      <Link>App_Data\Displays\UpdatableImport.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Update.json">
+      <Link>App_Data\Displays\Update.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UpdateColumnAccessControl.json">
+      <Link>App_Data\Displays\UpdateColumnAccessControl.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UpdateConflicts.json">
+      <Link>App_Data\Displays\UpdateConflicts.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Updated.json">
+      <Link>App_Data\Displays\Updated.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UpdatedTime.json">
+      <Link>App_Data\Displays\UpdatedTime.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Upload.json">
+      <Link>App_Data\Displays\Upload.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UsageGuide.json">
+      <Link>App_Data\Displays\UsageGuide.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UseCustomDesign.json">
+      <Link>App_Data\Displays\UseCustomDesign.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UseFy.json">
+      <Link>App_Data\Displays\UseFy.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UseHalf.json">
+      <Link>App_Data\Displays\UseHalf.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UseMonth.json">
+      <Link>App_Data\Displays\UseMonth.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UseQuarter.json">
+      <Link>App_Data\Displays\UseQuarter.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UserAdmin.json">
+      <Link>App_Data\Displays\UserAdmin.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UserDisabled.json">
+      <Link>App_Data\Displays\UserDisabled.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UserLockout.json">
+      <Link>App_Data\Displays\UserLockout.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UserNotSelfDelete.json">
+      <Link>App_Data\Displays\UserNotSelfDelete.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UsersLimit.json">
+      <Link>App_Data\Displays\UsersLimit.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UserSwitched.json">
+      <Link>App_Data\Displays\UserSwitched.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\UseSearch.json">
+      <Link>App_Data\Displays\UseSearch.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateDate.json">
+      <Link>App_Data\Displays\ValidateDate.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateEmail.json">
+      <Link>App_Data\Displays\ValidateEmail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateEqualTo.json">
+      <Link>App_Data\Displays\ValidateEqualTo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateMaxLength.json">
+      <Link>App_Data\Displays\ValidateMaxLength.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateMaxNumber.json">
+      <Link>App_Data\Displays\ValidateMaxNumber.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateMinNumber.json">
+      <Link>App_Data\Displays\ValidateMinNumber.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateNumber.json">
+      <Link>App_Data\Displays\ValidateNumber.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidateRequired.json">
+      <Link>App_Data\Displays\ValidateRequired.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ValidationError.json">
+      <Link>App_Data\Displays\ValidationError.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Value.json">
+      <Link>App_Data\Displays\Value.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Version.json">
+      <Link>App_Data\Displays\Version.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\VerUp.json">
+      <Link>App_Data\Displays\VerUp.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\View.json">
+      <Link>App_Data\Displays\View.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\ViewDemoEnvironment.json">
+      <Link>App_Data\Displays\ViewDemoEnvironment.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Wednesday.json">
+      <Link>App_Data\Displays\Wednesday.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Week.json">
+      <Link>App_Data\Displays\Week.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Weekly.json">
+      <Link>App_Data\Displays\Weekly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Wide.json">
+      <Link>App_Data\Displays\Wide.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\WorkValue.json">
+      <Link>App_Data\Displays\WorkValue.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Year.json">
+      <Link>App_Data\Displays\Year.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Yearly.json">
+      <Link>App_Data\Displays\Yearly.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YearsAgo.json">
+      <Link>App_Data\Displays\YearsAgo.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ym.json">
+      <Link>App_Data\Displays\Ym.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ymd.json">
+      <Link>App_Data\Displays\Ymd.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ymda.json">
+      <Link>App_Data\Displays\Ymda.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdaFormat.json">
+      <Link>App_Data\Displays\YmdaFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ymdahm.json">
+      <Link>App_Data\Displays\Ymdahm.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdahmFormat.json">
+      <Link>App_Data\Displays\YmdahmFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ymdahms.json">
+      <Link>App_Data\Displays\Ymdahms.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdahmsFormat.json">
+      <Link>App_Data\Displays\YmdahmsFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdDatePickerFormat.json">
+      <Link>App_Data\Displays\YmdDatePickerFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdFormat.json">
+      <Link>App_Data\Displays\YmdFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ymdhm.json">
+      <Link>App_Data\Displays\Ymdhm.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdhmDatePickerFormat.json">
+      <Link>App_Data\Displays\YmdhmDatePickerFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdhmFormat.json">
+      <Link>App_Data\Displays\YmdhmFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\Ymdhms.json">
+      <Link>App_Data\Displays\Ymdhms.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmdhmsFormat.json">
+      <Link>App_Data\Displays\YmdhmsFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Displays\YmFormat.json">
+      <Link>App_Data\Displays\YmFormat.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Api.json">
+      <Link>App_Data\Parameters\Api.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Authentication.json">
+      <Link>App_Data\Parameters\Authentication.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\BackgroundTask.json">
+      <Link>App_Data\Parameters\BackgroundTask.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\BinaryStorage.json">
+      <Link>App_Data\Parameters\BinaryStorage.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Deleted.json">
+      <Link>App_Data\Parameters\Deleted.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\General.json">
+      <Link>App_Data\Parameters\General.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\History.json">
+      <Link>App_Data\Parameters\History.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Mail.json">
+      <Link>App_Data\Parameters\Mail.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Notification.json">
+      <Link>App_Data\Parameters\Notification.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Parameter.json">
+      <Link>App_Data\Parameters\Parameter.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Permissions.json">
+      <Link>App_Data\Parameters\Permissions.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Rds.json">
+      <Link>App_Data\Parameters\Rds.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Registration.json">
+      <Link>App_Data\Parameters\Registration.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Reminder.json">
+      <Link>App_Data\Parameters\Reminder.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Search.json">
+      <Link>App_Data\Parameters\Search.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Security.json">
+      <Link>App_Data\Parameters\Security.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Service.json">
+      <Link>App_Data\Parameters\Service.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Session.json">
+      <Link>App_Data\Parameters\Session.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\SysLog.json">
+      <Link>App_Data\Parameters\SysLog.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\Version.json">
+      <Link>App_Data\Parameters\Version.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Attachments.json">
+      <Link>App_Data\Parameters\ExtendedColumnDefinitions\Attachments.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Check.json">
+      <Link>App_Data\Parameters\ExtendedColumnDefinitions\Check.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Class.json">
+      <Link>App_Data\Parameters\ExtendedColumnDefinitions\Class.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Date.json">
+      <Link>App_Data\Parameters\ExtendedColumnDefinitions\Date.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Description.json">
+      <Link>App_Data\Parameters\ExtendedColumnDefinitions\Description.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedColumnDefinitions\Num.json">
+      <Link>App_Data\Parameters\ExtendedColumnDefinitions\Num.json</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedScripts\Sample.js.txt">
+      <Link>App_Data\Parameters\ExtendedScripts\Sample.js.txt</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedSqls\Sample.json.txt">
+      <Link>App_Data\Parameters\ExtendedSqls\Sample.json.txt</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Parameters\ExtendedStyles\Sample.css.txt">
+      <Link>App_Data\Parameters\ExtendedStyles\Sample.css.txt</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\AlterLoginRole.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\AlterLoginRole.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\BeginTransaction.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\BeginTransaction.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\BulkInsert.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\BulkInsert.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CanRead.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CanRead.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CanReadSites.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CanReadSites.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Columns.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\Columns.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CommitTransaction.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CommitTransaction.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CompletionTimeColumn.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CompletionTimeColumn.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateDatabase.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateDatabase.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateDefault.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateDefault.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateFullText.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateFullText.sql</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateIx.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateIx.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateLoginAdmin.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateLoginAdmin.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateLoginUser.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateLoginUser.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreatePk.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreatePk.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\CreateTable.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\CreateTable.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Defaults.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\Defaults.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DropConstraint.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\DropConstraint.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\DropIndex.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\DropIndex.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsDatabase.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\ExistsDatabase.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsTable.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\ExistsTable.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ExistsUser.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\ExistsUser.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\GrantPrivilegeAdmin.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\GrantPrivilegeAdmin.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\GrantPrivilegeUser.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\GrantPrivilegeUser.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\HasPermission.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\HasPermission.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Identity.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\Identity.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\IfConflicted.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\IfConflicted.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\IfDuplicated.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\IfDuplicated.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Indexes.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\Indexes.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\KillSpid.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\KillSpid.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\MigrateTable.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\MigrateTable.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\MigrateTableWithIdentity.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\MigrateTableWithIdentity.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\MoveTarget.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\MoveTarget.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\ProgressRateDelay.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\ProgressRateDelay.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SelectIdentity.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\SelectIdentity.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SelectPkName.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\SelectPkName.sql</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SiteDepts.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\SiteDepts.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\Spaceused.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\Spaceused.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\SpWho.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\SpWho.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\StartTimeColumn.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\StartTimeColumn.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\PostgreSQL\TruncateTemplate.sql">
+      <Link>App_Data\Definitions\Sqls\PostgreSQL\TruncateTemplate.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\AlterLoginRole.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\AlterLoginRole.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\BeginTransaction.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\BeginTransaction.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\BulkInsert.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\BulkInsert.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CanRead.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CanRead.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CanReadSites.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CanReadSites.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Columns.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\Columns.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CommitTransaction.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CommitTransaction.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CompletionTimeColumn.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CompletionTimeColumn.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateDatabase.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateDatabase.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateDefault.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateDefault.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateFullText.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateFullText.sql</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateIx.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateIx.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateLoginAdmin.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateLoginAdmin.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateLoginUser.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateLoginUser.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreatePk.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreatePk.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\CreateTable.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\CreateTable.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Defaults.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\Defaults.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DropConstraint.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\DropConstraint.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\DropIndex.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\DropIndex.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsDatabase.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\ExistsDatabase.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsTable.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\ExistsTable.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ExistsUser.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\ExistsUser.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\GrantPrivilegeAdmin.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\GrantPrivilegeAdmin.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\GrantPrivilegeUser.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\GrantPrivilegeUser.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\HasPermission.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\HasPermission.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Identity.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\Identity.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\IfConflicted.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\IfConflicted.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\IfDuplicated.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\IfDuplicated.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Indexes.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\Indexes.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\KillSpid.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\KillSpid.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\MigrateTable.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\MigrateTable.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\MigrateTableWithIdentity.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\MigrateTableWithIdentity.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\MoveTarget.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\MoveTarget.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\ProgressRateDelay.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\ProgressRateDelay.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SelectIdentity.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\SelectIdentity.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SelectPkName.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\SelectPkName.sql</Link>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SiteDepts.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\SiteDepts.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\Spaceused.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\Spaceused.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\SpWho.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\SpWho.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\StartTimeColumn.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\StartTimeColumn.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Implem.Pleasanter\App_Data\Definitions\Sqls\SQLServer\TruncateTemplate.sql">
+      <Link>App_Data\Definitions\Sqls\SQLServer\TruncateTemplate.sql</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <PreBuildEvent>xcopy /S /Y ..\..\Implem.Pleasanter\Views ..\Views
+xcopy /S /Y ..\..\Implem.Pleasanter\wwwroot ..\
+xcopy /S /Y ..\..\Implem.Pleasanter\App_Data ..\App_Data</PreBuildEvent>
+  </PropertyGroup>
+</Project>

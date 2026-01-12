@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Delete",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Delete"
+        },
+        {
+            "Language": "zh",
+            "Body": "删除"
+        },
+        {
+            "Language": "ja",
+            "Body": "削除"
+        },
+        {
+            "Language": "de",
+            "Body": "Löschen"
+        },
+        {
+            "Language": "ko",
+            "Body": "삭제"
+        },
+        {
+            "Language": "es",
+            "Body": "Eliminar"
+        },
+        {
+            "Language": "vn",
+            "Body": "Xóa"
+        }
+    ]
+}

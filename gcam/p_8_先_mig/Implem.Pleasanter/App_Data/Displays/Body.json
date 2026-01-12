@@ -1,0 +1,34 @@
+﻿{
+    "Id": "Body",
+    "Type": 110,
+    "ClientScript": true,
+    "Languages": [
+        {
+            "Body": "Body"
+        },
+        {
+            "Language": "zh",
+            "Body": "主体"
+        },
+        {
+            "Language": "ja",
+            "Body": "内容"
+        },
+        {
+            "Language": "de",
+            "Body": "Text"
+        },
+        {
+            "Language": "ko",
+            "Body": "본문"
+        },
+        {
+            "Language": "es",
+            "Body": "Cuerpo"
+        },
+        {
+            "Language": "vn",
+            "Body": "Nội dung"
+        }
+    ]
+}

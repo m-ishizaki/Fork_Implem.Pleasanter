@@ -1,0 +1,21 @@
+﻿{
+    "Id": "Security2_en",
+    "Language": "en",
+    "Type": "Results",
+    "ParentId": "Site41_en",
+    "Status": "300",
+    "ClassA": "36626",
+    "NumA": "19",
+    "NumB": "18",
+    "NumC": "1",
+    "NumD": "0",
+    "NumE": "0",
+    "DateA": "36628",
+    "DateB": "36653",
+    "Manager": "User8_en",
+    "Owner": "User8_en",
+    "Creator": "User8_en",
+    "Updator": "User8_en",
+    "CreatedTime": "36641.705555555556",
+    "UpdatedTime": "36657.543055555558"
+}

@@ -1,0 +1,85 @@
+﻿public string ToDisplay(Context context, SiteSettings ss, Column column, List<string> mine)
+{
+    if (!ss.ReadColumnAccessControls.Allowed(
+        context: context,
+        ss: ss,
+        column: column,
+        mine: mine))
+    {
+        return string.Empty;
+    }
+    switch (column.Name)
+    {
+
+<!--Model_ToDisplayColumnCases-->
+<!--Model_ToDisplayColumnCases_TitleBody-->
+<!--Model_ToDisplayColumnCases_Dept-->
+
+        case "Ver":
+            return Ver.ToDisplay(
+                context: context,
+                ss: ss,
+                column: column);
+        case "Comments":
+            return Comments.ToDisplay(
+                context: context,
+                ss: ss,
+                column: column);
+        case "Creator":
+            return Creator.ToDisplay(
+                context: context,
+                ss: ss,
+                column: column);
+        case "Updator":
+            return Updator.ToDisplay(
+                context: context,
+                ss: ss,
+                column: column);
+        case "CreatedTime":
+            return CreatedTime.ToDisplay(
+                context: context,
+                ss: ss,
+                column: column);
+        case "UpdatedTime":
+            return UpdatedTime.ToDisplay(
+                context: context,
+                ss: ss,
+                column: column);
+        default:
+            switch (Def.ExtendedColumnTypes.Get(column?.Name ?? string.Empty))
+            {
+                case "Class":
+                    return GetClass(columnName: column.Name).ToDisplay(
+                        context: context,
+                        ss: ss,
+                        column: column);
+                case "Num":
+                    return GetNum(columnName: column.Name).ToDisplay(
+                        context: context,
+                        ss: ss,
+                        column: column);
+                case "Date":
+                    return GetDate(columnName: column.Name).ToDisplay(
+                        context: context,
+                        ss: ss,
+                        column: column);
+                case "Description":
+                    return GetDescription(columnName: column.Name).ToDisplay(
+                        context: context,
+                        ss: ss,
+                        column: column);
+                case "Check":
+                    return GetCheck(columnName: column.Name).ToDisplay(
+                        context: context,
+                        ss: ss,
+                        column: column);
+                case "Attachments":
+                    return GetAttachments(columnName: column.Name).ToDisplay(
+                        context: context,
+                        ss: ss,
+                        column: column);
+                default:
+                    return string.Empty;
+            }
+    }
+}
